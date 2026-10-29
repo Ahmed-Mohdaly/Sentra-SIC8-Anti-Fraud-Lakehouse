@@ -1,0 +1,1 @@
+R1 Sayed: add sanitized configs for generator, topics, PostgreSQL/Debezium CDC, S3 sink, Redis/LightGBM. NEVER commit connection passwords or real IAM keys. Include config schema version, seed, run_id and reproducible sample messages.

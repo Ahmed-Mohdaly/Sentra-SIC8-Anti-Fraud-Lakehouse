@@ -1,0 +1,3 @@
+# Prior AWS observations and re-verification
+
+The previous conversation read-only inventory in eu-west-3 located S3 `sic-pipeline-storage`, 5 CSVs under `raw/baseline/`, 8 .json.gz and 36 .parquet under transactions, user/card CDC, 150 MCC and 150 City parquet snapshots, one quarantine JSONL and 23 Python scripts. ECS cluster `synthetic-data-cluster` had a running synthetic-data-service and kafka-connect service at time of earlier observation. **No AWS calls or deployment in this local repo test.** Recheck task desired/running/billing directly before restart; reports and object names alone do not prove current health.

@@ -1,0 +1,3 @@
+# Minimal privileges (proposal, not applied)
+
+R1: producer/topic/S3 raw-write on exact prefixes; no wildcard secrets. R2: S3 read-only baseline/Bronze, UC Silver/Gold permitted *staging* writes only after approved grant, truth read restricted to evaluation job. R3: SELECT only governed Gold views, no direct raw truth or PAN. R4: least-privileged infra ops with audit logging and explicit deployment approval. Analysts API: authenticated, SELECT-only allowlisted views, query row cap/timeout/rate limit. Current local API token is demo-only and MUST NOT be published externally. No IAM was changed in this build.

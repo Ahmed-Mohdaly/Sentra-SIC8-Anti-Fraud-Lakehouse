@@ -1,0 +1,1 @@
+R1 **Sayed**, R2 **Ahmed Mohdaly**, R3 **Ahmed Abd El Razek**, R4 **Ahmed Eslam**. See `OWNERSHIP.md` and each role's `README.md`. Names are explicitly provided by Ahmed; GitHub handles unknown, so CODEOWNERS doesn't invent them.

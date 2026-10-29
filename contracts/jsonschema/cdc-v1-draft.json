@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "title": "Normalized Debezium CDC",
+  "type": "object",
+  "properties": {
+    "op": {
+      "enum": [
+        "c",
+        "u",
+        "d",
+        "r"
+      ]
+    },
+    "entity_id": {
+      "type": "string"
+    },
+    "source_position": {
+      "type": "integer"
+    },
+    "before": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "after": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "source_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "schema_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "op",
+    "entity_id",
+    "source_position",
+    "source_timestamp"
+  ]
+}

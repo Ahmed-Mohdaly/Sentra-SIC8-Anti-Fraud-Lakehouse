@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sic8-anti-fraud-lakehouse"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["jsonschema>=4.15", "fastapi>=0.100", "uvicorn>=0.22"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "httpx>=0.24", "ruff>=0.6"]
+spark = ["pyspark>=3.5,<4", "delta-spark>=3.2,<4"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["src*", "apps*"]
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]  # CI safety errors; broader style review remains a separate PR.

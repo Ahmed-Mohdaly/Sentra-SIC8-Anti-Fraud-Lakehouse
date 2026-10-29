@@ -1,0 +1,29 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+node_modules/
+dist/
+build/
+*.sqlite
+*.db
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*.json
+artifacts/models/*.pkl
+artifacts/models/*.joblib
+artifacts/models/*.bin
+# Power BI deliverables can be committed to the private repo after a security/size review.
+# Use Git LFS for large PBIX files; never commit embedded credentials.
+raw/
+**/*_raw_export.csv
+.DS_Store
+*.egg-info/

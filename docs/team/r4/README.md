@@ -1,0 +1,3 @@
+# R4: Ahmed Eslam — platform / reliability
+**Inputs:** agreed R1/R2/R3 interfaces and approved cloud permissions. **Outputs:** secure local/cloud config docs, Airflow DAGs connecting true tasks, CI, logs, cost guardrails, replay and recovery tests, optional governed read-only API.
+**Checks:** `python -m pytest tests/r4 -q`; Airflow and Docker require actual installed runtime and their integration remains unverified. The fixture API is **not production secured**. The `orchestration/airflow/sic8_pipeline.py` DAG is only a local fixture DAG, not AWS-to-Databricks DAG. No write/deploy without opt-in.

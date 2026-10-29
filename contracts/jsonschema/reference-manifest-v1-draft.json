@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "title": "Reference snapshot manifest",
+  "type": "object",
+  "properties": {
+    "source_system": {
+      "type": "string"
+    },
+    "snapshot_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "object_path": {
+      "type": "string"
+    },
+    "source_version": {
+      "type": "string"
+    },
+    "checksum_sha256": {
+      "type": "string"
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "source_system",
+    "snapshot_date",
+    "object_path",
+    "source_version"
+  ]
+}

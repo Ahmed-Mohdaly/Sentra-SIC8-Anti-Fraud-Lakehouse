@@ -1,0 +1,3 @@
+# ADR-0001: Architecture — PROPOSED, awaiting team deployment approval
+
+Use AWS S3 raw/bronze + Kafka/MSK and PostgreSQL/Debezium CDC + Databricks Spark/Delta Silver/Gold + required Power BI. Airflow orchestrates scheduled jobs and monitors long-running streams. Source Kaggle historical batch remains distinct from live simulated stream; no false direct Kafka latency claim for file-based microbatch. Optional API/React/Genie after P0 evidence. **No automatic cloud writes.** Existing team components take priority over new stubs. Exact AWS/Databricks permissions, costs and integration must be verified by R4.

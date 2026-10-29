@@ -1,0 +1,1 @@
+Never commit actual model binaries without permission. R1 should supply secure artifact location, SHA-256, serialization format, LightGBM version, feature registry version, preprocessing pipeline, train/validation/test manifest, parity test and inference logs. Missing => `MODEL_NOT_CONFIGURED`.

@@ -1,0 +1,23 @@
+name: SIC8 offline CI
+permissions:
+  contents: read
+on:
+  push:
+  pull_request:
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Install package and dev deps
+        run: python -m pip install -e '.[dev]'
+      - name: Unit, contract, integration and API tests
+        run: make test
+      - name: Local fixture demo
+        run: make demo-local
+      - name: Compile Python
+        run: python -m compileall -q src apps orchestration scripts
+      - name: Ruff
+        run: python -m ruff check src tests apps scripts orchestration

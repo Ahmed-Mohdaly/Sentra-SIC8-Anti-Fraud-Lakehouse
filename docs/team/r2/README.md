@@ -1,0 +1,4 @@
+# R2: Ahmed Mohdaly — Spark / Gold
+**Inputs:** R1 S3 transaction wrappers (string or object), CDC source positions, historical CSV/approved table snapshots. **Outputs:** schema-validated Silver, quarantines, rule/ML-normalized predictions/alerts, SCD2, Gold facts/dims/KPIs, reconciliation queries.
+**First local tests:** `python -m pytest tests/r2 tests/integration -q`. `src/r2_spark/spark_jobs.py` is starter, not validated Spark and writes are OFF by default.
+**Critical:** historic IBM lacks native account IDs, precise transaction GPS, known timezone, verified ATM and terminal failure; do not manufacture these. Preserve `Is Fraud?` only in evaluation sidecar. 10-minute windows event-time inclusive upper/exclusive lower. Join user+card composite under source namespace. Never overwrite published UC Silver.

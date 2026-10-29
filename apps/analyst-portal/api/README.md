@@ -1,0 +1,1 @@
+The working Python module lives at `apps/analyst_portal/api/main.py` because hyphens cannot be imported as Python package names. R4 owns it. Run `uvicorn apps.analyst_portal.api.main:app` after generating the fixture and setting a local-only API token. This is a read-only fixture API; no cloud or Genie live connection.

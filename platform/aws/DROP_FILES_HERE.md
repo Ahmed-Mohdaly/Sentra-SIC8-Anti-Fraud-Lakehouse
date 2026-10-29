@@ -1,0 +1,1 @@
+R4 Ahmed Eslam: safe IaC/templates for existing AWS resources, cost and IAM review, sanitized service names/regions, Terraform plan evidence if applicable. Cloud deployments must require `SIC8_ALLOW_DEPLOY=true` and separate human approval. No default-create paid resources.

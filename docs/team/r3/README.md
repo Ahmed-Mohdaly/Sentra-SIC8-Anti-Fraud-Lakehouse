@@ -1,0 +1,3 @@
+# R3: Ahmed Abd El Razek — Power BI / web UI
+**Inputs:** Gold SQL views and documented per-table grain; Mock Silver/Gold fixture only until R2 publish. **Outputs:** PBIX/PBIT + measured KPI/DAX reconciliations and presentation. Optional React portal frontend under `apps/analyst-portal/web` is draft source, not verified build.
+**Checks:** `python -m pytest tests/r3 -q`; compare alert COUNT vs DISTINCT flagged event IDs; never sum duplicated transaction amounts after joining alert facts. Clearly label dataset source truth vs model predictions, source currency, timeframe, and assumed Chip→ATM mapping.

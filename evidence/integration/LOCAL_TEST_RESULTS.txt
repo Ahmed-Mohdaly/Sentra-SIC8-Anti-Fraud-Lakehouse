@@ -1,0 +1,45 @@
+UTC checked: 2026-10-29T09:41:37Z
+Command: make test
+python -m pytest -q
+.........sss........................                                     [100%]
+33 passed, 3 skipped in 1.43s
+Command: make demo-local
+PYTHONPATH=. python scripts/dev/demo_local.py --output build/demo
+{
+  "scenario_family_count": 3,
+  "detected_scenario_families": 3,
+  "scenario_family_detection_rate": 1.0,
+  "transactions": 13,
+  "alerts": 4,
+  "unique_flagged_transactions": 3,
+  "truth_positive_events": 8,
+  "detected_truth_positive_events": 3,
+  "event_detection_rate": 0.375,
+  "terminal_attempts": 6,
+  "terminal_failures": 1,
+  "terminal_failure_rate": 0.16666666666666666,
+  "run_id": "fixture-r1",
+  "fixture_mode": "DEMO_FIXTURE",
+  "validated_events": 13,
+  "rejected_events": 0,
+  "silver_inserted_this_run": 0,
+  "model_status": "MODEL_NOT_CONFIGURED",
+  "prediction_samples": [
+    {
+      "event_id": "fixture-r1:e0001",
+      "model_status": "MODEL_NOT_CONFIGURED",
+      "predicted_flag": null,
+      "probability": null,
+      "state_quality": "UNKNOWN"
+    }
+  ],
+  "records_without_truth_in_detection": true,
+  "gold_sqlite": "build/demo/gold_fixture.sqlite"
+}
+Command: make lint
+python -m compileall -q src apps orchestration scripts
+Python compileall completed. Ruff: run python -m ruff check . when installed.
+Editable installation: python -m pip install -e . --no-deps --no-build-isolation (PASSED earlier)
+Ruff: NOT TESTED (unavailable; pip install failure)
+Docker, PySpark/Delta, Airflow: NOT TESTED (unavailable)
+React typecheck: NOT TESTED (npm dependencies not installed)

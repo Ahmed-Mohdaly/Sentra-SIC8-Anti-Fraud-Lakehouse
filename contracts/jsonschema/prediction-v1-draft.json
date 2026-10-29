@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "title": "Every eligible event has model state, including unavailable",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "source_system": {
+      "type": "string"
+    },
+    "model_status": {
+      "enum": [
+        "SCORED",
+        "MODEL_NOT_CONFIGURED",
+        "MODEL_ERROR"
+      ]
+    },
+    "model_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "feature_contract_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "probability": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "threshold": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "predicted_flag": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "scored_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "state_quality": {
+      "enum": [
+        "HEALTHY",
+        "DEGRADED",
+        "UNKNOWN"
+      ]
+    },
+    "fallback_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "inference_latency_ms": {
+      "type": [
+        "number",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "event_id",
+    "source_system",
+    "model_status",
+    "probability",
+    "predicted_flag",
+    "state_quality"
+  ]
+}

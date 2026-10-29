@@ -1,0 +1,3 @@
+# Reliability metrics and evidence required
+
+S3 object arrival lag, Kafka topic partition backlog/consumer lag, CDC lag/source offset, Spark micro-batch duration, rejected/quarantined records, Delta MERGE duplicates, late events, model status/Redis state quality, airflows task failures, Power BI freshness and end-to-end latency p50/p95/p99. Timestamp scope is explicit: live UTC event_time vs ingestion processing time, model-only vs E2E. Historical timezone-unknown data excluded from exact latency. Report numeric measurements only with logs and sample size; no metrics fabricated in this repository.

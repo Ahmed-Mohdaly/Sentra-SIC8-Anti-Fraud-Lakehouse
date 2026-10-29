@@ -1,0 +1,3 @@
+# Offline demo (no AWS / Databricks)
+
+`make test && make demo-local`. Inspect `build/demo/report.json`, `build/demo/raw_events.jsonl`, `build/demo/isolated_truth.jsonl`, `build/demo/gold_fixture.sqlite`. Run twice; second run should report `silver_inserted_this_run=0`. Script emits three anomalies with seeded fixture; no genuine Kafka or ML score; all outputs labeled `DEMO_FIXTURE`. Use sqlite3 client (if installed) or Python sqlite3 to inspect. To demonstrate actual Kafka, separately bring up a local broker, install optional `kafka-python`, invoke `publish_local_kafka(allow=True)` manually; DO NOT equate the fixture path with broker-tested E2E.

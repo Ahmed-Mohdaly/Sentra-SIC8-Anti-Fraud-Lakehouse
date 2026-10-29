@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "title": "Isolated truth sidecar - never detector input",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "scenario_family": {
+      "enum": [
+        "CNP_BURST",
+        "GEO_VELOCITY",
+        "MICRO_TESTING"
+      ]
+    },
+    "affected_event_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "event_id",
+    "run_id",
+    "scenario_family"
+  ]
+}

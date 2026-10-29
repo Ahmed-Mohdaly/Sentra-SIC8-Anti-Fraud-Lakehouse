@@ -1,0 +1,1 @@
+`orchestration/airflow/sic8_pipeline.py` is a local fixture DAG with two executable tasks when Airflow is installed. It is **NOT** the required live cloud DAG. R4 Ahmed Eslam must import the existing real DAG or implement approved cloud job orchestration with checkpoint-aware streaming health tasks, retries, failure alerting and recovery evidence.

@@ -1,0 +1,3 @@
+# R3 — Ahmed Abd El Razek
+
+No `.pbix/.pbit` file was provided. Old Gold Starter files under `previous_gold_starter_v0.1` are planning fixtures and SQL draft only, not evidence of Power BI dashboard deployment. Deliver actual PBIX or PBIT and screenshots with timestamps, DAX measures, refresh instructions and SQL reconciliation. Required pages: Executive; Historical Source Truth; Streaming Fraud vs Scenario Truth; Terminal; Three Rule Drilldowns; Quality/DLQ; Model-vs-Rules if genuine scores exist. Data must display historical assumption badges, currency and freshness. Source `analytics/sql/streaming_kpis.sql` contains draft definitions to ratify with R2.

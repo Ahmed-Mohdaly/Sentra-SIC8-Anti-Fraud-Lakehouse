@@ -1,0 +1,3 @@
+# Preflight for cloud integration — no writes
+
+R4 checks AWS account/region, S3 bucket existence, reader role + trust and IAM `s3:ListBucket` vs `s3:GetObject`, Databricks workspace/compute/UC External Location and SQL Warehouse entitlements, exact target catalog/schema permissions, active AWS/MSK/ECS/RDS cost exposure, topic retention, checkpoints and Airflow deployment. Use least privilege. Verify CDC source position and reference snapshot freshness. Commit only sanitized configuration/permission examples. Never paste AWS access keys, tokens or PostgreSQL passwords into chat/docs. R4 must explicitly opt into any deployment and record recovery evidence.
