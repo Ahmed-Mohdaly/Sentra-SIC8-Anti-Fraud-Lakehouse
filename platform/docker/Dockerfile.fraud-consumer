@@ -1,0 +1,58 @@
+# syntax=docker/dockerfile:1.4
+
+# ==============================================================================
+# Stage 1: Build stage (compile wheels and install dependencies)
+# ==============================================================================
+FROM python:3.11-slim-bookworm AS builder
+
+WORKDIR /build
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+COPY requirements-fraud-consumer.txt /build/
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements-fraud-consumer.txt
+
+# ==============================================================================
+# Stage 2: Runtime stage (minimal, secure, non-root)
+# ==============================================================================
+FROM python:3.11-slim-bookworm AS runtime
+
+WORKDIR /app
+
+# Install runtime OpenMP shared library dynamically linked by LightGBM C++ core
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy pre-built virtual environment from builder stage
+COPY --from=builder /opt/venv /opt/venv
+
+# Create dedicated non-root application user and group (UID 10001)
+RUN groupadd -g 10001 appgroup && \
+    useradd -u 10001 -g appgroup -s /bin/bash -m appuser
+
+# Environment configuration: bufferless stdout, pathing, and baseline reference data
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PATH="/opt/venv/bin:$PATH" \
+    PYTHONPATH="/app/src" \
+    SYNTH_BASELINE_DATA_DIR=/data \
+    BASELINE_DATA_DIR=/data \
+    AWS_DEFAULT_REGION=eu-west-3
+
+# Copy application source code, reference datasets, and candidate model artifacts
+COPY --chown=appuser:appgroup src /app/src
+COPY --chown=appuser:appgroup models/v2 /app/models/v2
+COPY --chown=appuser:appgroup data/ /data/
+
+# Switch to non-root user
+USER 10001:10001
+
+ENTRYPOINT ["python", "-m", "ml.fraud_consumer"]

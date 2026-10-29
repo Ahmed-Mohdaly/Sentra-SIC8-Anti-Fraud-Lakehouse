@@ -1,0 +1,30 @@
+{
+  "name": "SIC8_Continuous_Streaming_Pipeline_v3",
+  "max_concurrent_runs": 1,
+  "queue": {
+    "enabled": true
+  },
+  "environments": [
+    {
+      "environment_key": "Task_environment",
+      "spec": {
+        "environment_version": "6"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "task_key": "continuous_streaming_pipeline",
+      "description": "Continuous 24/7 Bronze AutoLoader and Silver Contract with CDC Dimension Enrichment and Lag Telemetry",
+      "environment_key": "Task_environment",
+      "notebook_task": {
+        "notebook_path": "/Users/s-ahmed.ayman@zewailcity.edu.eg/SIC8_Fraud_Detection/Notebooks/streaming/08_Continuous_End_to_End_Streaming",
+        "source": "WORKSPACE"
+      },
+      "timeout_seconds": 0
+    }
+  ],
+  "continuous": {
+    "pause_status": "PAUSED"
+  }
+}

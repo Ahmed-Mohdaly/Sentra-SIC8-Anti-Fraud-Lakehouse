@@ -1,0 +1,94 @@
+{
+  "family": "sic-airflow",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "cpu": "256",
+  "memory": "2048",
+  "executionRoleArn": "arn:aws:iam::138257835434:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::138257835434:role/syntheticTaskRole",
+  "containerDefinitions": [
+    {
+      "name": "airflow-engine",
+      "image": "apache/airflow:2.10.2-python3.11",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080,
+          "protocol": "tcp"
+        }
+      ],
+      "command": [
+        "bash",
+        "-c",
+        "python3 -c \"import boto3; boto3.client('s3', region_name='eu-west-3').download_file('sic-pipeline-storage', 'airflow/scripts/entrypoint.sh', '/tmp/entrypoint.sh')\" && chmod +x /tmp/entrypoint.sh && exec /tmp/entrypoint.sh"
+      ],
+      "environment": [
+        {
+          "name": "AIRFLOW__CORE__LOAD_EXAMPLES",
+          "value": "False"
+        },
+        {
+          "name": "AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION",
+          "value": "False"
+        },
+        {
+          "name": "AIRFLOW__WEBSERVER__WEB_SERVER_HOST",
+          "value": "0.0.0.0"
+        },
+        {
+          "name": "AIRFLOW__WEBSERVER__WEB_SERVER_PORT",
+          "value": "8080"
+        },
+        {
+          "name": "AIRFLOW__WEBSERVER__WORKERS",
+          "value": "1"
+        },
+        {
+          "name": "_PIP_ADDITIONAL_REQUIREMENTS",
+          "value": "boto3 pyarrow httpx pydantic psycopg2-binary apache-airflow-providers-databricks"
+        },
+        {
+          "name": "AWS_DEFAULT_REGION",
+          "value": "eu-west-3"
+        },
+        {
+          "name": "S3_BUCKET",
+          "value": "sic-pipeline-storage"
+        },
+        {
+          "name": "API_BASE_URL",
+          "value": "http://13.38.219.168:8000"
+        },
+        {
+          "name": "DATABRICKS_JOB_ID",
+          "value": "815854574980923"
+        },
+        {
+          "name": "DATABRICKS_HOST",
+          "value": "https://dbc-d569636e-57c6.cloud.databricks.com"
+        },
+        {
+          "name": "DATABRICKS_TOKEN",
+          "value": "<DATABRICKS_TOKEN_PLACEHOLDER>"
+        }
+      ],
+      "secrets": [
+        {
+          "name": "AIRFLOW__DATABASE__SQL_ALCHEMY_CONN",
+          "valueFrom": "arn:aws:secretsmanager:eu-west-3:138257835434:secret:synthetic-data-provider/database:DATABASE_URL::"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/synthetic-data-provider",
+          "awslogs-region": "eu-west-3",
+          "awslogs-stream-prefix": "airflow"
+        }
+      }
+    }
+  ]
+}

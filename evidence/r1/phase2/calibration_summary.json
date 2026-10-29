@@ -1,0 +1,57 @@
+{
+  "brier_score": 0.024988,
+  "mean_predicted_probability": 0.0602,
+  "actual_sample_prevalence": 0.0084,
+  "calibration_bins": [
+    {
+      "mean_pred_prob": 0.0002,
+      "fraction_positives": 0.0,
+      "calibration_gap": -0.0002
+    },
+    {
+      "mean_pred_prob": 0.0013,
+      "fraction_positives": 0.0,
+      "calibration_gap": -0.0013
+    },
+    {
+      "mean_pred_prob": 0.003,
+      "fraction_positives": 0.0003,
+      "calibration_gap": -0.0027
+    },
+    {
+      "mean_pred_prob": 0.0053,
+      "fraction_positives": 0.002,
+      "calibration_gap": -0.0033
+    },
+    {
+      "mean_pred_prob": 0.0085,
+      "fraction_positives": 0.0026,
+      "calibration_gap": -0.0059
+    },
+    {
+      "mean_pred_prob": 0.0138,
+      "fraction_positives": 0.0033,
+      "calibration_gap": -0.0105
+    },
+    {
+      "mean_pred_prob": 0.0231,
+      "fraction_positives": 0.0026,
+      "calibration_gap": -0.0205
+    },
+    {
+      "mean_pred_prob": 0.0432,
+      "fraction_positives": 0.0086,
+      "calibration_gap": -0.0346
+    },
+    {
+      "mean_pred_prob": 0.0983,
+      "fraction_positives": 0.0116,
+      "calibration_gap": -0.0867
+    },
+    {
+      "mean_pred_prob": 0.4053,
+      "fraction_positives": 0.0532,
+      "calibration_gap": -0.3522
+    }
+  ]
+}

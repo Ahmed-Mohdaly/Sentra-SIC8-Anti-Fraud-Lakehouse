@@ -1,0 +1,915 @@
+﻿mcc,description,valid_payment_brands,category,required_abbreviation
+0742,Veterinary Services,"V, M",Agricultural Services,
+0763,Agricultural Cooperatives,"V, M",Agricultural Services,
+0780,Horticultural and Landscaping Services,"V, M",Agricultural Services,
+1520,General Contractors–Residential and Commercial,"V, M",Contracted Services,
+1711,"Air Conditioning, Heating and Plumbing Contractors","V, M",Contracted Services,
+1731,Electrical Contractors,"V, M",Contracted Services,
+1740,"Insulation, Masonry, Plastering, Stonework and Tile Setting Contractors","V, M",Contracted Services,
+1750,Carpentry Contractors,"V, M",Contracted Services,
+1761,"Roofing and Siding, Sheet Metal Work Contractors","V, M",Contracted Services,
+1771,Concrete Work Contractors,"V, M",Contracted Services,
+1799,"Contractors, Special Trade Contractors–not elsewhere classified","V, M",Contracted Services,
+2741,Miscellaneous Publishing and Printing,"V, M",Contracted Services,
+2791,"Typesetting, Plate Making and Related Services","V, M",Contracted Services,
+2842,"Sanitation, Polishing and Specialty Cleaning Preparations","V, M",Contracted Services,
+4011,Railroads–Freight,"V, M",Transportation Services,
+4111,"Transportation–Suburban and Local Commuter Passenger, including Ferries","V, M",Transportation Services,
+4112,Passenger Railways,"V, M",Transportation Services,
+4119,Ambulance Services,"V, M",Transportation Services,
+4121,Taxicabs and Limousines,"V, M",Transportation Services,
+4131,Bus Lines,"V, M",Transportation Services,
+4214,"Motor Freight Carriers,Trucking–Local/Long Distance, Moving and Storage Companies, Local Delivery","V, M",Transportation Services,
+4215,"Courier Services–Air and Ground, Freight Forwarders","V, M",Transportation Services,
+4225,"Public Warehousing–Farm Products, Refrigerated Goods, Household Goods Storage","V, M",Transportation Services,
+4411,Cruise Lines,"V, M",Transportation Services,
+4457,Boat Leases and Boat Rentals,"V, M",Transportation Services,
+4468,"Marinas, Marine Service/Supplies","V, M",Transportation Services,
+4511,"Air Carriers, Airlines–not elsewhere classified","V, M",Transportation Services,
+4582,"Airports, Airport Terminals, Flying Fields","V, M",Transportation Services,
+4722,Travel Agencies and Tour Operators,"V, M",Transportation Services,
+4723,Package Tour Operators (Germany Only),V,Transportation Services,
+4761,Telemarketing of Travel Related Services and Vitamins,TSYS,Transportation Services,
+4784,"Bridge and Road Fees, Tolls","V, M",Transportation Services,
+4789,Transportation Services Not Elsewhere Classified,"V, M",Transportation Services,
+4812,Telecommunication Equipment Including Telephone Sales,"V, M",Utility Services,
+4813,Key-Entry Telecom Merchant providing single local and long-distance phone calls using a central access number in a non-face-to-face environment using key entry,M,Utility Services,
+4814,Telecommunication Services including but not limited to prepaid phone services and recurring phone services,"V, M",Utility Services,
+4816,Computer Network/Information Services,"V, M",Utility Services,
+4821,Telegraph Services,"V, M",Utility Services,
+4829,"Wire Transfer Money Orders (V, D, G, X) / Money Transfer (M)","V, M",Utility Services,
+4899,"Cable, Satellite, and Other Pay Television and Radio Services","V, M",Utility Services,
+4900,"Utilities–Electric, Gas, Heating Oil, Sanitary, Water","V, M",Utility Services,
+5013,Motor Vehicle Supplies and New Parts,"V, M",Retail Outlet Services,
+5021,Office and Commercial Furniture,"V, M",Retail Outlet Services,
+5039,Construction Materials Not Elsewhere Classified,"V, M",Retail Outlet Services,
+5044,"Office, Photographic, Photocopy and Microfilm Equipment","V, M",Retail Outlet Services,
+5045,"Computers, Computer Peripheral Equipment, Software","V, M",Retail Outlet Services,
+5046,Commercial Equipment Not Elsewhere Classified,"V, M",Retail Outlet Services,
+5047,Dental/Laboratory/Medical/Ophthalmic Hospital Equipment and Supplies,"V, M",Retail Outlet Services,
+5051,Metal Service Centers and Offices,"V, M",Retail Outlet Services,
+5065,Electrical Parts and Equipment,"V, M",Retail Outlet Services,
+5072,Hardware Equipment and Supplies,"V, M",Retail Outlet Services,
+5074,Plumbing and Heating Equipment,"V, M",Retail Outlet Services,
+5085,Industrial Supplies Not Elsewhere Classified,"V, M",Retail Outlet Services,
+5094,"Precious Stones and Metals, Watches and Jewelry","V, M",Retail Outlet Services,
+5099,Durable Goods Not Elsewhere Classified,"V, M",Retail Outlet Services,
+5111,"Stationery, Office Supplies, Printing and Writing Paper","V, M",Retail Outlet Services,
+5122,"Drugs, Drug Proprietors and Druggists Sundries","V, M",Retail Outlet Services,
+5131,"Piece Goods, Notions, and Other Dry Goods","V, M",Retail Outlet Services,
+5137,"Men’s, Women’s and Children’s Uniforms and Commercial Clothing","V, M",Retail Outlet Services,
+5139,Commercial Footware,"V, M",Retail Outlet Services,
+5169,Chemicals and Allied Products Not Elsewhere Classified,"V, M",Retail Outlet Services,
+5172,Petroleum and Petroleum Products,"V, M",Retail Outlet Services,
+5192,"Books, Periodicals and Newspapers","V, M",Retail Outlet Services,
+5193,"Florists Supplies, Nursery Stock and Flowers","V, M",Retail Outlet Services,
+5198,"Paints, Varnishes and Supplies","V, M",Retail Outlet Services,
+5199,Non-Durable Goods Not Elsewhere Classified,"V, M",Retail Outlet Services,
+5200,Home Supply Warehouse Stores,"V, M",Retail Outlet Services,
+5211,"Building Materials, Lumber Stores","V, M",Retail Outlet Services,
+5231,"Glass, Paint, Wallpaper Stores","V, M",Retail Outlet Services,
+5251,Hardware Stores,"V, M",Retail Outlet Services,
+5261,Lawn and Garden Supply Stores,"V, M",Retail Outlet Services,
+5271,Mobile Home Dealers,"V, M",Retail Outlet Services,
+5299,Warehouse Club Gas,TSYS,Retail Outlet Services,
+5300,Wholesale Clubs,"V, M",Retail Outlet Services,
+5309,Duty Free Stores,"V, M",Retail Outlet Services,
+5310,Discount Stores,"V, M",Retail Outlet Services,
+5311,Department Stores,"V, M",Retail Outlet Services,
+5331,Variety Stores,"V, M",Retail Outlet Services,
+5399,Miscellaneous General Merchandise Stores,"V, M",Retail Outlet Services,
+5411,"Grocery Stores, Supermarkets","V, M",Retail Outlet Services,
+5422,Freezer and Locker Meat Provisioners,"V, M",Retail Outlet Services,
+5441,"Candy, Nut and Confectionery Stores","V, M",Retail Outlet Services,
+5451,Dairy Products Stores,"V, M",Retail Outlet Services,
+5462,Bakeries,"V, M",Retail Outlet Services,
+5499,"Miscellaneous Food Stores–Convenience Stores, Markets, Specialty Stores, and Vending Machines","V, M",Retail Outlet Services,
+5511,"Automobile and Truck Dealers–Sales, Service, Repairs, Parts and Leasing","V, M",Retail Outlet Services,
+5521,Automobile and Truck Dealers–(Used Only)–Sales,"V, M",Retail Outlet Services,
+5532,Automotive Tire Stores,"V, M",Retail Outlet Services,
+5533,Automotive Parts and Accessories Stores,"V, M",Retail Outlet Services,
+5541,Service Stations (With or Without Ancillary Services),"V, M",Retail Outlet Services,
+5542,"Fuel Dispenser, Automated","V, M",Retail Outlet Services,
+5551,Boat Dealers,"V, M",Retail Outlet Services,
+5561,"Camper Dealers, Recreational and Utility Trailers","V, M",Retail Outlet Services,
+5571,Motorcycle Shops and Dealers,"V, M",Retail Outlet Services,
+5592,Motor Home Dealers,"V, M",Retail Outlet Services,
+5598,Snowmobile Dealers,"V, M",Retail Outlet Services,
+5599,"Miscellaneous Automotive, Aircraft, and Farm Equipment Dealers–Not Elsewhere Classified","V, M",Retail Outlet Services,
+5611,Men’s and Boys’ Clothing and Accessories Stores,"V, M",Clothing Stores,
+5621,Women’s Ready to Wear Stores,"V, M",Clothing Stores,
+5631,Women’s Accessory and Specialty Stores,"V, M",Clothing Stores,
+5641,Children’s and Infants’ Wear Stores,"V, M",Clothing Stores,
+5651,Family Clothing Stores,"V, M",Clothing Stores,
+5655,"Sports Apparel, and Riding Apparel Stores","V, M",Clothing Stores,
+5661,Shoe Stores,"V, M",Clothing Stores,
+5681,Furriers and Fur Shops,"V, M",Clothing Stores,
+5691,Men’s and Women’s Clothing Stores,"V, M",Clothing Stores,
+5697,"Alterations, Mending, Seamstresses, Tailors","V, M",Clothing Stores,
+5698,Wig and Toupee Shops,"V, M",Clothing Stores,
+5699,Accessory and Apparel Stores–Miscellaneous,"V, M",Clothing Stores,
+5712,"Equipment, Furniture and Home Furnishings Stores (except Appliances)","V, M",Miscellaneous Stores,
+5713,Floor Covering Stores,"V, M",Miscellaneous Stores,
+5714,"Drapery, Upholstery and Window Coverings Stores","V, M",Miscellaneous Stores,
+5718,"Fireplace, Fireplace Screens and Accessories Stores","V, M",Miscellaneous Stores,
+5719,Miscellaneous House Furnishing Specialty Shops,"V, M",Miscellaneous Stores,
+5722,Household Appliance Stores,"V, M",Miscellaneous Stores,
+5732,Electronics Sales,"V, M",Miscellaneous Stores,
+5733,"Music Stores–Musical Instruments, Pianos and Sheet Music","V, M",Miscellaneous Stores,
+5734,Computer Software Stores,"V, M",Miscellaneous Stores,
+5735,Record Shops,"V, M",Miscellaneous Stores,
+5811,Caterers,"V, M",Miscellaneous Stores,
+5812,Eating Places and Restaurants,"V, M",Miscellaneous Stores,
+5813,"Bars, Cocktail Lounges, Discotheques, Nightclubs and Taverns–Drinking Places (Alcoholic Beverages)","V, M",Miscellaneous Stores,
+5814,Fast Food Restaurants,"V, M",Miscellaneous Stores,
+5815,"Digital Goods: Books, Movies, Music","V, M",Miscellaneous Stores,
+5816,Digital Goods: Games,"V, M",Miscellaneous Stores,
+5817,Digital Goods: Applications (Excludes Games),"V, M",Miscellaneous Stores,
+5818,Digital Goods: Large Digital Goods Merchant (V) / Digital Goods: Multi-Category (M),"V, M",Miscellaneous Stores,
+5912,Drug Stores and Pharmacies,"V, M",Miscellaneous Stores,
+5921,"Package Stores–Beer, Wine and Liquor","V, M",Miscellaneous Stores,
+5931,"Second Hand Stores, Used Merchandise Stores","V, M",Miscellaneous Stores,
+5932,"Antique Shops–Sales, Repairs and Restoration Services","V, M",Miscellaneous Stores,
+5933,Pawn Shops,"V, M",Miscellaneous Stores,
+5935,Wrecking and Salvage Yards,"V, M",Miscellaneous Stores,
+5937,Antique Reproduction Stores,"V, M",Miscellaneous Stores,
+5940,Bicycle Shops–Sales and Service,"V, M",Miscellaneous Stores,
+5941,Sporting Goods Stores,"V, M",Miscellaneous Stores,
+5942,Book Stores,"V, M",Miscellaneous Stores,
+5943,"Office, School Supply and Stationery Stores","V, M",Miscellaneous Stores,
+5944,"Clock, Jewelry, Watch and Silverware Stores","V, M",Miscellaneous Stores,
+5945,"Game, Toy and Hobby Shops","V, M",Miscellaneous Stores,
+5946,Camera and Photographic Supply Stores,"V, M",Miscellaneous Stores,
+5947,"Card, Gift, Novelty and Souvenir Shops","V, M",Miscellaneous Stores,
+5948,Leather Goods and Luggage Stores,"V, M",Miscellaneous Stores,
+5949,"Fabric, Needlework, Piece Goods and Sewing Stores","V, M",Miscellaneous Stores,
+5950,Crystal and Glassware Stores,"V, M",Miscellaneous Stores,
+5960,Direct Marketing Insurance Services,"V, M",Miscellaneous Stores,
+5961,Mail Order Houses Including Catalog Order Stores,TSYS,Miscellaneous Stores,
+5962,Direct Marketing–Travel Related Arrangement Services,"V, M",Miscellaneous Stores,
+5963,Door-to-Door Sales,"V, M",Miscellaneous Stores,
+5964,Direct Marketing–Catalog Merchants,"V, M",Miscellaneous Stores,
+5965,Direct Marketing–Combination Catalog and Retail Merchant,"V, M",Miscellaneous Stores,
+5966,Direct Marketing–Outbound Telemarketing Merchants,"V, M",Miscellaneous Stores,
+5967,Direct Marketing–Inbound Telemarketing Merchants,"V, M",Miscellaneous Stores,
+5968,Direct Marketing–Continuity/Subscription Merchants,"V, M",Miscellaneous Stores,
+5969,Direct Marketing–Other Direct Marketers–Not Elsewhere Classified,"V, M",Miscellaneous Stores,
+5970,"Artist Supply Stores, Craft Shops","V, M",Miscellaneous Stores,
+5971,Art Dealers and Galleries,"V, M",Miscellaneous Stores,
+5972,Stamp and Coin Stores–Philatelic and Numismatic Supplies,"V, M",Miscellaneous Stores,
+5973,Religious Goods Stores,"V, M",Miscellaneous Stores,
+5974,Rubber Stamp Store,TSYS,Miscellaneous Stores,
+5975,"Hearing Aids–Sales, Service, Supply Stores","V, M",Miscellaneous Stores,
+5976,Orthopedic Goods–Artificial Limb Stores,"V, M",Miscellaneous Stores,
+5977,Cosmetic Stores,"V, M",Miscellaneous Stores,
+5978,"Typewriter Stores–Rentals, Sales, Service","V, M",Miscellaneous Stores,
+5983,"Fuel Dealers–Coal, Fuel Oil, Liquefied Petroleum, Wood","V, M",Miscellaneous Stores,
+5992,Florists,"V, M",Miscellaneous Stores,
+5993,Cigar Stores and Stands,"V, M",Miscellaneous Stores,
+5994,News Dealers and Newsstands,"V, M",Miscellaneous Stores,
+5995,"Pet Shops, Pet Food and Supplies","V, M",Miscellaneous Stores,
+5996,Swimming Pools–Sales and Supplies,"V, M",Miscellaneous Stores,
+5997,Electric Razor Stores–Sales and Service,"V, M",Miscellaneous Stores,
+5998,Tent and Awning Shops,"V, M",Miscellaneous Stores,
+5999,Miscellaneous and Specialty Retail Stores,"V, M",Miscellaneous Stores,
+6010,Member Financial Institution–Manual Cash Disbursements,"V, M",Miscellaneous Stores,
+6011,Member Financial Institution–Automated Cash Disbursements,"V, M",Miscellaneous Stores,
+6012,Member Financial Institution–Merchandise And Services,"V, M",Miscellaneous Stores,
+6050,Quasi Cash–Member Financial Institution,M,Miscellaneous Stores,
+6051,Quasi Cash–Merchant,"V, M",Miscellaneous Stores,
+6211,Securities–Brokers and Dealers,"V, M",Miscellaneous Stores,
+6236,Aero Servicio Carabobo,TSYS,Miscellaneous Stores,
+6300,"Insurance Sales, Underwriting and Premiums","V, M",Miscellaneous Stores,
+6381,Insurance–Premiums,TSYS,Miscellaneous Stores,
+6513,Real Estate Agents and Managers–Rentals,"V, M",Miscellaneous Stores,
+6529,Remote Stored Value Load — Member Financial Institution,TSYS,Miscellaneous Stores,
+6530,Remove Stored Value Load — Merchant,TSYS,Miscellaneous Stores,
+6535,Value Purchase–Member Financial Institution,TSYS,Miscellaneous Stores,
+6536,MoneySend Intracountry,M,Miscellaneous Stores,
+6537,MoneySend Intercountry,M,Miscellaneous Stores,
+6538,MoneySend Funding,M,Miscellaneous Stores,
+6539,Funding Transaction (Excluding MoneySend),M,Miscellaneous Stores,
+6540,POI (Point of Interaction) Funding Transactions (Excluding MoneySend),M,Miscellaneous Stores,
+6611,Overpayments,TSYS,Miscellaneous Stores,
+6760,Savings Bonds,TSYS,Miscellaneous Stores,
+7011,"Lodging–Hotels, Motels, Resorts–not elsewhere classified","V, M",Miscellaneous Stores,
+7012,Timeshares,"V, M",Miscellaneous Stores,
+7032,Sporting and Recreational Camps,"V, M",Miscellaneous Stores,
+7033,Campgrounds and Trailer Parks,"V, M",Miscellaneous Stores,
+7210,"Cleaning, Garment and Laundry Services","V, M",Miscellaneous Stores,
+7211,Laundry Services–Family and Commercial,"V, M",Miscellaneous Stores,
+7216,Dry Cleaners,"V, M",Miscellaneous Stores,
+7217,Carpet and Upholstery Cleaning,"V, M",Miscellaneous Stores,
+7221,Photographic Studios,"V, M",Miscellaneous Stores,
+7230,Barber and Beauty Shops,"V, M",Miscellaneous Stores,
+7251,"Hat Cleaning Shops, Shoe Repair Shops, Shoe Shine Parlors","V, M",Miscellaneous Stores,
+7261,Funeral Service and Crematories,"V, M",Miscellaneous Stores,
+7273,Dating Services,"V, M",Miscellaneous Stores,
+7276,Tax Preparation Service,"V, M",Miscellaneous Stores,
+7277,"Debt, Marriage, Personal–Counseling Services","V, M",Miscellaneous Stores,
+7278,"Buying/Shopping Clubs, Services","V, M",Miscellaneous Stores,
+7280,Hospital Patient-Personal Funds Withdrawal,TSYS,Miscellaneous Stores,
+7295,Babysitting Services,TSYS,Miscellaneous Stores,
+7296,"Clothing Rental–Costumes, Uniforms and Formal Wear","V, M",Miscellaneous Stores,
+7297,Massage Parlors,"V, M",Miscellaneous Stores,
+7298,Health and Beauty Spas,"V, M",Miscellaneous Stores,
+7299,Other Services–Not Elsewhere Classified,"V, M",Miscellaneous Stores,
+7311,Advertising Services,"V, M",Business Services,
+7321,Consumer Credit Reporting Agencies,"V, M",Business Services,
+7332,Blueprinting and Photocopying Services,TSYS,Business Services,
+7333,"Commercial Art, Graphics, Photography","V, M",Business Services,
+7338,"Quick Copy, Reproduction and Blueprinting Services","V, M",Business Services,
+7339,Stenographic and Secretarial Support Services,"V, M",Business Services,
+7342,Exterminating and Disinfecting Services,"V, M",Business Services,
+7349,"Cleaning and Maintenance, Janitorial Services","V, M",Business Services,
+7361,Employment Agencies and Temporary Help Services,"V, M",Business Services,
+7372,"Computer Programming, Data Processing and Integrated System Design Services","V, M",Business Services,
+7375,Information Retrieval Services,"V, M",Business Services,
+7379,"Computer Maintenance, Repair And Services–Not Elsewhere Classified","V, M",Business Services,
+7392,"Consulting, Management and Public Relations Services","V, M",Business Services,
+7393,"Detective Agencies, Protective Agencies, Security Services including Armored Cars, Guard Dogs","V, M",Business Services,
+7394,"Equipment Rental and Leasing Services, Furniture Rental, Tool Rental","V, M",Business Services,
+7395,"Photo Developing, Photofinishing Laboratories","V, M",Business Services,
+7399,Business Services Not Elsewhere Classified,"V, M",Business Services,
+7512,Automobile Rental Agency–Not Elsewhere Classified,"V, M",Business Services,
+7513,Truck Rental,"V, M",Business Services,
+7519,Motor Home and Recreational Vehicle Rental,"V, M",Business Services,
+7523,Automobile Parking Lots and Garages,"V, M",Business Services,
+7524,Express Payment Service Merchants–Parking Lots and Garages,TSYS,Business Services,
+7531,Automotive Body Repair Shops,"V, M",Business Services,
+7534,Tire Retreading and Repair Shops,"V, M",Business Services,
+7535,Automotive Paint Shops,"V, M",Business Services,
+7538,Automotive Service Shops,"V, M",Business Services,
+7542,Car Washes,"V, M",Business Services,
+7549,Towing Services,"V, M",Business Services,
+7622,Electronic Repair Shops,"V, M",Business Services,
+7623,Air Conditioning and Refrigeration Repair Shops,"V, M",Business Services,
+7629,"Appliance Repair Shops, Electrical and Small","V, M",Business Services,
+7631,"Clock, Jewelry and Watch Repair Shops","V, M",Business Services,
+7641,"Furniture–Reupholstery, Repair and Refinishing","V, M",Business Services,
+7692,Welding Repair,"V, M",Business Services,
+7699,Miscellaneous Repair Shops and Related Services,"V, M",Business Services,
+7800,Government Owned Lottery,"V, M",Business Services,
+7801,Government-Licensed Casinos (Online or Internet Gambling),"V, M",Business Services,
+7802,Government-Licensed Horse/Dog Racing,"V, M",Business Services,
+7829,Motion Picture and Video Tape Production and Distribution,"V, M",Business Services,
+7832,Motion Picture Theaters,"V, M",Business Services,
+7833,Express Payment Service — Motion Picture Theater,TSYS,Business Services,
+7841,DVD/Video Tape Rental Stores,"V, M",Business Services,
+7911,"Dance Halls, Schools and Studios","V, M",Business Services,
+7922,"Theatrical Producers (Except Motion Pictures), Ticket Agencies","V, M",Business Services,
+7929,"Bands, Orchestras and Miscellaneous Entertainers–Not Elsewhere Classified","V, M",Business Services,
+7932,Pool and Billiard Establishments,"V, M",Business Services,
+7933,Bowling Alleys,"V, M",Business Services,
+7941,"Athletic Fields, Commercial Sports, Professional Sports Clubs, Sports Promoters","V, M",Business Services,
+7991,Tourist Attractions and Exhibits,"V, M",Business Services,
+7992,"Golf Courses, Public","V, M",Business Services,
+7993,Video Amusement Game Supplies,"V, M",Business Services,
+7994,Video Game Arcades and Establishments,"V, M",Business Services,
+7995,"Gambling Transactions / Betting (Sportsbook, fantasy, social gaming; when regulated and not covered by other MCCs) (D)","V, M",Business Services,
+7996,"Amusement Parks, Carnivals, Circuses, Carnivals, Fortune Tellers","V, M",Business Services,
+7997,"Clubs–Country Clubs, Membership (Athletic, Recreation, Sports), Private Golf Courses","V, M",Business Services,
+7998,"Aquariums, Dolphinariums, Zoos and Seaquariums","V, M",Business Services,
+7999,Recreation Services–Not Elsewhere Classified,"V, M",Business Services,
+8011,Doctors–not elsewhere classified,"V, M",Professional Services and Membership Organizations,
+8021,Dentists and Orthodontists,"V, M",Professional Services and Membership Organizations,
+8031,Osteopathic Physicians,"V, M",Professional Services and Membership Organizations,
+8041,Chiropractors,"V, M",Professional Services and Membership Organizations,
+8042,Optometrists and Ophthalmologists,"V, M",Professional Services and Membership Organizations,
+8043,"Opticians, Optical Goods and Eyeglasses","V, M",Professional Services and Membership Organizations,
+8044,Optical Goods and Eyeglasses,TSYS,Professional Services and Membership Organizations,
+8049,"Chiropodists, Podiatrists","V, M",Professional Services and Membership Organizations,
+8050,Nursing and Personal Care Facilities,"V, M",Professional Services and Membership Organizations,
+8062,Hospitals,"V, M",Professional Services and Membership Organizations,
+8071,Dental and Medical Laboratories,"V, M",Professional Services and Membership Organizations,
+8099,"Health Practitioners, Medical Services–Not Elsewhere Classified","V, M",Professional Services and Membership Organizations,
+8111,"Attorneys, Legal Services","V, M",Professional Services and Membership Organizations,
+8211,"Schools, Elementary and Secondary","V, M",Professional Services and Membership Organizations,
+8220,"Colleges, Universities, Professional Schools and Junior Colleges","V, M",Professional Services and Membership Organizations,
+8241,"Schools, Correspondence","V, M",Professional Services and Membership Organizations,
+8244,"Schools, Business and Secretarial","V, M",Professional Services and Membership Organizations,
+8249,"Schools, Trade and Vocational","V, M",Professional Services and Membership Organizations,
+8299,Schools And Educational Services–Not Elsewhere Classified,"V, M",Professional Services and Membership Organizations,
+8351,Child Care Services,"V, M",Professional Services and Membership Organizations,
+8398,"Organizations, Charitable and Social Service","V, M",Professional Services and Membership Organizations,
+8641,"Associations–Civic, Social and Fraternal","V, M",Professional Services and Membership Organizations,
+8651,"Organizations, Political","V, M",Professional Services and Membership Organizations,
+8661,"Organizations, Religious","V, M",Professional Services and Membership Organizations,
+8675,Automobile Associations,"V, M",Professional Services and Membership Organizations,
+8699,"Organizations, Membership–Not Elsewhere Classified","V, M",Professional Services and Membership Organizations,
+8734,Testing Laboratories (Non-Medical),"V, M",Professional Services and Membership Organizations,
+8743,Testing Laboratories (Non-Medical),TSYS,Professional Services and Membership Organizations,
+8911,"Architectural, Engineering and Surveying Services","V, M",Professional Services and Membership Organizations,
+8931,"Accounting, Auditing and Bookkeeping Services","V, M",Professional Services and Membership Organizations,
+8999,Professional Services–Not Elsewhere Classified,"V, M",Professional Services and Membership Organizations,
+9034,I-Purchasing Pilot,TSYS,Government Services,
+9211,Court Costs Including Alimony and Child Support,"V, M",Government Services,
+9222,Fines,"V, M",Government Services,
+9223,Bail and Bond Payments,"V, M",Government Services,
+9311,Tax Payments,"V, M",Government Services,
+9399,Government Services–Not Elsewhere Classified,"V, M",Government Services,
+9401,I-Purchasing Pilot,TSYS,Government Services,
+9402,Postal Services–Government Only,"V, M",Government Services,
+9405,Intra-Government Purchases–Government Only,"V, M",Government Services,
+9700,Automated Referral Service,V,Government Services,
+9701,Visa Credential Server,V,Government Services,
+9702,GCAS Emergency Services,V,Government Services,
+9751,"UK Supermarkets, Electronic Hot File",TSYS,Government Services,
+9752,"UK Petrol Stations, Electronic Hot File",TSYS,Government Services,
+9754,"Gambling-Horse, Dog Racing, State Lottery",M,Government Services,
+9950,Intra-Company Purchases,"V, M",Government Services,
+3000,United Airlines,"V, M",Airlines,UNITED AIR (V) | UNITED (M)
+3001,American Airlines,"V, M",Airlines,AMERICAN AIR (V) | AMERICAN (M)
+3002,Pan American,"V, M",Airlines,PAN AM AIR (V) | PAN AM (M)
+3003,Eurofly,"V, M",Airlines,EUROFLY AIR (V) | EUROFLY (M)
+3004,Dragon Airlines,"V, M",Airlines,DRAGONAIR
+3005,British Airways,"V, M",Airlines,BRITISH AWYS (V) | BRITISH A (M)
+3006,Japan Air Lines,"V, M",Airlines,JAL AIRLINE (V) | JAL (M)
+3007,Air France,"V, M",Airlines,AIR FRANCE (V) | AIR FRAN (M)
+3008,Lufthansa German Airlines,"V, M",Airlines,LUFTHANSA (V) | LUFTHAN (M)
+3009,Air Canada,"V, M",Airlines,AIR CANADA (V) | AIR CAN (M)
+3010,Royal Dutch Airlines (KLM Airlines),"V, M",Airlines,KLM AIRLINE (V) | KLM (M)
+3011,Aeroflot,"V, M",Airlines,AEROFLOT
+3012,Qantas,"V, M",Airlines,QANTAS AIR (V) | QANTAS (M)
+3013,Alitalia,"V, M",Airlines,ALITALIA
+3014,Saudi Arabian Airlines,"V, M",Airlines,SAUDI AIR (V) | SAUDI AI (M)
+3015,Swiss International Air Lines,"V, M",Airlines,SWISSINTAIR (V) | SWISS (M)
+3016,Scandinavian Airline System (SAS),"V, M",Airlines,SAS
+3017,South African Airways,"V, M",Airlines,SAA AIRWAYS (V) | SAFRICAN (M)
+3018,Varig,"V, M",Airlines,VARIG
+3019,Germanwings,TSYS,Airlines,GRMNWNGSAIR
+3020,Air India,"V, M",Airlines,AIR-INDIA (V) | AIR-INDI (M)
+3021,Air Algerie,"V, M",Airlines,AIR ALGERIE (V) | AIRALGER (M)
+3022,Philippine Airlines,"V, M",Airlines,PAL AIR
+3023,Mexicana,"V, M",Airlines,MEXICANA
+3024,Pakistan International,"V, M",Airlines,PAKISTAN AIR (V) | PAKISTAN (M)
+3025,Air New Zealand Ltd. International,"V, M",Airlines,AIR NZ
+3026,Emirates Airlines,"V, M",Airlines,EMIRATES
+3027,Union De Transports Aeriens (UTA/interair),"V, M",Airlines,UTA AIRLINE (V) | UTAAIR (M)
+3028,Air Malta,"V, M",Airlines,AIR MALTA (V) | AIRMALTA (M)
+3029,SN Brussels Airlines,"V, M",Airlines,SNBRSSLSAIR (V) | SNBRU AIR (M)
+3030,Aerolineas Argentinas,"V, M",Airlines,AERO ARGENT (V) | AERO ARG (M)
+3031,Olympic Airways,"V, M",Airlines,OLYMPIC AIR (V) | OLYMPICA (M)
+3032,El Al,"V, M",Airlines,EL AL
+3033,Ansett Airlines,"V, M",Airlines,ANSETT AIR (V) | ANSETT (M)
+3034,Etihadair,"V, M",Airlines,ETIHADAIR
+3035,TAP Air Portugal (TAP),"V, M",Airlines,TAP AIR (V) | TAP (M)
+3036,Viacao Aerea Sao Pãulo (VASP),"V, M",Airlines,VASP AIR (V) | VASP (M)
+3037,Egyptair,"V, M",Airlines,EGYPTAIR
+3038,Kuwait Airways,"V, M",Airlines,KUWAIT AIR (V) | KUWAIT (M)
+3039,Avianca,"V, M",Airlines,AVIANCA
+3040,Gulf Air (Bahrain),"V, M",Airlines,GULF AIR
+3041,Balkan-Bulgarian Airlines,"V, M",Airlines,BALKAN AIR (V) | BALKAN (M)
+3042,Finnair,"V, M",Airlines,FINNAIR
+3043,Aer Lingus,"V, M",Airlines,AER LINGUS (V) | AERLING (M)
+3044,Air Lanka,"V, M",Airlines,AIR LANKA
+3045,Nigeria Airways,"V, M",Airlines,NIGERIA AIR (V) | NIGERIA (M)
+3046,Cruzeiro Do Sul,"V, M",Airlines,CRUZIERO AIR (V) | CRUZIERO (M)
+3047,Turk Hava Yollari,"V, M",Airlines,THY AIRLINE (V) | THY (M)
+3048,Royal Air Maroc,"V, M",Airlines,AIR MAROC (V) | AIRMARO (M)
+3049,Tunis Air,"V, M",Airlines,TUNIS AIR (V) | TUNIS AI (M)
+3050,Icelandair,"V, M",Airlines,ICELANDAIR (V) | ICELANDA (M)
+3051,Austrian Airlines,"V, M",Airlines,AUSTRIAN AIR (V) | AUSTRIAN (M)
+3052,LAN Airlines,"V, M",Airlines,LAN AIR
+3053,Aviacion Y Comercio (AVIACO),"V, M",Airlines,AVIACO AIR (V) | AVIACO (M)
+3054,Linea Aerea Del Cobre (LADECO),"V, M",Airlines,LADECO AIR (V) | LADECO (M)
+3055,Lloyd Aero Boliviano (LAB),"V, M",Airlines,LAB AIR (V) | LAB (M)
+3056,Jet Airways,"V, M",Airlines,JET AIR
+3057,Virgin America,"V, M",Airlines,VIR AMER
+3058,Delta,"V, M",Airlines,DELTA AIR (V) | DELTA (M)
+3059,DBA Airline,"V, M",Airlines,DBA AIR
+3060,Northwest Airlines,"V, M",Airlines,NWA AIR
+3061,Continental,"V, M",Airlines,CONTINENTAL (V) | CONTINEN (M)
+3062,Hapag-Lloyd Express,"V, M",Airlines,HLX AIR (V) | HLX (M)
+3063,US Airways,"V, M",Airlines,USAIRWAYS (V) | USAIRWYS (M)
+3064,Adria Airways,"V, M",Airlines,ADRIA AIR
+3065,Airinter,"V, M",Airlines,AIRINTER
+3066,Southwest Airlines,"V, M",Airlines,SOUTHWESTAIR (V) | SOUTHWES (M)
+3067,Vanguard Airlines,"V, M",Airlines,VANGUARD AIR (V) | VANGUARD (M)
+3068,Air Astana,"V, M",Airlines,AIR ASTANA (V) | AIRSTANA (M)
+3069,Sun Country Airlines,"V, M",Airlines,SUNCTRYAIR (V) | SUNCNTRY (M)
+3071,Air British Columbia,"V, M",Airlines,AIR BC (V) | AIR B R C (M)
+3072,Cebu Pacific Airlines,"V, M",Airlines,CEBU PAC
+3075,Singapore Airlines,"V, M",Airlines,SINGAPOREAIR (V) | SINGAPOR (M)
+3076,Aeromexico,"V, M",Airlines,AEROMEXICO (V) | AEROMEXI (M)
+3077,Thai Airways,"V, M",Airlines,THAI AIRWAYS (V) | THAIAIRW (M)
+3078,China Airlines,"V, M",Airlines,CHINA AIR (V) | CHINAAIR (M)
+3079,Jetstar Airways,"V, M",Airlines,JETSTAR AIR (V) | JETSTAR (M)
+3081,NordAir,TSYS,Airlines,
+3082,Korean Airlines,"V, M",Airlines,KOREAN AIR (V) | KOREAN (M)
+3083,Air Afrique,"V, M",Airlines,AIR AFRIQUE (V) | AIR AFRIQ (M)
+3084,Eva Airways,"V, M",Airlines,EVA AIR
+3085,Midwest Express Airlines,"V, M",Airlines,MIDWEST EXP (V) | MIDWEST (M)
+3086,Carnival Airlines,V,Airlines,CARNIVAL AIR
+3087,Metro Airlines,"V, M",Airlines,METRO AIR (V) | METROAI (M)
+3088,Croatia Air,"V, M",Airlines,CROATIA AIR (V) | CROATIA (M)
+3089,Transaero,"V, M",Airlines,TRANSAERO
+3090,Uni Airways Corporation,"V, M",Airlines,UNIAIR
+3094,Zambia Airways,"V, M",Airlines,ZAMBIA AIR (V) | ZAMBIA A (M)
+3096,Air Zimbabwe Corp,"V, M",Airlines,AIR ZIMBABWE (V) | AIRZIMBA (M)
+3097,Spanair,"V, M",Airlines,SPANAIR
+3098,Asiana Airlines,"V, M",Airlines,ASIANA AIR (V) | ASIANA (M)
+3099,Cathay Pacific,"V, M",Airlines,CATHAYPACAIR (V) | CATHAYPA (M)
+3100,Malaysian Airline System,"V, M",Airlines,MALAY AIR (V) | MALAY AI (M)
+3102,Iberia,"V, M",Airlines,IBERIA AIR (V) | IBERIA (M)
+3103,Garuda,"V, M",Airlines,GARUDA AIR (V) | GARUDA (M)
+3106,Braathens S.A.F.E.,"V, M",Airlines,BRAATHENS (V) | BRAATHEN (M)
+3110,Wings Airways,V,Airlines,WINGS AIR
+3111,British Midland,"V, M",Airlines,BRMIDLANDAIR (V) | BRITISH M (M)
+3112,Windward Island,"V, M",Airlines,WINDWRDISAIR (V) | WINDWARD (M)
+3115,Tower Air,"V, M",Airlines,TOWERAIR
+3117,Venezolana International De Aviacion,"V, M",Airlines,VIASA
+3118,Valley Airlines,"V, M",Airlines,VALLEY AIR
+3125,Tan Sahsa,"V, M",Airlines,TAN AIR
+3126,Talair PTY Ltd.,V,Airlines,TALAIR
+3127,Taca International,"V, M",Airlines,TACAINTL AIR (V) | TACA INT (M)
+3129,Surinam Airways,"V, M",Airlines,SURINAM AIR (V) | SURINAM (M)
+3130,Sunworld International,"V, M",Airlines,SUNWORLD AIR (V) | SUNWORLD (M)
+3131,VLM Airlines,"V, M",Airlines,VLM AIR (V) | VLM (M)
+3132,Frontier Airlines,"V, M",Airlines,FRONTIER AIR (V) | FRONTIER (M)
+3133,Sunbelt Airlines,V,Airlines,SUNBELT AIR
+3135,Sudan Airways,V,Airlines,SUDAN AIR
+3136,Qatar Airways,"V, M",Airlines,QATAR AIR
+3137,Singleton,V,Airlines,SINGLETONAIR
+3138,Simmons Airlines,V,Airlines,SIMMONS AIR
+3143,Scenic Airlines,V,Airlines,SCENIC AIR
+3144,Virgin Atlantic,"V, M",Airlines,VIRGINATLAIR (V) | VIR ATL (M)
+3145,San Juan,V,Airlines,SAN JUAN AIR
+3146,Luxair,"V, M",Airlines,LUXAIR
+3148,Air Littoral S.A.,"V, M",Airlines,AIRLITTORAL (V) | LITTORAL (M)
+3151,Air Zaire,"V, M",Airlines,AIR ZAIRE (V) | AIRZAIRE (M)
+3154,Princeville,V,Airlines,PRINCVLLEAIR
+3156,Go Fly Ltd.,"V, M",Airlines,GOFLY
+3159,Provincetown-Boston Airways,"V, M",Airlines,PBA AIRLINE (V) | PBA (M)
+3161,All Nipon Airways,"V, M",Airlines,ANA AIR (V) | ANAAIR (M)
+3164,Norontair,"V, M",Airlines,NORONTAIR (V) | NORONTAI (M)
+3165,New York Helicopter,V,Airlines,NY HELI
+3167,Aero Continente,"V, M",Airlines,AEROCONTINEN (V) | AERO CONT (M)
+3170,Mount Cook,V,Airlines,MT COOK AIR
+3171,Canadian Airlines International,"V, M",Airlines,CANADIAN AIR (V) | CANADIAN (M)
+3172,Nationair,"V, M",Airlines,NATIONAIR (V) | NATIONAI (M)
+3174,Jetblue Airways,"V, M",Airlines,JETBLUE
+3175,Middle East Air,"V, M",Airlines,MIDEAST AIR (V) | MIDEASTA (M)
+3176,Metroflight Airlines,V,Airlines,METROFLT AIR
+3177,AirTran Airways,"V, M",Airlines,AIRTRANAIR (V) | AIRTRAN A (M)
+3178,Mesa Air,"V, M",Airlines,MESA AIR
+3180,Westjet Airlines,"V, M",Airlines,WESTJETAIR (V) | WESTJET (M)
+3181,Malev,"V, M",Airlines,MALEV AIR (V) | MALEV (M)
+3182,LOT (Polish Airlines),"V, M",Airlines,LOT AIR (V) | LOT (M)
+3183,Oman Air,"V, M",Airlines,OMANAIR (V) | OMAN AIR (M)
+3184,LIAT,"V, M",Airlines,LIAT AIRLINE (V) | LIAT (M)
+3185,Linea Aeropostal Venezolana (LAV),"V, M",Airlines,LAV AIR (V) | LAV (M)
+3186,Lineas Aereas Paraguayas (LAP),"V, M",Airlines,LAP AIR (V) | LAP (M)
+3187,LACSA (Costa Rica),"V, M",Airlines,LACSA AIR (V) | LACSA (M)
+3188,Virgin Express,"V, M",Airlines,VIRGINEXPAIR (V) | VIR EXP (M)
+3190,Jugoslav Air,"V, M",Airlines,JUGOSLAV AIR (V) | JUGOSLAV (M)
+3191,Island Airlines,"V, M",Airlines,ISLAND AIR (V) | ISLANDAI (M)
+3193,Indian Airlines,"V, M",Airlines,INDIAN AIR (V) | INDIAN A (M)
+3196,Hawaiian Air,"V, M",Airlines,HAWAIIAN AIR (V) | HAWAIIAN (M)
+3197,Havasu Airlines,"V, M",Airlines,HAVASU AIR (V) | HAVASUAI (M)
+3200,Guyana Airways,"V, M",Airlines,GUYANA AIR (V) | GUYANA A (M)
+3203,Golden Pacific Air,V,Airlines,GOLDPAC AIR
+3204,Freedom Airlines,"V, M",Airlines,FREEDOM AIR (V) | FREEDOM (M)
+3206,China Eastern Airlines,"V, M",Airlines,CHINAEASTAIR (V) | CHINAEAST (M)
+3211,Norwegian Air Shuttle,"V, M",Airlines,NORWEGIANAIR (V) | NORWEGIAN (M)
+3212,Dominicana De Aviacion,"V, M",Airlines,DOMINICA AIR (V) | DOMINICA (M)
+3213,Malmo Aviation,"V, M",Airlines,MALMO AIR (V) | MALMO AV (M)
+3215,Dan Air Services,V,Airlines,DANAIRSERV
+3216,Cumberland Airlines,V,Airlines,CUMBERLNDAIR
+3217,Ceskoslovenske Aerolinie (CSA),"V, M",Airlines,CSA AIRLINE (V) | CSA (M)
+3218,Crown Air,V,Airlines,CROWN AIR
+3219,Compania Panamena De Aviacion (COPA),"V, M",Airlines,COPA AIR (V) | COPA (M)
+3220,Compania Faucett,"V, M",Airlines,COMP FAU AIR (V) | COMPANIA (M)
+3221,Transportes Aeros Militares,"V, M",Airlines,TAME AIRLINE (V) | TAME AIR (M)
+3222,Command Airways,"V, M",Airlines,COMMAND AIR (V) | COMMAND (M)
+3223,Comair,"V, M",Airlines,COMAIR
+3226,Skyways,"V, M",Airlines,SKYWAYS AIR (V) | SKYWAYS (M)
+3228,Cayman Airways,"V, M",Airlines,CAYMANAIR
+3229,SAETA (Sociedad Ecuatorianos De Transportes Aereos),"V, M",Airlines,SAETA AIR (V) | SAETAAIR (M)
+3231,SAHSA (Servicio Aero De Honduras),"V, M",Airlines,SAHSA AIR (V) | SAHSA (M)
+3233,Capitol Air,V,Airlines,CAPITOL AIR
+3234,Caribbean Airlines,"V, M",Airlines,CARIBBEANAIR (V) | CARIBBEAN (M)
+3235,Brockway Air,V,Airlines,BROCKWAY AIR
+3236,Air Arabia Airline,"V, M",Airlines,AIR ARABIA (V) | AIR ARAB (M)
+3238,Bemidji Aviation,V,Airlines,BEMIDJI AIR
+3239,Bar Harbor Airlines,"V, M",Airlines,BARHARBORAIR (V) | BARHARBO (M)
+3240,Bahamasair,"V, M",Airlines,BAHAMASAIR (V) | BAHAMASA (M)
+3241,Aviateca,"V, M",Airlines,AVIATECA AIR (V) | AVIATECA (M)
+3242,Avensa,"V, M",Airlines,AVENSA AIR (V) | AVENSA (M)
+3243,Austrian Air Service,"V, M",Airlines,AUST AIRSERV (V) | AUSTRAIR (M)
+3245,Easyjet Air,"V, M",Airlines,EASYJET AIR (V) | EASYJET (M)
+3246,Ryanair,"V, M",Airlines,RYANAIR
+3247,Gol Airlines,"V, M",Airlines,GOL AIR (V) | GOL (M)
+3248,Tam Airlines,"V, M",Airlines,TAM AIR (V) | TAM (M)
+3251,Aloha Airlines,V,Airlines,ALOHA AIR
+3252,Antilean Airlines (ALM),"V, M",Airlines,ALM AIRLINE (V) | ALM (M)
+3253,America West,M,Airlines,AMERWEST
+3254,U.S. Air Shuttle,V,Airlines,USAIRSHUTL
+3256,Alaska Airlines Inc.,"V, M",Airlines,ALASKA AIR (V) | ALASKA A (M)
+3259,American Trans Air,V,Airlines,ATA AIR
+3260,Spirit Airlines,"V, M",Airlines,SPIRIT AIR (V) | SPIRIT (M)
+3261,Air China,"V, M",Airlines,AIR CHINA
+3262,Reno Air,V,Airlines,RENO AIR
+3263,Aero Servicio Carabobo,"V, M",Airlines,ASC AIRLINE (V) | ASERCA (M)
+3266,Air Seychelles,"V, M",Airlines,AIR SEYCH (V) | AIR SEYC (M)
+3267,Air Panama International,"V, M",Airlines,AIR PANAMA (V) | AIR PANA (M)
+3273,Rica Hotels,TSYS,Airlines,
+3274,Inter Nor Hotels,TSYS,Airlines,
+3280,Air Jamaica,"V, M",Airlines,AIR JAMAICA (V) | AIR JAMA (M)
+3281,Air Djibouti,TSYS,Airlines,
+3282,Air Djibouti,"V, M",Airlines,AIR DJIBOUTI (V) | AIR DJIB (M)
+3284,Aero Virgin Islands,V,Airlines,AERVIRGINIS
+3285,Aero Peru,"V, M",Airlines,AEROPERU
+3286,Aero Nicaraguensis,"V, M",Airlines,AERONICARAG (V) | AERO NIC (M)
+3287,Aero Coach Aviation,"V, M",Airlines,AEROCOACH AV (V) | AEROCOAC (M)
+3292,Cyprus Airways,"V, M",Airlines,CYPRUS AIR (V) | CYPRUSA (M)
+3293,Ecuatoriana,"V, M",Airlines,ECUATORIANA (V) | ECUATORI (M)
+3294,Ethiopian Airlines,"V, M",Airlines,ETHIOPIAN AIR (V) | ETHIOPIA (M)
+3295,Kenya Airways,"V, M",Airlines,KENYA AIR (V) | KENYAAIR (M)
+3296,Air Berlin,"V, M",Airlines,AIR BERLIN (V) | AIRBERLIN (M)
+3297,Tarom Romanian Air Transport,"V, M",Airlines,TAROM AIR
+3298,Air Mauritius,"V, M",Airlines,AIRMAURITIUS (V) | AIRMAURI (M)
+3299,Wideroes Flyveselskap,"V, M",Airlines,WIDEROES
+3351,Affiliated Auto Rental,"V, M",Car Rental,
+3352,American International,"V, M",Car Rental,
+3353,Brooks Rent-A-Car,"V, M",Car Rental,
+3354,Action Auto Rental,"V, M",Car Rental,
+3355,Sixt Car Rental,"V, M",Car Rental,
+3357,Hertz,"V, M",Car Rental,
+3359,Payless Car Rental,"V, M",Car Rental,
+3360,Snappy Car Rental,"V, M",Car Rental,
+3361,Airways,"V, M",Car Rental,
+3362,Altra Auto Rental,"V, M",Car Rental,
+3364,Agency Rent-A-Car,"V, M",Car Rental,
+3366,Budget Rent-A-Car,"V, M",Car Rental,
+3368,Holiday Rent-A-Car,"V, M",Car Rental,
+3370,Rent-A-Wreck,"V, M",Car Rental,
+3374,Accent Rent-A-Car,"V, M",Car Rental,
+3376,Ajax Rent-A-Car,"V, M",Car Rental,
+3380,Triangle Rent-A-Car,"V, M",Car Rental,
+3381,Europcar,"V, M",Car Rental,
+3385,Tropical Rent-A-Car,"V, M",Car Rental,
+3386,Showcase Rental Cars,"V, M",Car Rental,
+3387,Alamo Rent-A-Car,"V, M",Car Rental,
+3388,Merchants Rent-A-Car,"V, M",Car Rental,
+3389,Avis Rent-A-Car,"V, M",Car Rental,
+3390,Dollar Rent-A-Car,"V, M",Car Rental,
+3391,Europe By Car,"V, M",Car Rental,
+3393,National Car Rental,"V, M",Car Rental,
+3394,Kemwell Group,"V, M",Car Rental,
+3395,Thrifty Car Rental,"V, M",Car Rental,
+3396,Tilden Rent-A-Car,"V, M",Car Rental,
+3398,Econo-Car Rent-A-Car,"V, M",Car Rental,
+3400,Auto Host Rental Cars,"V, M",Car Rental,
+3405,Enterprise Rent-A-Car,"V, M",Car Rental,
+3409,General Rent-A-Car,"V, M",Car Rental,
+3412,A1 Rent-A-Car,"V, M",Car Rental,
+3414,Godfrey National,V,Car Rental,
+3420,Ansa International,"V, M",Car Rental,
+3421,Allstate,"V, M",Car Rental,
+3423,AVCAR,"V, M",Car Rental,
+3425,Automate,"V, M",Car Rental,
+3427,Avon Rent-A-Car,"V, M",Car Rental,
+3428,Carey,"V, M",Car Rental,
+3429,Insurance Rent-A-Car,"V, M",Car Rental,
+3430,Major Rent-A-Car,"V, M",Car Rental,
+3431,Replacement Rent-A-Car,"V, M",Car Rental,
+3432,Reserve Rent-A-Car,"V, M",Car Rental,
+3433,Ugly Duckling Rent-A-Car,"V, M",Car Rental,
+3434,USA,"V, M",Car Rental,
+3435,Value Rent-A-Car,"V, M",Car Rental,
+3436,Autohansa,"V, M",Car Rental,
+3437,Cite,V,Car Rental,
+3438,Interent,"V, M",Car Rental,
+3439,Milleville,"V, M",Car Rental,
+3441,Advantage Rent A Car,"V, M",Car Rental,
+3501,Holiday Inns,"V, M",Lodging,
+3502,Best Western,"V, M",Lodging,
+3503,Sheraton,"V, M",Lodging,
+3504,Hilton,"V, M",Lodging,
+3505,Trusthouse Forte,"V, M",Lodging,
+3506,Golden Tulip,"V, M",Lodging,
+3507,Friendship Inns International,"V, M",Lodging,
+3508,Quality International,"V, M",Lodging,
+3509,Marriott,"V, M",Lodging,
+3510,Days Inns Of America,"V, M",Lodging,
+3511,Arabella Hotels,"V, M",Lodging,
+3512,Intercontinental,"V, M",Lodging,
+3513,Westin Hotels,"V, M",Lodging,
+3514,Amerisuites,"V, M",Lodging,
+3515,Rodeway Inns International,"V, M",Lodging,
+3516,La Quinta Motor Inns,"V, M",Lodging,
+3517,Americana Hotels Corporation,"V, M",Lodging,
+3518,Sol Hotels,"V, M",Lodging,
+3519,PLM/ETAP International,"V, M",Lodging,
+3520,Meridien,"V, M",Lodging,
+3521,Crest Hotels,"V, M",Lodging,
+3522,Tokyo Group,"V, M",Lodging,
+3523,Peninsula Hotels,"V, M",Lodging,
+3524,Welcomgroup,"V, M",Lodging,
+3525,Dunfey Hotels,"V, M",Lodging,
+3526,Prince Hotels,"V, M",Lodging,
+3527,Downtowner Passport,"V, M",Lodging,
+3528,Thunderbird/Red Lion,"V, M",Lodging,
+3529,CP (Canadian Pacific),"V, M",Lodging,
+3530,Renaissance Hotels,"V, M",Lodging,
+3531,Kauai Coconut Beach Resort,"V, M",Lodging,
+3532,Royal Kona Resort,"V, M",Lodging,
+3533,Park Inn by Radisson,"V, M",Lodging,
+3534,Southern Pacific Hotel,"V, M",Lodging,
+3535,Hilton International,"V, M",Lodging,
+3536,AMFAC Hotels,"V, M",Lodging,
+3537,Ana Hotels,"V, M",Lodging,
+3538,Concorde Hotels,"V, M",Lodging,
+3539,Summerfield Suites Hotel,"V, M",Lodging,
+3540,Iberotel,"V, M",Lodging,
+3541,Hotel Okura,"V, M",Lodging,
+3542,Royal Hotels,"V, M",Lodging,
+3543,Four Seasons,"V, M",Lodging,
+3544,Cigahotels,"V, M",Lodging,
+3545,Shangri-La International,"V, M",Lodging,
+3546,Hotel Sierra,"V, M",Lodging,
+3547,Breakers Resort,M,Lodging,
+3548,Hotels Melia,"V, M",Lodging,
+3549,Auberge Des Governeurs,"V, M",Lodging,
+3550,Regal 8 Inns,"V, M",Lodging,
+3551,Mirage Hotel and Casino,"V, M",Lodging,
+3552,Coast Hotels,"V, M",Lodging,
+3553,Parks Inns International,"V, M",Lodging,
+3554,Pinehurst Resort,"V, M",Lodging,
+3555,Treasure Island Hotel and Casino,"V, M",Lodging,
+3556,Barton Creek Resort,"V, M",Lodging,
+3557,Manhattan East Suite Hotels,"V, M",Lodging,
+3558,Jolly Hotels,"V, M",Lodging,
+3559,Candlewood Suites,"V, M",Lodging,
+3560,Aladdin Resort and Casino,"V, M",Lodging,
+3561,Golden Nugget,"V, M",Lodging,
+3562,Comfort Hotel International,"V, M",Lodging,
+3563,Journeys End Motels,"V, M",Lodging,
+3564,Sams Town Hotel and Casino,"V, M",Lodging,
+3565,Relax Inns,"V, M",Lodging,
+3566,Garden Place Hotel,"V, M",Lodging,
+3567,Soho Grand Hotel,"V, M",Lodging,
+3568,Ladbroke Hotels,"V, M",Lodging,
+3569,Tribeca Grand Hotel,"V, M",Lodging,
+3570,Grand Met Forum Hotels,"V, M",Lodging,
+3571,Grand Wailea Resort,"V, M",Lodging,
+3572,Miyako Hotel/Kintetsu,"V, M",Lodging,
+3573,Sandman Hotels,"V, M",Lodging,
+3574,Venture Inn,"V, M",Lodging,
+3575,Vagabond Hotels,"V, M",Lodging,
+3576,La Quinta Resort,"V, M",Lodging,
+3577,Mandarin International,"V, M",Lodging,
+3578,Frankenmuth Bavarian,"V, M",Lodging,
+3579,Hotel Mercure,"V, M",Lodging,
+3580,Hotel Del Coronado,"V, M",Lodging,
+3581,Delta Hotels,"V, M",Lodging,
+3582,California Hotel and Casino,"V, M",Lodging,
+3583,Radisson BLU,"V, M",Lodging,
+3584,Princess Hotels International,"V, M",Lodging,
+3585,Hungar Hotels,"V, M",Lodging,
+3586,Sokos Hotel,"V, M",Lodging,
+3587,Doral Hotels,"V, M",Lodging,
+3588,Helmsley Hotels,"V, M",Lodging,
+3589,Doral Golf Resort,"V, M",Lodging,
+3590,Fairmont Hotels Corporation,"V, M",Lodging,
+3591,Sonesta International Hotels,"V, M",Lodging,
+3592,Omni International,"V, M",Lodging,
+3593,Cunard Hotels,"V, M",Lodging,
+3594,Arizona Biltmore,"V, M",Lodging,
+3595,Hospitality Inns,"V, M",Lodging,
+3596,Wynn Las Vegas,"V, M",Lodging,
+3597,Riverside Resort and Casino,"V, M",Lodging,
+3598,Regent Hotels,"V, M",Lodging,
+3599,Pannonia Hotels,"V, M",Lodging,
+3600,Saddlebrook Resort–Tampa,"V, M",Lodging,
+3601,Tradewinds Resort,"V, M",Lodging,
+3602,Hudson Hotel,"V, M",Lodging,
+3603,Noahs Hotel (Melbourne),"V, M",Lodging,
+3604,Hilton Garden Inn,"V, M",Lodging,
+3605,Jurys Doyle Hotel Group,M,Lodging,
+3606,Jefferson Hotel,M,Lodging,
+3607,Fontainebleau Resort,"V, M",Lodging,
+3608,Gaylord Opryland,"V, M",Lodging,
+3609,Gaylord Palms,"V, M",Lodging,
+3610,Gaylord Texan,M,Lodging,
+3611,C MON INN,M,Lodging,
+3612,Moevenpick,"V, M",Lodging,
+3613,Microtel Inn and Suites,"V, M",Lodging,
+3614,AmericInn,"V, M",Lodging,
+3615,Travelodge Motels,"V, M",Lodging,
+3616,Hermitage Hotels,M,Lodging,
+3617,America’s Best Value Inn,"V, M",Lodging,
+3618,Great Wolf,"V, M",Lodging,
+3619,Aloft,"V, M",Lodging,
+3620,Binions Horseshoe Club,"V, M",Lodging,
+3621,Extended Stay,"V, M",Lodging,
+3622,Merlin Hotel (Perth),"V, M",Lodging,
+3623,Dorint Hotels,"V, M",Lodging,
+3624,Lady Luck Hotel and Casino,"V, M",Lodging,
+3625,Hotel Universal,"V, M",Lodging,
+3626,Studio Plus,"V, M",Lodging,
+3627,Extended Stay America,"V, M",Lodging,
+3628,Excalibur Hotel and Casino,"V, M",Lodging,
+3629,Dan Hotels,"V, M",Lodging,
+3630,Extended Stay Deluxe,"V, M",Lodging,
+3631,Sleep Inn,"V, M",Lodging,
+3632,The Phoenician,"V, M",Lodging,
+3633,Rank Hotels,"V, M",Lodging,
+3634,Swissotel,"V, M",Lodging,
+3635,Reso Hotels,"V, M",Lodging,
+3636,Sarova Hotels,"V, M",Lodging,
+3637,Ramada Inns,"V, M",Lodging,
+3638,Howard Johnson,"V, M",Lodging,
+3639,Mount Charlotte Hotels,"V, M",Lodging,
+3640,Hyatt Hotels/International,"V, M",Lodging,
+3641,Sofitel Hotels,"V, M",Lodging,
+3642,Novotel Sieh (Accor),"V, M",Lodging,
+3643,Steigenberger,"V, M",Lodging,
+3644,Econo-Travel Motor Hotel,"V, M",Lodging,
+3645,Queens Moat Houses,"V, M",Lodging,
+3646,Swallow Hotels,"V, M",Lodging,
+3647,Grupo Hotels HUSA SA,"V, M",Lodging,
+3648,De Vere Hotels,"V, M",Lodging,
+3649,Radisson,"V, M",Lodging,
+3650,Red Roof Inns,"V, M",Lodging,
+3651,Imperial London Hotels,"V, M",Lodging,
+3652,Embassy Hotels,"V, M",Lodging,
+3653,Penta Hotels,"V, M",Lodging,
+3654,Loews Hotels,"V, M",Lodging,
+3655,Scandic Hotels,"V, M",Lodging,
+3656,Sara Hotels,"V, M",Lodging,
+3657,Oberoi Hotels,"V, M",Lodging,
+3658,New Otani Hotels,"V, M",Lodging,
+3659,Taj Hotels Intl,"V, M",Lodging,
+3660,Knights Inn,"V, M",Lodging,
+3661,Metropole Hotels,"V, M",Lodging,
+3662,Circus Circus Hotel and Casino,"V, M",Lodging,
+3663,Hoteles El Presidente,"V, M",Lodging,
+3664,Flag Inns,"V, M",Lodging,
+3665,Hampton Inns,"V, M",Lodging,
+3666,Stakis Hotels,"V, M",Lodging,
+3667,Luxor Hotel and Casino,"V, M",Lodging,
+3668,Maritim,"V, M",Lodging,
+3669,Eldorado Hotel and Casino,"V, M",Lodging,
+3670,Arcade,"V, M",Lodging,
+3671,Arctia,"V, M",Lodging,
+3672,Campanile,"V, M",Lodging,
+3673,Ibusz Hotels,"V, M",Lodging,
+3674,Rantasipi Hotels,"V, M",Lodging,
+3675,Interhotel Cedok,"V, M",Lodging,
+3676,Monte Carlo Hotel and Casino,"V, M",Lodging,
+3677,Climat De France,"V, M",Lodging,
+3678,Cumulus Hotels,"V, M",Lodging,
+3679,Silver Legacy Hotel and Casino,"V, M",Lodging,
+3680,Hoteis Othan,"V, M",Lodging,
+3681,Adams Mark,"V, M",Lodging,
+3682,Sahara Hotel and Casino,"V, M",Lodging,
+3683,Bradbury Suites,"V, M",Lodging,
+3684,Budget Host Inns,"V, M",Lodging,
+3685,Budgetel,"V, M",Lodging,
+3686,Suisse Chalet,"V, M",Lodging,
+3687,Clarion Hotel,"V, M",Lodging,
+3688,Compri Hotel,"V, M",Lodging,
+3689,Consort,"V, M",Lodging,
+3690,Courtyard by Marriott,"V, M",Lodging,
+3691,Dillon Inn,"V, M",Lodging,
+3692,Doubletree,"V, M",Lodging,
+3693,Drury Inn,"V, M",Lodging,
+3694,Economy Inns Of America,"V, M",Lodging,
+3695,Embassy Suites,"V, M",Lodging,
+3696,Excel Inn,"V, M",Lodging,
+3697,Fairfield Hotel,"V, M",Lodging,
+3698,Harley Hotel,"V, M",Lodging,
+3699,Midway Motor Lodge,"V, M",Lodging,
+3700,Motel 6,"V, M",Lodging,
+3701,La Mansion Del Rio,"V, M",Lodging,
+3702,Registry Hotels,"V, M",Lodging,
+3703,Residence Inn,"V, M",Lodging,
+3704,Royce Hotel,"V, M",Lodging,
+3705,Sandman Inn,"V, M",Lodging,
+3706,Shilo Inn,"V, M",Lodging,
+3707,Shoneys Inn,"V, M",Lodging,
+3708,Virgin River Hotel and Casino,"V, M",Lodging,
+3709,Super 8 Motel,"V, M",Lodging,
+3710,Ritz-Carlton,"V, M",Lodging,
+3711,Flag Inns (Australia),"V, M",Lodging,
+3712,Buffalo Bills Hotel and Casino,"V, M",Lodging,
+3713,Quality Pacific Hotel,"V, M",Lodging,
+3714,Four Seasons (Australia),"V, M",Lodging,
+3715,Fairfield Inn,"V, M",Lodging,
+3716,Carlton Hotels,"V, M",Lodging,
+3717,City Lodge Hotels,"V, M",Lodging,
+3718,Karos Hotels,"V, M",Lodging,
+3719,Protea Hotels,"V, M",Lodging,
+3720,Southern Sun Hotels,"V, M",Lodging,
+3721,Conrad Hotels,"V, M",Lodging,
+3722,Wyndham,"V, M",Lodging,
+3723,Rica Hotels,"V, M",Lodging,
+3724,Inter Nor Hotels,"V, M",Lodging,
+3725,Sea Pines Resort,"V, M",Lodging,
+3726,Rio Suites,"V, M",Lodging,
+3727,Broadmoor Hotel,"V, M",Lodging,
+3728,Ballys Hotel and Casino,"V, M",Lodging,
+3729,John Ascuagas Nugget,"V, M",Lodging,
+3730,MGM Grand Hotel,"V, M",Lodging,
+3731,Harrah’s Hotels and Casinos,"V, M",Lodging,
+3732,Opryland Hotel,"V, M",Lodging,
+3733,Boca Raton Resort,M,Lodging,
+3734,Harvey Bristol Hotels,"V, M",Lodging,
+3735,Masters Economy Inns,"V, M",Lodging,
+3736,Colorado Belle Edgewater Resort,"V, M",Lodging,
+3737,Riviera Hotel and Casino,"V, M",Lodging,
+3738,Tropicana Resort and Casino,"V, M",Lodging,
+3739,Woodside Hotels and Resorts,"V, M",Lodging,
+3740,Towneplace Suites,"V, M",Lodging,
+3741,Millennium Broadway Hotel,"V, M",Lodging,
+3742,Club Med,"V, M",Lodging,
+3743,Biltmore Hotel and Suites,"V, M",Lodging,
+3744,Carefree Resorts,"V, M",Lodging,
+3745,St. Regis Hotel,"V, M",Lodging,
+3746,The Eliot Hotel,"V, M",Lodging,
+3747,Club Corporation/Club Resorts,"V, M",Lodging,
+3748,Wellesley Inns,"V, M",Lodging,
+3749,Beverly Hills Hotel,"V, M",Lodging,
+3750,Crowne Plaza Hotels,"V, M",Lodging,
+3751,Homewood Suites,"V, M",Lodging,
+3752,Peabody Hotels,"V, M",Lodging,
+3753,Greenbriar Resorts,"V, M",Lodging,
+3754,Amelia Island Plantation,"V, M",Lodging,
+3755,Homestead,"V, M",Lodging,
+3757,Canyon Ranch,TSYS,Lodging,
+3758,Kahala Mandarin Oriental Hotel,"V, M",Lodging,
+3759,Orchid At Mauna Lai,"V, M",Lodging,
+3760,Halekulani Hotel/Waikiki Parc,"V, M",Lodging,
+3761,Primadonna Hotel and Casino,"V, M",Lodging,
+3762,Whiskey Pete’s Hotel and Casino,"V, M",Lodging,
+3763,Chateau Elan Winery and Resort,"V, M",Lodging,
+3764,Beau Rivage Hotel and Casino,"V, M",Lodging,
+3765,Bellagio,"V, M",Lodging,
+3766,Fremont Hotel and Casino,"V, M",Lodging,
+3767,Main Street Station Hotel and Casino,"V, M",Lodging,
+3768,Silver Star Hotel and Casino,"V, M",Lodging,
+3769,Stratosphere Hotel and Casino,"V, M",Lodging,
+3770,Springhill Suites,"V, M",Lodging,
+3771,Caesars Hotel and Casino,"V, M",Lodging,
+3772,Nemacolin Woodlands,"V, M",Lodging,
+3773,Venetian Resort Hotel and Casino,"V, M",Lodging,
+3774,New York-New York Hotel and Casino,"V, M",Lodging,
+3775,Sands Resort,"V, M",Lodging,
+3776,Nevele Grande Resort and Country Club,"V, M",Lodging,
+3777,Mandalay Bay Resort,"V, M",Lodging,
+3778,Four Points Hotels,"V, M",Lodging,
+3779,W Hotels,"V, M",Lodging,
+3780,Disneyland Resorts,"V, M",Lodging,
+3781,Patricia Grand Resort Hotels,"V, M",Lodging,
+3782,Rosen Hotel and Resorts,"V, M",Lodging,
+3783,Town and Country Resort and Convention Center,"V, M",Lodging,
+3784,First Hospitality Hotels,"V, M",Lodging,
+3785,Outrigger Hotels and Resorts,"V, M",Lodging,
+3786,Ohana Hotels of Hawaii,"V, M",Lodging,
+3787,Caribe Royal Resort Suite and Villas,"V, M",Lodging,
+3788,Ala Moana Hotel,"V, M",Lodging,
+3789,Smugglers Notch Resort,"V, M",Lodging,
+3790,Raffles Hotels,"V, M",Lodging,
+3791,Staybridge Suites,"V, M",Lodging,
+3792,Claridge Casino Hotel,"V, M",Lodging,
+3793,The Flamingo Hotels,"V, M",Lodging,
+3794,Grand Casino Hotels,"V, M",Lodging,
+3795,Paris Las Vegas Hotel,"V, M",Lodging,
+3796,Peppermill Hotel Casino,"V, M",Lodging,
+3797,Atlantic City Hilton,"V, M",Lodging,
+3798,Embassy Vacation Resort,"V, M",Lodging,
+3799,Hale Koa Hotel,"V, M",Lodging,
+3800,Homestead Suites,"V, M",Lodging,
+3801,Wilderness Hotel and Resort,"V, M",Lodging,
+3802,The Palace Hotel,"V, M",Lodging,
+3803,The Wigwam Golf Resort and Spa,M,Lodging,
+3804,The Diplomat Country Club and Spa,M,Lodging,
+3805,The Atlantic,M,Lodging,
+3806,Princeville Resort,M,Lodging,
+3807,Element,"V, M",Lodging,
+3808,LXR (Luxury Resorts),"V, M",Lodging,
+3809,Settle Inn,M,Lodging,
+3810,La Costa Resort,M,Lodging,
+3811,Premier Travel Inns,"V, M",Lodging,
+3812,Hyatt Place,"V, M",Lodging,
+3813,Hotel Indigo,"V, M",Lodging,
+3814,The Roosevelt Hotel NY,"V, M",Lodging,
+3815,Nickelodeon Family Suites by Holiday Inn,"V, M",Lodging,
+3816,Home2Suites,"V, M",Lodging,
+3817,Affinia,M,Lodging,
+3818,Mainstay Suites,"V, M",Lodging,
+3819,Oxford Suites,"V, M",Lodging,
+3820,Jumeirah Essex House,"V, M",Lodging,
+3821,Caribe Royal,"V, M",Lodging,
+3822,Crossland,"V, M",Lodging,
+3823,Grand Sierra Resort,"V, M",Lodging,
+3824,Aria,"V, M",Lodging,
+3825,Vdara,"V, M",Lodging,
+3826,Autograph,"V, M",Lodging,
+3827,Galt House,"V, M",Lodging,
+3828,Cosmopolitan of Las Vegas,"V, M",Lodging,
+3829,Country Inn By Carlson,"V, M",Lodging,
+3830,Park Plaza Hotel,"V, M",Lodging,
+3831,Waldorf,"V, M",Lodging,

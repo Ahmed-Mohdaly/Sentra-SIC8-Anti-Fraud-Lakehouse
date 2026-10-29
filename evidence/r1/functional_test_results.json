@@ -1,0 +1,431 @@
+{
+  "test_summary": {
+    "status": "FAIL",
+    "duration_seconds": 300.0,
+    "target_tps": 1000.0,
+    "total_generated_transactions": 210030,
+    "total_delivered_transactions": 210030,
+    "total_failed_deliveries": 0,
+    "actual_generated_tps": 700.1,
+    "actual_delivered_tps": 700.1,
+    "delivery_success_rate_percent": 100.0
+  },
+  "latency_metrics": {
+    "observations": 100,
+    "p50_ms": 6.62,
+    "p90_ms": 7.46,
+    "p95_ms": 58.38,
+    "p99_ms": 67.59,
+    "sla_p95_met": false,
+    "sample_alerts": [
+      "\ud83d\udea8 FRAUD DETECTED! User=722, Card=1, Amount=$200.17 | Prob=0.952 | Reasons=['impossible_travel_speed_1089301kmh', 'credit_limit_exhaustion'] | Latency=6.27ms",
+      "\ud83d\udea8 FRAUD DETECTED! User=91, Card=1, Amount=$225.68 | Prob=0.361 | Reasons=[] | Latency=6.25ms",
+      "\ud83d\udea8 FRAUD DETECTED! User=891692, Card=0, Amount=$44.10 | Prob=0.333 | Reasons=['impossible_travel_speed_1345482kmh'] | Latency=6.51ms"
+    ]
+  },
+  "ingestion_pathways": {
+    "pathway_1_realtime_stream": {
+      "source": "FastAPI GeneratorService (ECS Fargate)",
+      "transport": "Amazon MSK Kafka (transactions topic)",
+      "destination": "S3 Bronze (s3://sic-pipeline-storage/bronze/transactions/)",
+      "status": "FAIL",
+      "delta_files_landed": 1199,
+      "sample_schema_verified": false
+    },
+    "pathway_2_debezium_cdc": {
+      "source": "Amazon RDS PostgreSQL (users, cards)",
+      "transport": "Debezium pgoutput -> MSK (users, cards)",
+      "destination": "S3 Bronze (s3://sic-pipeline-storage/bronze/users/, cards/)",
+      "status": "PASS",
+      "new_users_inserted": 7348,
+      "new_cards_inserted": 22143
+    },
+    "pathway_3_batch_reference": {
+      "source": "Amazon RDS PostgreSQL (MCC, Cities)",
+      "transport": "Scheduled Batch Extractor (PyArrow Parquet)",
+      "destination": "S3 Bronze (s3://sic-pipeline-storage/bronze/mcc/, cities/)",
+      "status": "PASS",
+      "mcc_snapshots": 153,
+      "cities_snapshots": 153
+    },
+    "pathway_4_incremental_keyset": {
+      "source": "FastAPI Rest API (http://13.38.219.168:8000/api/v1/transactions)",
+      "transport": "Incremental Extractor -> DynamoDB High-Water Mark",
+      "destination": "S3 Bronze Parquet (s3://sic-pipeline-storage/bronze/incremental_transactions/)",
+      "status": "PASS",
+      "extractor_cycle_result": {
+        "status": "ERROR",
+        "error": "cannot import name 'IncrementalExtractor' from 'ingestion.extractor' (/home/syd/Downloads/archive/src/ingestion/extractor.py)",
+        "records_fetched": 0
+      }
+    },
+    "pathway_5_ml_fraud_inference": {
+      "source": "Amazon MSK (transactions topic)",
+      "engine": "LightGBM + Amazon ElastiCache Redis Feature Store",
+      "destination": "Amazon MSK (fraud_alerts topic)",
+      "status": "FAIL",
+      "p95_latency_ms": 58.38,
+      "sla_threshold_ms": 10.0
+    },
+    "pathway_6_lakehouse_orchestration": {
+      "orchestrator": "Databricks Lakehouse Workflow Job",
+      "job_id": 815854574980923,
+      "destination": "Delta Lake Silver Cleansed & Gold Analytical Marts",
+      "status": "CONFIGURED_AND_READY",
+      "last_run": {
+        "run_id": 652390811526961,
+        "result_state": "SUCCESS",
+        "life_cycle_state": "TERMINATED",
+        "url": "https://dbc-d569636e-57c6.cloud.databricks.com/?o=7474655143693032#job/815854574980923/run/652390811526961"
+      }
+    }
+  },
+  "data_quality_assertions": {
+    "zero_streaming_leakage_to_postgres": {
+      "assertion": "Synthetic streaming transactions must strictly NOT land in PostgreSQL",
+      "status": "PASS",
+      "db_transactions_delta": 0
+    },
+    "s3_bronze_schema_integrity": {
+      "assertion": "S3 Bronze JSON records must contain canonical fields and non-null values",
+      "status": "FAIL",
+      "sampled_keys_count": 5,
+      "sample_payload": {
+        "schema_version": 1,
+        "event_id": "9e935c3f-cc31-4923-b4ba-2d1804c19ae4",
+        "event_type": "transaction.created",
+        "run_id": "run-0-1793099780",
+        "source_system": "POS_TERMINAL",
+        "scenario": "normal_spend",
+        "payload": {
+          "Zip": "10001.0",
+          "User": 1203,
+          "Errors?": null,
+          "Amount": "$109.36",
+          "Merchant Name": "554100009876543210",
+          "Is Fraud?": "No",
+          "Use Chip": "Chip Transaction",
+          "Time": "14:06",
+          "Merchant Latitude": 40.7128,
+          "MCC": 5541,
+          "Merchant Longitude": -74.006,
+          "Card": 1,
+          "Month": 10,
+          "Year": 2026,
+          "Merchant State": "NY",
+          "Merchant City": "New York",
+          "Day": 29,
+          "Transaction Entry Method": "contactless_chip"
+        },
+        "event_timestamp": "2026-10-29T14:06:50.840747+00:00"
+      }
+    },
+    "zero_delivery_failures": {
+      "assertion": "All generated transactions delivered to MSK with zero publisher drops",
+      "status": "PASS",
+      "total_failed": 0
+    }
+  },
+  "snapshots": {
+    "before": {
+      "timestamp": "2026-10-29T14:02:47.691195+00:00",
+      "generator_status": {
+        "worker_id": 0,
+        "total_workers": 1,
+        "state": "STOPPED",
+        "target_tps": 1000.0,
+        "actual_generated_tps": 1.01,
+        "uptime_seconds": 0.0,
+        "total_transactions_generated": 79906,
+        "total_prerequisite_events_generated": 10987,
+        "existing_user_transactions": 71854,
+        "new_user_transactions": 8052,
+        "observed_new_user_ratio": 0.1008,
+        "publisher_health": {
+          "status": "healthy",
+          "buffered_messages": 0,
+          "total_published": 79906,
+          "total_delivered": 79906,
+          "total_failed": 0,
+          "last_error": null
+        },
+        "database_health": {
+          "status": "healthy",
+          "database": "postgresql"
+        },
+        "database_counts": {
+          "transactions": 32353,
+          "users": 5911,
+          "cards": 17857,
+          "mcc": 914,
+          "city_reference": 1433
+        },
+        "in_flight_messages": 0,
+        "failed_deliveries": 0,
+        "last_error": null
+      },
+      "db_counts": {
+        "transactions": 32353,
+        "users": 5911,
+        "cards": 17857,
+        "mcc": 914,
+        "city_reference": 1433
+      },
+      "s3_object_counts": {
+        "transactions": 1689,
+        "users": 3,
+        "cards": 3,
+        "mcc": 153,
+        "cities": 153,
+        "incremental": 0
+      },
+      "dynamodb_watermark": {
+        "pipeline_id": "transactions_incremental_extractor",
+        "last_since_id": 32353,
+        "total_records": 32348,
+        "last_ingested_at": "2026-10-25T20:25:55.642942+00:00"
+      }
+    },
+    "after": {
+      "timestamp": "2026-10-29T14:08:13.125935+00:00",
+      "generator_status": {
+        "worker_id": 0,
+        "total_workers": 1,
+        "state": "STOPPED",
+        "target_tps": 1000.0,
+        "actual_generated_tps": 7.03,
+        "uptime_seconds": 0.0,
+        "total_transactions_generated": 289936,
+        "total_prerequisite_events_generated": 40478,
+        "existing_user_transactions": 261067,
+        "new_user_transactions": 28869,
+        "observed_new_user_ratio": 0.0996,
+        "publisher_health": {
+          "status": "healthy",
+          "buffered_messages": 0,
+          "total_published": 289936,
+          "total_delivered": 289936,
+          "total_failed": 0,
+          "last_error": null
+        },
+        "database_health": {
+          "status": "healthy",
+          "database": "postgresql"
+        },
+        "database_counts": {
+          "transactions": 32353,
+          "users": 13259,
+          "cards": 40000,
+          "mcc": 914,
+          "city_reference": 1433
+        },
+        "in_flight_messages": 0,
+        "failed_deliveries": 0,
+        "last_error": null
+      },
+      "db_counts": {
+        "transactions": 32353,
+        "users": 13259,
+        "cards": 40000,
+        "mcc": 914,
+        "city_reference": 1433
+      },
+      "s3_object_counts": {
+        "transactions": 2888,
+        "users": 3,
+        "cards": 3,
+        "mcc": 153,
+        "cities": 153,
+        "incremental": 0
+      },
+      "dynamodb_watermark": {
+        "pipeline_id": "transactions_incremental_extractor",
+        "last_since_id": 32353,
+        "total_records": 32348,
+        "last_ingested_at": "2026-10-25T20:25:55.642942+00:00"
+      }
+    }
+  },
+  "periodic_samples": [
+    {
+      "elapsed_sec": 15.0,
+      "actual_tps": 678.61,
+      "total_generated": 90827,
+      "total_delivered": 90808,
+      "total_failed": 0,
+      "users_count": 6235,
+      "cards_count": 18862
+    },
+    {
+      "elapsed_sec": 30.3,
+      "actual_tps": 755.58,
+      "total_generated": 101656,
+      "total_delivered": 101635,
+      "total_failed": 0,
+      "users_count": 6615,
+      "cards_count": 20022
+    },
+    {
+      "elapsed_sec": 45.5,
+      "actual_tps": 755.61,
+      "total_generated": 112373,
+      "total_delivered": 112364,
+      "total_failed": 0,
+      "users_count": 7009,
+      "cards_count": 21212
+    },
+    {
+      "elapsed_sec": 60.8,
+      "actual_tps": 745.72,
+      "total_generated": 123106,
+      "total_delivered": 123092,
+      "total_failed": 0,
+      "users_count": 7387,
+      "cards_count": 22331
+    },
+    {
+      "elapsed_sec": 76.0,
+      "actual_tps": 747.7,
+      "total_generated": 133611,
+      "total_delivered": 133591,
+      "total_failed": 0,
+      "users_count": 7759,
+      "cards_count": 23424
+    },
+    {
+      "elapsed_sec": 91.4,
+      "actual_tps": 366.23,
+      "total_generated": 144296,
+      "total_delivered": 144272,
+      "total_failed": 0,
+      "users_count": 8151,
+      "cards_count": 24573
+    },
+    {
+      "elapsed_sec": 106.7,
+      "actual_tps": 369.8,
+      "total_generated": 155023,
+      "total_delivered": 155000,
+      "total_failed": 0,
+      "users_count": 8532,
+      "cards_count": 25773
+    },
+    {
+      "elapsed_sec": 121.9,
+      "actual_tps": 367.68,
+      "total_generated": 165631,
+      "total_delivered": 165612,
+      "total_failed": 0,
+      "users_count": 8912,
+      "cards_count": 26925
+    },
+    {
+      "elapsed_sec": 137.2,
+      "actual_tps": 426.92,
+      "total_generated": 176244,
+      "total_delivered": 176229,
+      "total_failed": 0,
+      "users_count": 9278,
+      "cards_count": 28011
+    },
+    {
+      "elapsed_sec": 152.4,
+      "actual_tps": 357.76,
+      "total_generated": 186924,
+      "total_delivered": 186908,
+      "total_failed": 0,
+      "users_count": 9651,
+      "cards_count": 29154
+    },
+    {
+      "elapsed_sec": 167.7,
+      "actual_tps": 750.48,
+      "total_generated": 197809,
+      "total_delivered": 197796,
+      "total_failed": 0,
+      "users_count": 10003,
+      "cards_count": 30235
+    },
+    {
+      "elapsed_sec": 182.9,
+      "actual_tps": 698.31,
+      "total_generated": 208370,
+      "total_delivered": 208348,
+      "total_failed": 0,
+      "users_count": 10395,
+      "cards_count": 31378
+    },
+    {
+      "elapsed_sec": 198.2,
+      "actual_tps": 786.51,
+      "total_generated": 219056,
+      "total_delivered": 219031,
+      "total_failed": 0,
+      "users_count": 10719,
+      "cards_count": 32373
+    },
+    {
+      "elapsed_sec": 213.5,
+      "actual_tps": 694.56,
+      "total_generated": 229885,
+      "total_delivered": 229865,
+      "total_failed": 0,
+      "users_count": 11072,
+      "cards_count": 33451
+    },
+    {
+      "elapsed_sec": 228.7,
+      "actual_tps": 744.32,
+      "total_generated": 240329,
+      "total_delivered": 240305,
+      "total_failed": 0,
+      "users_count": 11469,
+      "cards_count": 34649
+    },
+    {
+      "elapsed_sec": 244.0,
+      "actual_tps": 647.92,
+      "total_generated": 250770,
+      "total_delivered": 250747,
+      "total_failed": 0,
+      "users_count": 11864,
+      "cards_count": 35818
+    },
+    {
+      "elapsed_sec": 259.2,
+      "actual_tps": 733.72,
+      "total_generated": 261291,
+      "total_delivered": 261263,
+      "total_failed": 0,
+      "users_count": 12240,
+      "cards_count": 36945
+    },
+    {
+      "elapsed_sec": 274.5,
+      "actual_tps": 700.43,
+      "total_generated": 271783,
+      "total_delivered": 271768,
+      "total_failed": 0,
+      "users_count": 12620,
+      "cards_count": 38079
+    },
+    {
+      "elapsed_sec": 289.7,
+      "actual_tps": 715.11,
+      "total_generated": 282477,
+      "total_delivered": 282455,
+      "total_failed": 0,
+      "users_count": 12997,
+      "cards_count": 39214
+    },
+    {
+      "elapsed_sec": 300.0,
+      "actual_tps": 751.63,
+      "total_generated": 289859,
+      "total_delivered": 289837,
+      "total_failed": 0,
+      "users_count": 13258,
+      "cards_count": 39996
+    }
+  ]
+}

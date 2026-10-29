@@ -1,1 +1,0 @@
-R2 Ahmed Mohdaly: replace starter Spark wrappers with actually executed exported notebooks: Kafka S3 parsing, CDC SCD2, Silver idempotent merge, stateful windows, fraud rules, predictions/alerts normalization and Gold SQL. Include job IDs and tests in `evidence/r2`. No notebook should overwrite existing UC tables automatically.

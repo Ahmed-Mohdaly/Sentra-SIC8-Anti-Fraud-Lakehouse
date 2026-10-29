@@ -1,0 +1,399 @@
+{
+  "model_version": "v2_remediated",
+  "trained_timestamp": "2026-10-28T18:38:11.682894",
+  "training_duration_seconds": 5.9092018604278564,
+  "feature_names": [
+    "amount",
+    "log_amount",
+    "spend_deviation_ratio",
+    "credit_limit_utilization",
+    "amount_zscore",
+    "current_age",
+    "fico_score",
+    "yearly_income",
+    "total_debt",
+    "num_credit_cards",
+    "credit_limit",
+    "card_age_at_tx_years",
+    "years_since_pin_changed",
+    "distance_to_home_km",
+    "time_since_last_tx_sec",
+    "travel_speed_kmh",
+    "tx_count_last_1h",
+    "tx_count_last_24h",
+    "spend_sum_last_1h",
+    "is_night_tx",
+    "sin_hour",
+    "cos_hour",
+    "has_chip",
+    "card_on_dark_web",
+    "use_chip_code",
+    "card_brand_code",
+    "card_type_code",
+    "entry_method_code",
+    "is_online_tx",
+    "is_credential_error",
+    "is_insufficient_balance",
+    "is_refund",
+    "mcc_high_risk_flag",
+    "mcc_risk_score"
+  ],
+  "temporal_protocol": {
+    "train_period": "<= 2016",
+    "validation_period": "2017",
+    "test_period": "2018-2019",
+    "threshold_selection_source": "validation_set_2017"
+  },
+  "optimal_threshold": 0.0453,
+  "validation_metrics": {
+    "roc_auc": 0.8746438880737777,
+    "pr_auc": 0.10816051211250512,
+    "optimal_threshold": 0.0453,
+    "recall": 0.8117647058823529,
+    "precision": 0.028508469907726208,
+    "fpr": 0.2355337406925106,
+    "f1": 0.05508249068653539,
+    "expected_cost": 41030.0
+  },
+  "test_metrics_sampled": {
+    "roc_auc": 0.8494377352121907,
+    "pr_auc": 0.40770466673619543,
+    "recall": 0.7745740498034076,
+    "precision": 0.2147268983892455,
+    "specificity": 0.7590442037198759,
+    "false_positive_rate": 0.24095579628012412,
+    "false_negative_rate": 0.2254259501965924,
+    "f1_score": 0.33624122890195335,
+    "balanced_accuracy": 0.7668091267616417,
+    "mcc": 0.31848673762488816,
+    "confusion_matrix": {
+      "tn": 40851,
+      "fp": 12968,
+      "fn": 1032,
+      "tp": 3546
+    }
+  },
+  "test_metrics_production_prevalence": {
+    "assumed_prevalence": 0.0012202,
+    "adjusted_precision": 0.003911871672539452,
+    "adjusted_f1": 0.0077844292366017614,
+    "false_alarm_ratio": 254.6321075202435
+  },
+  "velocity_feature_gains": {
+    "time_since_last_tx_sec": 284240.341653201,
+    "tx_count_last_1h": 24630.021963596344,
+    "tx_count_last_24h": 79979.97845872001,
+    "travel_speed_kmh": 28018.996356487274,
+    "spend_sum_last_1h": 313288.3809783193
+  },
+  "top_features": [
+    {
+      "rank": 1,
+      "feature": "mcc_risk_score",
+      "gain": 3219470.6928306385
+    },
+    {
+      "rank": 2,
+      "feature": "use_chip_code",
+      "gain": 1867066.8600657166
+    },
+    {
+      "rank": 3,
+      "feature": "spend_sum_last_1h",
+      "gain": 313288.3809783193
+    },
+    {
+      "rank": 4,
+      "feature": "entry_method_code",
+      "gain": 303698.5303532451
+    },
+    {
+      "rank": 5,
+      "feature": "time_since_last_tx_sec",
+      "gain": 284240.341653201
+    },
+    {
+      "rank": 6,
+      "feature": "spend_deviation_ratio",
+      "gain": 222568.45980340824
+    },
+    {
+      "rank": 7,
+      "feature": "cos_hour",
+      "gain": 211179.7801913382
+    },
+    {
+      "rank": 8,
+      "feature": "yearly_income",
+      "gain": 166176.81407948062
+    },
+    {
+      "rank": 9,
+      "feature": "credit_limit",
+      "gain": 135839.96511641465
+    },
+    {
+      "rank": 10,
+      "feature": "sin_hour",
+      "gain": 135394.13584582444
+    },
+    {
+      "rank": 11,
+      "feature": "amount",
+      "gain": 132098.1662520899
+    },
+    {
+      "rank": 12,
+      "feature": "log_amount",
+      "gain": 124791.47196557735
+    },
+    {
+      "rank": 13,
+      "feature": "fico_score",
+      "gain": 123963.08946021346
+    },
+    {
+      "rank": 14,
+      "feature": "current_age",
+      "gain": 117551.62138729067
+    },
+    {
+      "rank": 15,
+      "feature": "total_debt",
+      "gain": 116672.22323884002
+    },
+    {
+      "rank": 16,
+      "feature": "num_credit_cards",
+      "gain": 111588.06138695206
+    },
+    {
+      "rank": 17,
+      "feature": "distance_to_home_km",
+      "gain": 105906.69193361685
+    },
+    {
+      "rank": 18,
+      "feature": "credit_limit_utilization",
+      "gain": 98780.21565203332
+    },
+    {
+      "rank": 19,
+      "feature": "years_since_pin_changed",
+      "gain": 90506.69075055014
+    },
+    {
+      "rank": 20,
+      "feature": "tx_count_last_24h",
+      "gain": 79979.97845872001
+    },
+    {
+      "rank": 21,
+      "feature": "card_age_at_tx_years",
+      "gain": 68712.59499255265
+    },
+    {
+      "rank": 22,
+      "feature": "amount_zscore",
+      "gain": 60442.669667223636
+    },
+    {
+      "rank": 23,
+      "feature": "mcc_high_risk_flag",
+      "gain": 54884.14361067428
+    },
+    {
+      "rank": 24,
+      "feature": "travel_speed_kmh",
+      "gain": 28018.996356487274
+    },
+    {
+      "rank": 25,
+      "feature": "tx_count_last_1h",
+      "gain": 24630.021963596344
+    },
+    {
+      "rank": 26,
+      "feature": "has_chip",
+      "gain": 22118.03861142695
+    },
+    {
+      "rank": 27,
+      "feature": "is_credential_error",
+      "gain": 21906.069924901698
+    },
+    {
+      "rank": 28,
+      "feature": "card_brand_code",
+      "gain": 20003.25640577078
+    },
+    {
+      "rank": 29,
+      "feature": "is_online_tx",
+      "gain": 16881.082244873047
+    },
+    {
+      "rank": 30,
+      "feature": "card_type_code",
+      "gain": 13572.546250224113
+    },
+    {
+      "rank": 31,
+      "feature": "is_night_tx",
+      "gain": 4612.117844270298
+    },
+    {
+      "rank": 32,
+      "feature": "is_insufficient_balance",
+      "gain": 3826.4098567962646
+    },
+    {
+      "rank": 33,
+      "feature": "card_on_dark_web",
+      "gain": 0.0
+    },
+    {
+      "rank": 34,
+      "feature": "is_refund",
+      "gain": 0.0
+    }
+  ],
+  "baseline_comparison": {
+    "baseline_model_path": "models/fraud_lgbm_model.joblib",
+    "baseline_threshold": 0.066,
+    "baseline_test_roc_auc": 0.8669360683587013,
+    "baseline_test_pr_auc": 0.49255047780114375,
+    "baseline_test_recall": 0.2016164263870686,
+    "baseline_test_precision": 0.7395833333333334,
+    "baseline_test_fpr": 0.006038759545885282,
+    "baseline_test_f1": 0.31685547545485754,
+    "baseline_confusion_matrix": {
+      "tn": 53494,
+      "fp": 325,
+      "fn": 3655,
+      "tp": 923
+    }
+  },
+  "mcc_risk_map": {
+    "5300": 0.00251,
+    "5411": 0.00024,
+    "5651": 0.00586,
+    "5912": 0.00075,
+    "5970": 0.00107,
+    "7538": 7e-05,
+    "5814": 0.00059,
+    "4900": 0.0,
+    "5541": 5e-05,
+    "5942": 0.00027,
+    "7832": 0.00125,
+    "5311": 0.00542,
+    "4899": 0.00061,
+    "4829": 0.0018,
+    "5812": 0.00017,
+    "5499": 3e-05,
+    "5719": 0.00571,
+    "4814": 0.00125,
+    "7210": 0.00075,
+    "5193": 0.01403,
+    "3058": 0.0127,
+    "3395": 0.00798,
+    "6300": 0.0,
+    "8043": 0.00098,
+    "7230": 3e-05,
+    "5211": 0.00133,
+    "5310": 0.00499,
+    "8011": 0.0005,
+    "3066": 0.0057,
+    "3390": 0.01029,
+    "3684": 0.00696,
+    "3640": 0.00816,
+    "5921": 0.00143,
+    "5815": 0.00978,
+    "5813": 0.00055,
+    "7542": 0.00096,
+    "7996": 0.01806,
+    "7349": 0.00023,
+    "3132": 0.00661,
+    "3722": 0.00908,
+    "9402": 0.00064,
+    "5655": 0.00178,
+    "7011": 0.00916,
+    "5661": 0.00381,
+    "4722": 0.00883,
+    "3596": 0.01142,
+    "3405": 0.00753,
+    "3387": 0.00893,
+    "5251": 0.00374,
+    "4121": 0.00053,
+    "8099": 0.001,
+    "3771": 0.00839,
+    "3509": 0.00766,
+    "8021": 0.00047,
+    "8041": 0.00034,
+    "3780": 0.01038,
+    "3359": 0.00603,
+    "3389": 0.00929,
+    "4214": 0.00168,
+    "3504": 0.00898,
+    "4131": 0.02408,
+    "5621": 0.00264,
+    "3730": 0.0091,
+    "5094": 0.05965,
+    "3001": 0.01327,
+    "4411": 0.50415,
+    "5732": 0.08431,
+    "3007": 0.06056,
+    "7922": 0.00595,
+    "5733": 0.208,
+    "7995": 0.00242,
+    "3393": 0.00675,
+    "1711": 1e-05,
+    "8049": 0.0002,
+    "5712": 0.05027,
+    "3775": 0.00841,
+    "3256": 0.00824,
+    "3000": 0.0155,
+    "5533": 0.03316,
+    "3008": 0.07369,
+    "4112": 0.04731,
+    "3174": 0.00555,
+    "5932": 0.00895,
+    "3260": 0.00677,
+    "7801": 0.00633,
+    "8111": 1e-05,
+    "4511": 0.02343,
+    "5816": 0.07337,
+    "7802": 0.00066,
+    "7531": 0.00661,
+    "7549": 0.00947,
+    "7276": 1e-05,
+    "8931": 1e-05,
+    "8062": 0.00436,
+    "5261": 1e-05,
+    "5722": 0.03638,
+    "5045": 0.08644,
+    "3006": 0.0833,
+    "3005": 0.05929,
+    "4784": 0.0,
+    "4111": 0.0,
+    "5977": 0.01371,
+    "3075": 0.05981,
+    "3009": 0.05575,
+    "3144": 0.08135,
+    "5941": 0.02378,
+    "5192": 0.0,
+    "5947": 0.00421,
+    "7393": 0.0
+  },
+  "global_defaults": {
+    "user_avg_spend": 48.5,
+    "user_std_spend": 38.2,
+    "credit_limit": 5000.0,
+    "fico_score": 700.0,
+    "current_age": 42.0,
+    "yearly_income": 55000.0,
+    "total_debt": 25000.0,
+    "num_credit_cards": 3.0,
+    "global_fraud_rate": 0.0015
+  }
+}

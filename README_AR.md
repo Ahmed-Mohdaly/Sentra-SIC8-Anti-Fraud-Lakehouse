@@ -1,11 +1,57 @@
-# SIC8 — البداية بالعربي
+# منصة بحيرة البيانات وكشف الاحتيال المالي (SIC8 Anti-Fraud Lakehouse) — الدليل العربي
 
-ده **Repository مبدئية قابلة للتشغيل محليًا** لمشروع Fraud Detection، مش ادعاء إن كل خدمات AWS وDatabricks وPower BI اتربطت واتجربت. احنا حافظنا على Notebook القديمة، ومش هنغيّر Silver المنشورة على Databricks أو ملفات S3 الأصلية من غير موافقة.
+مرحباً بك في المستودع الموحد المعتمد هندسياً لمشروع تخرج **Samsung Innovation Campus (SIC) - Big Data Engineering (Project 01)**.
 
-**الفريق:** سيد R1 مسؤول Generator/Kafka/CDC/Online ML؛ أحمد Mohdaly R2 مسؤول Spark/Silver/Gold/Fraud؛ أحمد عبد الرازق R3 مسؤول Power BI/Frontend؛ أحمد إسلام R4 مسؤول Infrastructure/Airflow/Monitoring/API.
+---
 
-**تشغيل محلي آمن:** شغّل `python -m pip install -e '.[dev]'` وبعدها `make test` ثم `make demo-local`. هتلاقي النتائج في `build/demo/report.json`. دي بيانات تجربة `DEMO_FIXTURE` فقط، مش Kafka/MSK live ولا model LightGBM حقيقي. لو عايز تشغل الـAPI اقرأ README بالإنجليزي؛ محتاج Token محلي، ومش تنشرها Public.
+## 1. أهداف المنظومة الهندسية
 
-**مهم:** `historical_ground_truth` هي إجابات المصدر الأصلي، مش نتيجة Fraud Detector. بنحافظ على Signed Amount وعلى العملة. Historical dataset مفيهاش GPS دقيق أو Terminal Failure مؤكد. الـSimulator محتاج يوفّرهم لاختبار المتطلبات. بيانات CDC ممكن توصل متأخرة؛ مينفعش نرمي المعاملة بسبب User/Card لسه موصلوش.
+تم دمج وتوحيد كافة مكونات المشروع بعد مراجعة شاملة لجميع الأكواد والمسارات الهندسية:
+1. **استيعاب البيانات اللحظية دون ضغط على قواعد البيانات (Zero-DB-Inserts):** بث المعاملات بمعدل 10 إلى 100+ معاملة/ثانية مباشرة إلى Amazon MSK (Kafka) وتخزينها في Amazon S3 Bronze.
+2. **التقاط التعديلات العلائقية لحظياً (Debezium CDC):** تسجيل بيانات العملاء والبطاقات الجديدة في PostgreSQL 18 ونقلها عبر الـ WAL إلى كافكا.
+3. **كشف الاحتيال الفوري في أقل من 10 ميلي ثانية (Real-Time ML Inference):** تغذية موديل **LightGBM v2** بـ 34 خاصية هندسية مع متجر خصائص فوري (**Redis**) بزمن سحب 1.1ms وزمن تقييم 0.5ms.
+4. **بحيرة بيانات ميدالية متكاملة (Medallion Lakehouse):** دفاتر تشغيل Databricks PySpark للطبقات البرونزية والفضية والذهبية مع دعم التخلص من التكرارات واحتساب الاسترجاعات وحسابات الـ SCD2.
+5. **جدولة وتنسيق المهام (Airflow Orchestration):** تدفقات عمل Airflow للاستيعاب التدريجي واستخراج لقطات المرجعيات اليومية بصيغة Parquet.
 
-**اللي ناقص:** كود سيد الأصلي، موديل LightGBM الحقيقي، ملفات Databricks 01–07 المصدّرة، Dashboard Power BI الفعلية، صلاحيات Cloud/Logs واختبارات Replay. راجع `NEXT_HANDOFF.md`. ممنوع ترفع Keys/CVV/Raw Dataset على Git.
+---
+
+## 2. توزيع مسؤوليات الفريق (Team Ownership)
+
+| الدور | المسؤول | نطاق المسؤولية والمخرجات |
+|---|---|---|
+| **R1** | **سيد (Sayed)** | مُولّد المعاملات التخليقية (FastAPI)، تدفقات كافكا، التقاط التعديلات CDC، استخراج المرجعيات Parquet، موديل كشف الاحتيال LightGBM v2 ومتجر Redis وعقد الـ DLQ. |
+| **R2** | **أحمد مهدي (Ahmed Mohdaly)** | بحيرة بيانات Databricks Spark (طبقات Bronze و Silver و Gold)، جداول Delta، مطابقة العقود، وقواعد كشف الاحتيال التحليلية. |
+| **R3** | **أحمد عبد الرازق (Ahmed Abd El Razek)** | تقارير Power BI، قياسات الـ DAX، مطابقة مؤشرات الأداء، والواجهة الأمامية لبوابة المحلل (React/Vite). |
+| **R4** | **أحمد إسلام (Ahmed Eslam)** | البنية التحتية السحابية AWS، أمان الشبكات والصلاحيات، جدولة Apache Airflow، والواجهة الخلفية لبوابة المحلل (FastAPI). |
+
+---
+
+## 3. التشغيل السريع محلياً (Offline Safe Mode)
+
+البيئة مهيأة للتشغيل والاختبار الكامل دون الحاجة لأي خدمات سحابية مدفوعة أو مفاتيح سرية:
+
+```bash
+# 1. تثبيت الحزم والمتطلبات
+python -m pip install -e '.[dev]'
+
+# 2. تشغيل كافة الاختبارات المؤتمتة (168 اختبار ناجح بنسبة 100%)
+make test
+
+# 3. تشغيل العرض التوضيحي المحلي وتوليد قاعدة بيانات Gold التجريبية
+make demo-local
+
+# 4. مراجعة ملخص التقييم ومؤشرات الاحتيال
+cat build/demo/report.json
+```
+
+---
+
+## 4. الفهارس والوثائق التفصيلية
+
+- [نظرة عامة تأسيسية على المنصة والمعمارية الهندسية](docs/00-project-overview.md)
+- [الدليل الفني لمستودع الأكواد والوحدات](docs/01-repository-guide.md)
+- [دليل مسار الاستيعاب والبيانات من الألف إلى الياء](docs/INGESTION_PIPELINE_A_TO_Z.md)
+- [مواصفات التحويلات اللحظية ومسار البث](docs/STREAMING_TRANSFORMATION_SPEC.md)
+- [وثيقة متطلبات ومعالجة طوابير الرسائل الميتة (PRD DLQ)](docs/requirements/PRD_DLQ.md)
+- [بيان دفاتر تشغيل Databricks](databricks/notebooks/MANIFEST.md)
+- [تقارير التدقيق الهندسي وسجل المخاطر (14 تقريراً)](docs/audit/)

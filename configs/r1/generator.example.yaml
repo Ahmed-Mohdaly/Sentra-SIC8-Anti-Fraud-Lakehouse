@@ -1,0 +1,43 @@
+# Synthetic Transaction Data Provider Configuration Example
+
+app_env: "development"
+database_url: "postgresql://postgres:postgrespassword@localhost:5432/synthetic_db"
+generator_rate: 10.0
+target_tps: 10.0
+generator_batch_size: 50
+auto_seed: true
+random_seed: 42
+baseline_data_dir: "."
+new_user_transaction_ratio: 0.10
+max_events: null
+run_duration_seconds: null
+
+# Scenario Weights
+scenario_weights:
+  normal_spend: 0.85
+  high_value: 0.03
+  unusual_location: 0.03
+  fraud_labelled: 0.002
+  declined_error: 0.04
+  refund_return: 0.03
+  repeated_attempt: 0.01
+  late_event: 0.008
+
+# Source System Weights
+source_weights:
+  pos_terminal: 0.50
+  ecommerce_gateway: 0.30
+  atm_network: 0.05
+  digital_wallet: 0.10
+  issuer_processor: 0.03
+  recurring_billing: 0.02
+
+# Data Quality testing (opt-in)
+inject_invalid_events: false
+invalid_event_rate: 0.01
+
+# Management API
+api_host: "0.0.0.0"
+api_port: 8000
+api_key: null
+log_level: "INFO"

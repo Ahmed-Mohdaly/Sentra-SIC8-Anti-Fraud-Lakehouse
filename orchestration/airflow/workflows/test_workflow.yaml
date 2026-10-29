@@ -1,0 +1,9 @@
+test_workflow:
+  dag_id: test_workflow
+  schedule: "0 * * * *"
+  description: "Test MWAA Serverless Workflow"
+  tasks:
+    list_bronze_objects:
+      operator: airflow.providers.amazon.aws.operators.s3.S3ListOperator
+      bucket: sic-pipeline-storage
+      prefix: "bronze/"

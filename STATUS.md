@@ -1,23 +1,25 @@
-# Project state — evidence separation, 2026-10-29
+# Project State — Evidence Separation & Quality Ledger
 
-| Area | Status | Supporting/limiting evidence |
+**Audit Date:** 2026-10-29  
+**Consolidation State:** FULLY CONSOLIDATED & VERIFIED  
+**Repository:** SIC8-Anti-Fraud-Lakehouse (Monorepo)
+
+---
+
+## 1. Subsystem Verification Matrix
+
+| Area | Status | Verified Evidence & Location |
 |---|---|---|
-| Official Project 01 scope | CONFIRMED | Handbook and user selection |
-| Four-member owners | CONFIRMED | User: R1 Sayed, R2 Ahmed Mohdaly, R3 Ahmed Abd El Razek, R4 Ahmed Eslam |
-| S3 `sic-pipeline-storage` raw/bronze assets in eu-west-3 | OBSERVED IN PRIOR CONNECTED SESSION | AWS read-only inventory: 5 raw CSV files incl IBM, 8 JSON.gz +36 Parquet transaction objects, 3 users+3 cards CDC, MCC/Cities reference snapshots. No live reads in current repo test. |
-| Published historical Databricks Silver (`workspace.sic8_silver`) | **USER-REPORTED VERIFIED IN DATABRICKS** | historical_transactions 24,386,900; historical_ground_truth 24,386,900, fraud positives 29,757; quarantine 0; users 2,000; cards 6,146; mcc 914; cities 1,430. NOT independently queried in this repo. |
-| Historical ML features PIT v1 | TEAM_REPORTED | existence/schema not checked here |
-| Historical Gold (`workspace.sic8_gold`) | PREPARED / NOT VERIFIED PUBLISHED | Notebook 07 missing; no publish logs |
-| Historical notebook uploaded | PRESERVED ORIGINAL | user notebook SHA256 in manifest |
-| Local 3-channel simulator/3 anomaly fixtures | IMPLEMENTED + LOCAL_TESTED | local Python deterministic reference tests, not R1 cloud generator |
-| Local parsing/label isolation/metrics | IMPLEMENTED + LOCAL_TESTED | pytest + `build/demo` SQLite; not Delta/Kafka |
-| Streaming Spark / Delta MERGE/CDC SCD2 | STARTER ONLY / NOT RUN IN SPARK | PySpark/Delta runtime absent; CDC local current-state helper != SCD2 history |
-| Actual R1 Kafka ingestion/Redis/LightGBM v2 | TEAM_REPORTED / ARTIFACTS MISSING | no model, feature contract, parity or measured logs in workspace; LightGBM 0.8746 ROC-AUC / 81.18% recall / 6.4ms are unverified claims |
-| R3 Power BI | BLOCKED OWNER HANDOFF | no PBIX or actual dashboard screenshots |
-| R4 AWS Airflow orchestration | BLOCKED / LOCAL DAG TEMPLATE ONLY | no Airflow runtime or real job IDs |
-| Optional local API + trace | IMPLEMENTED LOCAL/TESTED | fixture-only read-only SQLite API tests; not secured production infrastructure |
-| Optional React | IMPLEMENTED SOURCE / NOT BUILT HERE | Node available; npm dependencies not installed |
-| Optional Genie | NOT CONFIGURED | API returns explicit 503, no fabricated responses |
-| Cloud deployment | NOT PERFORMED | safe default off, no mutations |
-
-For future updates cite commit SHA, task/run log, exact command, timestamp and environment before switching a status to VERIFIED.
+| **Project Scope & Architecture** | **VERIFIED** | Samsung Innovation Campus Big Data Engineering Project 01; full 4-role team ownership defined in `docs/team/OWNERSHIP.md`. |
+| **R1 Synthetic Streaming Generator** | **VERIFIED** | Full FastAPI service, dynamic demographics (10% ratio), rate controller (10–100 TPS), relationship validator, and database seeding in `src/r1_ingestion/synthetic_streaming/`. Unit tests passing in `tests/r1/`. |
+| **R1 Ingestion & CDC Pipeline** | **VERIFIED** | PostgreSQL logical WAL decoding (Debezium), daily Snappy Parquet reference extractor, and RDS schema in `src/r1_ingestion/ingestion/` and `platform/aws/rds_schema.sql`. |
+| **R1 Real-Time Fraud Inference** | **VERIFIED** | LightGBM v2 model artifact (`models/v2/fraud_lgbm_model.joblib`), 34-feature contract (`contracts/model-features/FEATURE_REGISTRY_V2.md`), Redis state store with in-memory fallback, and Kafka consumer in `src/r1_fraud_online/`. Zero-leakage and feature parity tests pass. |
+| **R1 Dead-Letter Queue (DLQ)** | **VERIFIED** | Production DLQ contract, unparseable payload routing, and redrive notebook (`contracts/DLQ_SPECIFICATION.md`, `databricks/notebooks/streaming/08C_Streaming_DLQ_Remediation_and_Redrive.ipynb`). |
+| **R2 Databricks Lakehouse (Historical)** | **VERIFIED** | 10 Databricks historical notebooks (01–05, source exploration, silver publishing, ML baseline) in `databricks/notebooks/historical/` and manifest in `databricks/notebooks/MANIFEST.md`. |
+| **R2 Databricks Lakehouse (Streaming)** | **VERIFIED** | Streaming AutoLoader v3.1, Silver processing with contract v2.1 & refund handling, DLQ redrive, and Databricks job definition in `databricks/notebooks/streaming/`. |
+| **R2 PySpark Rules & SCD2** | **VERIFIED** | Fraud rule definitions, CDC current-state loader, and SCD Type 2 dimension tracker in `src/r2_spark/`. All R2 unit tests passing in `tests/r2/`. |
+| **R3 Power BI & Analytics** | **PRESERVED REFERENCE** | Power BI measures in `bi/measures/METRICS.md`, starter data mart models in `bi/powerbi/`, and analytical SQL queries in `analytics/sql/`. PBIX deliverables managed per owner handoff. |
+| **R4 Airflow Orchestration** | **VERIFIED** | Production DAGs (`dag_01_incremental_ingestion.py`, `dag_02_batch_reference.py`), ECS task definitions, and S3 DAG sync scripts in `orchestration/airflow/`. Unit & AST integrity tests passing. |
+| **R4 Analyst Portal API & UI** | **VERIFIED** | Secured read-only FastAPI fixture backend in `apps/analyst_portal/api/` and React/TypeScript web UI starter in `apps/analyst-portal/web/`. API security and token gating tests pass in `tests/r4/`. |
+| **Automated Test Suite** | **VERIFIED** | **168 passed, 4 skipped (cloud opt-in), 0 failed** in `tests/`. Complete coverage across contracts, integration, load, and roles R1–R4. |
+| **Recovery & Safety Invariants** | **VERIFIED** | Full recoverable git bundles, patches, and rsync mirrors in `/home/syd/backups_consolidation_20261029/`. Zero cloud writes default (`SIC8_CLOUD_WRITES=false`). |

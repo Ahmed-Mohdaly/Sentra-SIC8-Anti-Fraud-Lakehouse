@@ -1,0 +1,1434 @@
+city_name,state_code,country_code,latitude,longitude,coordinate_source,coordinate_precision
+Anchorage,AK,US,61.2000,-149.8200,US Census Bureau Gazetteer,city_center
+Ashville,AL,US,33.8300,-86.2600,US Census Bureau Gazetteer,city_center
+Athens,AL,US,34.7800,-86.9500,US Census Bureau Gazetteer,city_center
+Auburn,AL,US,32.5900,-85.4800,US Census Bureau Gazetteer,city_center
+Bessemer,AL,US,33.4300,-86.9900,US Census Bureau Gazetteer,city_center
+Birmingham,AL,US,33.5200,-86.7900,US Census Bureau Gazetteer,city_center
+Boaz,AL,US,34.2000,-86.1500,US Census Bureau Gazetteer,city_center
+Cullman,AL,US,34.1700,-86.8300,US Census Bureau Gazetteer,city_center
+Daphne,AL,US,30.6200,-87.8900,US Census Bureau Gazetteer,city_center
+Eight Mile,AL,US,30.7600,-88.1200,US Census Bureau Gazetteer,city_center
+Gadsden,AL,US,34.0100,-86.0100,US Census Bureau Gazetteer,city_center
+Gulf Shores,AL,US,30.2700,-87.7000,US Census Bureau Gazetteer,city_center
+Luverne,AL,US,31.7000,-86.2600,US Census Bureau Gazetteer,city_center
+Mobile,AL,US,30.6800,-88.0400,US Census Bureau Gazetteer,city_center
+Montgomery,AL,US,32.3500,-86.2800,US Census Bureau Gazetteer,city_center
+Moulton,AL,US,34.4800,-87.2800,US Census Bureau Gazetteer,city_center
+Northport,AL,US,33.2400,-87.5900,US Census Bureau Gazetteer,city_center
+Odenville,AL,US,33.6800,-86.3900,US Census Bureau Gazetteer,city_center
+Parrish,AL,US,33.7300,-87.2800,US Census Bureau Gazetteer,city_center
+Pennington,AL,US,32.1900,-88.0500,US Census Bureau Gazetteer,city_center
+Prattville,AL,US,32.4600,-86.4400,US Census Bureau Gazetteer,city_center
+Rainsville,AL,US,34.4900,-85.8400,US Census Bureau Gazetteer,city_center
+Selma,AL,US,32.4100,-87.0300,US Census Bureau Gazetteer,city_center
+Somerville,AL,US,34.4700,-86.8000,US Census Bureau Gazetteer,city_center
+Tuscaloosa,AL,US,33.2300,-87.5400,US Census Bureau Gazetteer,city_center
+Bigelow,AR,US,34.9900,-92.6300,US Census Bureau Gazetteer,city_center
+Blytheville,AR,US,35.9300,-89.9200,US Census Bureau Gazetteer,city_center
+Dover,AR,US,35.4000,-93.1100,US Census Bureau Gazetteer,city_center
+Fayetteville,AR,US,36.0700,-94.1500,US Census Bureau Gazetteer,city_center
+Greenbrier,AR,US,35.2200,-92.3800,US Census Bureau Gazetteer,city_center
+Hot Springs National Park,AR,US,34.5000,-93.0500,US Census Bureau Gazetteer,city_center
+Jacksonville,AR,US,34.8600,-92.1200,US Census Bureau Gazetteer,city_center
+Little Rock,AR,US,34.7200,-92.3500,US Census Bureau Gazetteer,city_center
+Mena,AR,US,34.5800,-94.2300,US Census Bureau Gazetteer,city_center
+North Little Rock,AR,US,34.7800,-92.2500,US Census Bureau Gazetteer,city_center
+Osceola,AR,US,35.7000,-89.9900,US Census Bureau Gazetteer,city_center
+Paragould,AR,US,36.0500,-90.5100,US Census Bureau Gazetteer,city_center
+Sherwood,AR,US,34.8300,-92.2000,US Census Bureau Gazetteer,city_center
+Tyronza,AR,US,35.4900,-90.3500,US Census Bureau Gazetteer,city_center
+Van Buren,AR,US,35.4400,-94.3500,US Census Bureau Gazetteer,city_center
+Wickes,AR,US,34.2900,-94.3300,US Census Bureau Gazetteer,city_center
+Buckeye,AZ,US,33.5600,-112.5700,US Census Bureau Gazetteer,city_center
+Chandler,AZ,US,33.2700,-111.9400,US Census Bureau Gazetteer,city_center
+Flagstaff,AZ,US,35.2900,-111.3200,US Census Bureau Gazetteer,city_center
+Gilbert,AZ,US,33.3000,-111.7400,US Census Bureau Gazetteer,city_center
+Glendale,AZ,US,33.5300,-112.1800,US Census Bureau Gazetteer,city_center
+Kingman,AZ,US,35.2400,-113.7600,US Census Bureau Gazetteer,city_center
+Lake Havasu City,AZ,US,34.6100,-114.3000,US Census Bureau Gazetteer,city_center
+Mesa,AZ,US,33.4400,-111.8500,US Census Bureau Gazetteer,city_center
+Phoenix,AZ,US,33.4484,-112.0740,US Census Bureau Gazetteer,city_center
+Rio Rico,AZ,US,31.5000,-111.0600,US Census Bureau Gazetteer,city_center
+Scottsdale,AZ,US,33.6100,-111.8900,US Census Bureau Gazetteer,city_center
+Seligman,AZ,US,35.1300,-112.9900,US Census Bureau Gazetteer,city_center
+Surprise,AZ,US,33.6100,-112.4600,US Census Bureau Gazetteer,city_center
+Tempe,AZ,US,33.3600,-111.9300,US Census Bureau Gazetteer,city_center
+Tucson,AZ,US,32.2100,-110.8800,US Census Bureau Gazetteer,city_center
+Winslow,AZ,US,35.1000,-110.6400,US Census Bureau Gazetteer,city_center
+Alhambra,CA,US,34.0900,-118.1300,US Census Bureau Gazetteer,city_center
+Anaheim,CA,US,33.8100,-117.9700,US Census Bureau Gazetteer,city_center
+Antioch,CA,US,37.9600,-121.7600,US Census Bureau Gazetteer,city_center
+Atherton,CA,US,37.4400,-122.2000,US Census Bureau Gazetteer,city_center
+Bakersfield,CA,US,35.1500,-119.0600,US Census Bureau Gazetteer,city_center
+Baldwin Park,CA,US,34.0900,-117.9600,US Census Bureau Gazetteer,city_center
+Banning,CA,US,33.9200,-116.8300,US Census Bureau Gazetteer,city_center
+Belmont,CA,US,37.5000,-122.3000,US Census Bureau Gazetteer,city_center
+Big Bear Lake,CA,US,34.2300,-116.8600,US Census Bureau Gazetteer,city_center
+Bloomington,CA,US,34.0600,-117.3900,US Census Bureau Gazetteer,city_center
+Burlingame,CA,US,37.5600,-122.3700,US Census Bureau Gazetteer,city_center
+Burney,CA,US,40.9400,-121.7400,US Census Bureau Gazetteer,city_center
+Calistoga,CA,US,38.6200,-122.6100,US Census Bureau Gazetteer,city_center
+Camarillo,CA,US,34.2300,-119.0700,US Census Bureau Gazetteer,city_center
+Camp Pendleton,CA,US,33.2900,-117.3000,US Census Bureau Gazetteer,city_center
+Canoga Park,CA,US,34.2200,-118.5900,US Census Bureau Gazetteer,city_center
+Capistrano Beach,CA,US,33.4500,-117.6600,US Census Bureau Gazetteer,city_center
+Carmel,CA,US,36.4600,-121.8200,US Census Bureau Gazetteer,city_center
+Carmichael,CA,US,38.6200,-121.3200,US Census Bureau Gazetteer,city_center
+Carpinteria,CA,US,34.3900,-119.5100,US Census Bureau Gazetteer,city_center
+Cayucos,CA,US,35.4800,-120.9200,US Census Bureau Gazetteer,city_center
+Chino,CA,US,33.9800,-117.6500,US Census Bureau Gazetteer,city_center
+Chula Vista,CA,US,32.6100,-117.0300,US Census Bureau Gazetteer,city_center
+Citrus Heights,CA,US,38.6900,-121.3100,US Census Bureau Gazetteer,city_center
+Clovis,CA,US,36.8100,-119.7100,US Census Bureau Gazetteer,city_center
+Compton,CA,US,33.9100,-118.2300,US Census Bureau Gazetteer,city_center
+Corona,CA,US,33.9000,-117.6100,US Census Bureau Gazetteer,city_center
+Culver City,CA,US,33.9900,-118.3900,US Census Bureau Gazetteer,city_center
+Daly City,CA,US,37.6800,-122.4300,US Census Bureau Gazetteer,city_center
+Diamond Bar,CA,US,34.0286,-117.8103,US Census Bureau Gazetteer,city_center
+Dinuba,CA,US,36.5200,-119.3900,US Census Bureau Gazetteer,city_center
+El Cajon,CA,US,32.7900,-116.9600,US Census Bureau Gazetteer,city_center
+Elk Grove,CA,US,38.4400,-121.3000,US Census Bureau Gazetteer,city_center
+Eureka,CA,US,40.7100,-124.1100,US Census Bureau Gazetteer,city_center
+Fair Oaks,CA,US,38.6500,-121.2500,US Census Bureau Gazetteer,city_center
+Fall River Mills,CA,US,41.0100,-121.4700,US Census Bureau Gazetteer,city_center
+Fontana,CA,US,34.1400,-117.4500,US Census Bureau Gazetteer,city_center
+Fremont,CA,US,37.5600,-121.9800,US Census Bureau Gazetteer,city_center
+Fresno,CA,US,36.8100,-119.7500,US Census Bureau Gazetteer,city_center
+Fullerton,CA,US,33.8700,-117.8900,US Census Bureau Gazetteer,city_center
+Garden Grove,CA,US,33.7800,-117.9300,US Census Bureau Gazetteer,city_center
+Gardena,CA,US,33.8800,-118.2700,US Census Bureau Gazetteer,city_center
+Glendale,CA,US,34.1300,-118.2400,US Census Bureau Gazetteer,city_center
+Glendora,CA,US,34.1400,-117.8500,US Census Bureau Gazetteer,city_center
+Harbor City,CA,US,33.7900,-118.2900,US Census Bureau Gazetteer,city_center
+Hawthorne,CA,US,33.9100,-118.3400,US Census Bureau Gazetteer,city_center
+Hemet,CA,US,33.7300,-117.0500,US Census Bureau Gazetteer,city_center
+Huntington Beach,CA,US,33.7200,-118.0000,US Census Bureau Gazetteer,city_center
+Inglewood,CA,US,33.9500,-118.3600,US Census Bureau Gazetteer,city_center
+La Habra,CA,US,33.9400,-117.9500,US Census Bureau Gazetteer,city_center
+La Mirada,CA,US,33.9000,-118.0000,US Census Bureau Gazetteer,city_center
+La Verne,CA,US,34.1500,-117.7600,US Census Bureau Gazetteer,city_center
+Ladera Ranch,CA,US,33.5600,-117.6300,US Census Bureau Gazetteer,city_center
+Laguna Beach,CA,US,33.5500,-117.7800,US Census Bureau Gazetteer,city_center
+Lake Forest,CA,US,33.6400,-117.6700,US Census Bureau Gazetteer,city_center
+Lakeside,CA,US,32.9000,-116.8900,US Census Bureau Gazetteer,city_center
+Lakewood,CA,US,33.8400,-118.0700,US Census Bureau Gazetteer,city_center
+Lincoln,CA,US,38.9300,-121.2500,US Census Bureau Gazetteer,city_center
+Long Beach,CA,US,33.8200,-118.1100,US Census Bureau Gazetteer,city_center
+Los Altos,CA,US,37.3400,-122.1100,US Census Bureau Gazetteer,city_center
+Los Angeles,CA,US,34.0522,-118.2437,US Census Bureau Gazetteer,city_center
+Lynwood,CA,US,33.9200,-118.2000,US Census Bureau Gazetteer,city_center
+Manteca,CA,US,37.7300,-121.2400,US Census Bureau Gazetteer,city_center
+Milpitas,CA,US,37.4400,-121.8700,US Census Bureau Gazetteer,city_center
+Mira Loma,CA,US,33.9892,-117.5156,US Census Bureau Gazetteer,city_center
+Mission Viejo,CA,US,33.6000,-117.6600,US Census Bureau Gazetteer,city_center
+Modesto,CA,US,37.6300,-121.0100,US Census Bureau Gazetteer,city_center
+Mokelumne Hill,CA,US,38.2900,-120.5800,US Census Bureau Gazetteer,city_center
+Monterey Park,CA,US,34.0625,-118.1228,US Census Bureau Gazetteer,city_center
+Moreno Valley,CA,US,33.9200,-117.2400,US Census Bureau Gazetteer,city_center
+Murphys,CA,US,38.1400,-120.4500,US Census Bureau Gazetteer,city_center
+Murrieta,CA,US,33.5700,-117.1400,US Census Bureau Gazetteer,city_center
+Newport Coast,CA,US,33.6000,-117.8200,US Census Bureau Gazetteer,city_center
+North Fork,CA,US,37.2300,-119.4900,US Census Bureau Gazetteer,city_center
+North Highlands,CA,US,38.6600,-121.3700,US Census Bureau Gazetteer,city_center
+North Hollywood,CA,US,34.2000,-118.3900,US Census Bureau Gazetteer,city_center
+Novato,CA,US,38.1000,-122.6300,US Census Bureau Gazetteer,city_center
+Oakland,CA,US,37.7800,-122.2400,US Census Bureau Gazetteer,city_center
+Oceanside,CA,US,33.1800,-117.2900,US Census Bureau Gazetteer,city_center
+Ontario,CA,US,34.0633,-117.6509,US Census Bureau Gazetteer,city_center
+Orange,CA,US,33.8100,-117.7900,US Census Bureau Gazetteer,city_center
+Oxnard,CA,US,34.2100,-119.1800,US Census Bureau Gazetteer,city_center
+Pacoima,CA,US,34.2500,-118.4100,US Census Bureau Gazetteer,city_center
+Palmdale,CA,US,34.5000,-118.0100,US Census Bureau Gazetteer,city_center
+Palo Alto,CA,US,37.4419,-122.1430,US Census Bureau Gazetteer,city_center
+Palos Verdes Peninsula,CA,US,33.7700,-118.3400,US Census Bureau Gazetteer,city_center
+Paradise,CA,US,39.7400,-121.6000,US Census Bureau Gazetteer,city_center
+Perris,CA,US,33.7800,-117.3300,US Census Bureau Gazetteer,city_center
+Petaluma,CA,US,38.2200,-122.5500,US Census Bureau Gazetteer,city_center
+Piedmont,CA,US,37.7700,-122.2100,US Census Bureau Gazetteer,city_center
+Pinole,CA,US,37.9900,-122.2700,US Census Bureau Gazetteer,city_center
+Placentia,CA,US,33.8800,-117.8500,US Census Bureau Gazetteer,city_center
+Pomona,CA,US,34.0600,-117.7900,US Census Bureau Gazetteer,city_center
+Portola Valley,CA,US,37.3700,-122.2100,US Census Bureau Gazetteer,city_center
+Poway,CA,US,32.9700,-117.0200,US Census Bureau Gazetteer,city_center
+Rancho Cordova,CA,US,38.5700,-121.1700,US Census Bureau Gazetteer,city_center
+Rancho Cucamonga,CA,US,34.0900,-117.5800,US Census Bureau Gazetteer,city_center
+Redding,CA,US,40.5200,-122.3200,US Census Bureau Gazetteer,city_center
+Redlands,CA,US,34.0600,-117.1700,US Census Bureau Gazetteer,city_center
+Rescue,CA,US,38.7200,-121.0000,US Census Bureau Gazetteer,city_center
+Rialto,CA,US,34.1000,-117.3800,US Census Bureau Gazetteer,city_center
+Richmond,CA,US,37.9200,-122.3400,US Census Bureau Gazetteer,city_center
+Ridgecrest,CA,US,35.5500,-117.6700,US Census Bureau Gazetteer,city_center
+Riverside,CA,US,33.9300,-117.4900,US Census Bureau Gazetteer,city_center
+Rosemead,CA,US,34.0600,-118.0800,US Census Bureau Gazetteer,city_center
+Roseville,CA,US,38.7800,-121.3700,US Census Bureau Gazetteer,city_center
+Sacramento,CA,US,38.4800,-121.3400,US Census Bureau Gazetteer,city_center
+San Diego,CA,US,32.7157,-117.1611,US Census Bureau Gazetteer,city_center
+San Fernando,CA,US,34.2800,-118.4400,US Census Bureau Gazetteer,city_center
+San Francisco,CA,US,37.7749,-122.4194,US Census Bureau Gazetteer,city_center
+San Jose,CA,US,37.3382,-121.8863,US Census Bureau Gazetteer,city_center
+San Leandro,CA,US,37.7000,-122.1200,US Census Bureau Gazetteer,city_center
+San Marcos,CA,US,33.1500,-117.1700,US Census Bureau Gazetteer,city_center
+San Martin,CA,US,37.1000,-121.6000,US Census Bureau Gazetteer,city_center
+San Mateo,CA,US,37.5500,-122.2600,US Census Bureau Gazetteer,city_center
+San Rafael,CA,US,38.0200,-122.5400,US Census Bureau Gazetteer,city_center
+San Ramon,CA,US,37.7800,-121.9900,US Census Bureau Gazetteer,city_center
+Santa Barbara,CA,US,34.4300,-119.6800,US Census Bureau Gazetteer,city_center
+Seaside,CA,US,36.6200,-121.8200,US Census Bureau Gazetteer,city_center
+Shafter,CA,US,35.4900,-119.3000,US Census Bureau Gazetteer,city_center
+Sherman Oaks,CA,US,34.1400,-118.4600,US Census Bureau Gazetteer,city_center
+Somerset,CA,US,38.6200,-120.6200,US Census Bureau Gazetteer,city_center
+South Gate,CA,US,33.9400,-118.2000,US Census Bureau Gazetteer,city_center
+Spring Valley,CA,US,32.7448,-116.9989,US Census Bureau Gazetteer,city_center
+Stanton,CA,US,33.7900,-117.9900,US Census Bureau Gazetteer,city_center
+Stockton,CA,US,38.0200,-121.3000,US Census Bureau Gazetteer,city_center
+Suisun City,CA,US,38.1600,-121.9300,US Census Bureau Gazetteer,city_center
+Sunnyvale,CA,US,37.3500,-122.0300,US Census Bureau Gazetteer,city_center
+Sylmar,CA,US,34.3200,-118.3800,US Census Bureau Gazetteer,city_center
+Tecate,CA,US,32.5900,-116.5800,US Census Bureau Gazetteer,city_center
+Temple City,CA,US,34.1000,-118.0500,US Census Bureau Gazetteer,city_center
+Torrance,CA,US,33.8400,-118.3500,US Census Bureau Gazetteer,city_center
+Trinidad,CA,US,41.1300,-124.0400,US Census Bureau Gazetteer,city_center
+Turlock,CA,US,37.5300,-120.8400,US Census Bureau Gazetteer,city_center
+Ukiah,CA,US,39.1200,-123.2800,US Census Bureau Gazetteer,city_center
+Union City,CA,US,37.5900,-122.0600,US Census Bureau Gazetteer,city_center
+Vacaville,CA,US,38.3500,-121.9300,US Census Bureau Gazetteer,city_center
+Valley Center,CA,US,33.2500,-116.9800,US Census Bureau Gazetteer,city_center
+Van Nuys,CA,US,34.1700,-118.4600,US Census Bureau Gazetteer,city_center
+Ventura,CA,US,34.2800,-119.2200,US Census Bureau Gazetteer,city_center
+Walnut Creek,CA,US,37.9100,-122.0100,US Census Bureau Gazetteer,city_center
+Watsonville,CA,US,36.9500,-121.7200,US Census Bureau Gazetteer,city_center
+West Covina,CA,US,34.0200,-117.8900,US Census Bureau Gazetteer,city_center
+West Sacramento,CA,US,38.6600,-121.6200,US Census Bureau Gazetteer,city_center
+Westminster,CA,US,33.7400,-117.9900,US Census Bureau Gazetteer,city_center
+Whittier,CA,US,34.0000,-118.0300,US Census Bureau Gazetteer,city_center
+Woodland Hills,CA,US,34.1500,-118.6000,US Census Bureau Gazetteer,city_center
+Yorba Linda,CA,US,33.8900,-117.7800,US Census Bureau Gazetteer,city_center
+Aurora,CO,US,39.6900,-104.8100,US Census Bureau Gazetteer,city_center
+Bennett,CO,US,39.7500,-104.4200,US Census Bureau Gazetteer,city_center
+Boulder,CO,US,40.0200,-105.2500,US Census Bureau Gazetteer,city_center
+Brighton,CO,US,39.9500,-104.9000,US Census Bureau Gazetteer,city_center
+Colorado Springs,CO,US,38.8600,-104.7600,US Census Bureau Gazetteer,city_center
+Commerce City,CO,US,39.8600,-104.8600,US Census Bureau Gazetteer,city_center
+Denver,CO,US,39.7392,-104.9903,US Census Bureau Gazetteer,city_center
+Fort Morgan,CO,US,40.2600,-103.7900,US Census Bureau Gazetteer,city_center
+Grand Junction,CO,US,39.0800,-108.5500,US Census Bureau Gazetteer,city_center
+Greeley,CO,US,40.4200,-104.7400,US Census Bureau Gazetteer,city_center
+Iliff,CO,US,40.7500,-103.0600,US Census Bureau Gazetteer,city_center
+Lafayette,CO,US,39.9900,-105.0900,US Census Bureau Gazetteer,city_center
+Littleton,CO,US,39.5900,-105.0100,US Census Bureau Gazetteer,city_center
+Pueblo,CO,US,38.2700,-104.6200,US Census Bureau Gazetteer,city_center
+Windsor,CO,US,40.4800,-104.9000,US Census Bureau Gazetteer,city_center
+Woodland Park,CO,US,38.9900,-105.0500,US Census Bureau Gazetteer,city_center
+Yuma,CO,US,40.1200,-102.7200,US Census Bureau Gazetteer,city_center
+Beacon Falls,CT,US,41.4400,-73.0400,US Census Bureau Gazetteer,city_center
+Bethlehem,CT,US,41.6300,-73.2100,US Census Bureau Gazetteer,city_center
+Bristol,CT,US,41.6800,-72.9400,US Census Bureau Gazetteer,city_center
+East Hartford,CT,US,41.7600,-72.6100,US Census Bureau Gazetteer,city_center
+Eastford,CT,US,41.9000,-72.0800,US Census Bureau Gazetteer,city_center
+Easton,CT,US,41.2400,-73.3100,US Census Bureau Gazetteer,city_center
+Farmington,CT,US,41.7100,-72.8300,US Census Bureau Gazetteer,city_center
+Meriden,CT,US,41.5300,-72.7900,US Census Bureau Gazetteer,city_center
+Monroe,CT,US,41.3600,-73.2000,US Census Bureau Gazetteer,city_center
+North Haven,CT,US,41.3800,-72.8500,US Census Bureau Gazetteer,city_center
+Norwalk,CT,US,41.0900,-73.4200,US Census Bureau Gazetteer,city_center
+Old Saybrook,CT,US,41.2900,-72.3600,US Census Bureau Gazetteer,city_center
+Shelton,CT,US,41.3000,-73.1300,US Census Bureau Gazetteer,city_center
+Stamford,CT,US,41.0900,-73.5500,US Census Bureau Gazetteer,city_center
+Stratford,CT,US,41.2000,-73.1300,US Census Bureau Gazetteer,city_center
+Torrington,CT,US,41.8300,-73.1200,US Census Bureau Gazetteer,city_center
+Waterbury,CT,US,41.5500,-73.0300,US Census Bureau Gazetteer,city_center
+Wethersfield,CT,US,41.7000,-72.6700,US Census Bureau Gazetteer,city_center
+Wilton,CT,US,41.1800,-73.4200,US Census Bureau Gazetteer,city_center
+Windsor,CT,US,41.8500,-72.6500,US Census Bureau Gazetteer,city_center
+Washington,DC,US,38.9072,-77.0369,US Census Bureau Gazetteer,city_center
+Dover,DE,US,39.1500,-75.5100,US Census Bureau Gazetteer,city_center
+Milford,DE,US,38.9100,-75.4300,US Census Bureau Gazetteer,city_center
+Newark,DE,US,39.6700,-75.7500,US Census Bureau Gazetteer,city_center
+Seaford,DE,US,38.6400,-75.6100,US Census Bureau Gazetteer,city_center
+Wilmington,DE,US,39.7300,-75.5300,US Census Bureau Gazetteer,city_center
+Alachua,FL,US,29.7700,-82.4800,US Census Bureau Gazetteer,city_center
+Apopka,FL,US,28.6800,-81.5100,US Census Bureau Gazetteer,city_center
+Boca Raton,FL,US,26.3700,-80.1000,US Census Bureau Gazetteer,city_center
+Bradenton,FL,US,27.4800,-82.5700,US Census Bureau Gazetteer,city_center
+Brooksville,FL,US,28.5500,-82.3900,US Census Bureau Gazetteer,city_center
+Cantonment,FL,US,30.6000,-87.3400,US Census Bureau Gazetteer,city_center
+Cape Canaveral,FL,US,28.4000,-80.6000,US Census Bureau Gazetteer,city_center
+Cape Coral,FL,US,26.6300,-81.9900,US Census Bureau Gazetteer,city_center
+Clearwater,FL,US,27.9700,-82.7600,US Census Bureau Gazetteer,city_center
+Cocoa,FL,US,28.3700,-80.7500,US Census Bureau Gazetteer,city_center
+Crestview,FL,US,30.7500,-86.5700,US Census Bureau Gazetteer,city_center
+Daytona Beach,FL,US,29.1900,-81.0500,US Census Bureau Gazetteer,city_center
+Delray Beach,FL,US,26.4500,-80.0800,US Census Bureau Gazetteer,city_center
+Fort Lauderdale,FL,US,26.1400,-80.1300,US Census Bureau Gazetteer,city_center
+Fort Myers,FL,US,26.6300,-81.8500,US Census Bureau Gazetteer,city_center
+Fort Walton Beach,FL,US,30.4200,-86.6100,US Census Bureau Gazetteer,city_center
+Gainesville,FL,US,29.6700,-82.3300,US Census Bureau Gazetteer,city_center
+Green Cove Springs,FL,US,29.9800,-81.6700,US Census Bureau Gazetteer,city_center
+High Springs,FL,US,29.8200,-82.5900,US Census Bureau Gazetteer,city_center
+Holiday,FL,US,28.1800,-82.7400,US Census Bureau Gazetteer,city_center
+Hollywood,FL,US,26.0200,-80.1600,US Census Bureau Gazetteer,city_center
+Immokalee,FL,US,26.4100,-81.4200,US Census Bureau Gazetteer,city_center
+Jacksonville,FL,US,30.3300,-81.6500,US Census Bureau Gazetteer,city_center
+Kissimmee,FL,US,28.3000,-81.4100,US Census Bureau Gazetteer,city_center
+Lady Lake,FL,US,28.9200,-81.9200,US Census Bureau Gazetteer,city_center
+Lake Mary,FL,US,28.7500,-81.3300,US Census Bureau Gazetteer,city_center
+Lake Worth,FL,US,26.6100,-80.0500,US Census Bureau Gazetteer,city_center
+Lakeland,FL,US,28.0400,-81.9600,US Census Bureau Gazetteer,city_center
+Leesburg,FL,US,28.8000,-81.8800,US Census Bureau Gazetteer,city_center
+Longwood,FL,US,28.7000,-81.3400,US Census Bureau Gazetteer,city_center
+Melbourne,FL,US,28.0800,-80.6000,US Census Bureau Gazetteer,city_center
+Merritt Island,FL,US,28.3200,-80.6800,US Census Bureau Gazetteer,city_center
+Miami,FL,US,25.7617,-80.1918,US Census Bureau Gazetteer,city_center
+Mulberry,FL,US,27.9000,-81.9700,US Census Bureau Gazetteer,city_center
+Naples,FL,US,26.1400,-81.7900,US Census Bureau Gazetteer,city_center
+Navarre,FL,US,30.3600,-87.1700,US Census Bureau Gazetteer,city_center
+Ocala,FL,US,29.1800,-82.1300,US Census Bureau Gazetteer,city_center
+Odessa,FL,US,28.2000,-82.5900,US Census Bureau Gazetteer,city_center
+Orlando,FL,US,28.5000,-81.3700,US Census Bureau Gazetteer,city_center
+Osprey,FL,US,27.1900,-82.4900,US Census Bureau Gazetteer,city_center
+Oviedo,FL,US,28.6500,-81.1800,US Census Bureau Gazetteer,city_center
+Palm Bay,FL,US,27.9800,-80.6600,US Census Bureau Gazetteer,city_center
+Palm Beach Gardens,FL,US,26.7400,-80.1200,US Census Bureau Gazetteer,city_center
+Palm Coast,FL,US,29.5700,-81.2100,US Census Bureau Gazetteer,city_center
+Panama City,FL,US,30.1700,-85.6700,US Census Bureau Gazetteer,city_center
+Pensacola,FL,US,30.4400,-87.1800,US Census Bureau Gazetteer,city_center
+Pompano Beach,FL,US,26.2300,-80.1300,US Census Bureau Gazetteer,city_center
+Port Orange,FL,US,29.1000,-81.0000,US Census Bureau Gazetteer,city_center
+Port Saint Lucie,FL,US,27.2700,-80.3500,US Census Bureau Gazetteer,city_center
+Punta Gorda,FL,US,26.8900,-82.0500,US Census Bureau Gazetteer,city_center
+Quincy,FL,US,30.5800,-84.5800,US Census Bureau Gazetteer,city_center
+Saint Cloud,FL,US,28.2400,-81.2800,US Census Bureau Gazetteer,city_center
+Saint Petersburg,FL,US,27.7500,-82.6400,US Census Bureau Gazetteer,city_center
+Sanford,FL,US,28.7800,-81.2700,US Census Bureau Gazetteer,city_center
+Sarasota,FL,US,27.3300,-82.5400,US Census Bureau Gazetteer,city_center
+Seminole,FL,US,27.9000,-82.7800,US Census Bureau Gazetteer,city_center
+Stuart,FL,US,27.1900,-80.2400,US Census Bureau Gazetteer,city_center
+Tampa,FL,US,27.9500,-82.4800,US Census Bureau Gazetteer,city_center
+The Villages,FL,US,28.9200,-81.9200,US Census Bureau Gazetteer,city_center
+Venice,FL,US,27.0900,-82.4300,US Census Bureau Gazetteer,city_center
+Vero Beach,FL,US,27.6400,-80.3900,US Census Bureau Gazetteer,city_center
+West Palm Beach,FL,US,26.7400,-80.1200,US Census Bureau Gazetteer,city_center
+Zephyrhills,FL,US,28.2300,-82.1700,US Census Bureau Gazetteer,city_center
+Acworth,GA,US,34.0500,-84.6700,US Census Bureau Gazetteer,city_center
+Alpharetta,GA,US,34.0600,-84.2700,US Census Bureau Gazetteer,city_center
+Atlanta,GA,US,33.7490,-84.3880,US Census Bureau Gazetteer,city_center
+Broxton,GA,US,31.6200,-82.8800,US Census Bureau Gazetteer,city_center
+Camilla,GA,US,31.2200,-84.2100,US Census Bureau Gazetteer,city_center
+Canton,GA,US,34.2400,-84.4900,US Census Bureau Gazetteer,city_center
+Cochran,GA,US,32.3800,-83.3500,US Census Bureau Gazetteer,city_center
+Cordele,GA,US,31.9600,-83.7700,US Census Bureau Gazetteer,city_center
+Dacula,GA,US,33.9800,-83.8800,US Census Bureau Gazetteer,city_center
+Dalton,GA,US,34.7600,-84.9700,US Census Bureau Gazetteer,city_center
+Danielsville,GA,US,34.1200,-83.2200,US Census Bureau Gazetteer,city_center
+Dawsonville,GA,US,34.4200,-84.1100,US Census Bureau Gazetteer,city_center
+Douglas,GA,US,31.5000,-82.8500,US Census Bureau Gazetteer,city_center
+Dublin,GA,US,32.5300,-82.9200,US Census Bureau Gazetteer,city_center
+Eastman,GA,US,32.1900,-83.1700,US Census Bureau Gazetteer,city_center
+Gainesville,GA,US,34.2900,-83.8300,US Census Bureau Gazetteer,city_center
+Griffin,GA,US,33.2400,-84.2700,US Census Bureau Gazetteer,city_center
+Harlem,GA,US,33.4100,-82.3100,US Census Bureau Gazetteer,city_center
+Helena,GA,US,32.0700,-82.9100,US Census Bureau Gazetteer,city_center
+Jackson,GA,US,33.2900,-83.9600,US Census Bureau Gazetteer,city_center
+Lawrenceville,GA,US,33.9400,-83.9900,US Census Bureau Gazetteer,city_center
+Lincolnton,GA,US,33.7900,-82.4700,US Census Bureau Gazetteer,city_center
+Locust Grove,GA,US,33.3400,-84.1000,US Census Bureau Gazetteer,city_center
+Loganville,GA,US,33.8300,-83.8900,US Census Bureau Gazetteer,city_center
+Marietta,GA,US,33.9500,-84.5400,US Census Bureau Gazetteer,city_center
+Newnan,GA,US,33.3700,-84.7800,US Census Bureau Gazetteer,city_center
+Norcross,GA,US,33.9400,-84.2000,US Census Bureau Gazetteer,city_center
+Powder Springs,GA,US,33.8600,-84.6800,US Census Bureau Gazetteer,city_center
+Ray City,GA,US,31.0700,-83.1900,US Census Bureau Gazetteer,city_center
+Rincon,GA,US,32.2900,-81.2300,US Census Bureau Gazetteer,city_center
+Saint Simons Island,GA,US,31.2100,-81.3700,US Census Bureau Gazetteer,city_center
+Savannah,GA,US,32.0800,-81.1000,US Census Bureau Gazetteer,city_center
+Summerville,GA,US,34.4700,-85.3400,US Census Bureau Gazetteer,city_center
+Suwanee,GA,US,34.0500,-84.0700,US Census Bureau Gazetteer,city_center
+Thomson,GA,US,33.4600,-82.5000,US Census Bureau Gazetteer,city_center
+Trenton,GA,US,34.8700,-85.5000,US Census Bureau Gazetteer,city_center
+Tucker,GA,US,33.8500,-84.2200,US Census Bureau Gazetteer,city_center
+Valdosta,GA,US,30.8400,-83.2700,US Census Bureau Gazetteer,city_center
+Warm Springs,GA,US,32.8800,-84.6700,US Census Bureau Gazetteer,city_center
+Warner Robins,GA,US,32.6100,-83.6300,US Census Bureau Gazetteer,city_center
+Winder,GA,US,33.9900,-83.7200,US Census Bureau Gazetteer,city_center
+Winston,GA,US,33.6500,-84.8600,US Census Bureau Gazetteer,city_center
+Ewa Beach,HI,US,21.3100,-158.0100,US Census Bureau Gazetteer,city_center
+Honolulu,HI,US,21.3000,-157.8500,US Census Bureau Gazetteer,city_center
+Kailua,HI,US,21.4000,-157.7300,US Census Bureau Gazetteer,city_center
+Kaneohe,HI,US,21.4100,-157.7900,US Census Bureau Gazetteer,city_center
+Kilauea,HI,US,22.2100,-159.4100,US Census Bureau Gazetteer,city_center
+Mililani,HI,US,21.4500,-158.0100,US Census Bureau Gazetteer,city_center
+Waianae,HI,US,21.4400,-158.1800,US Census Bureau Gazetteer,city_center
+Wailuku,HI,US,20.8800,-156.5000,US Census Bureau Gazetteer,city_center
+Waimanalo,HI,US,21.3400,-157.7200,US Census Bureau Gazetteer,city_center
+Waipahu,HI,US,21.3900,-158.0100,US Census Bureau Gazetteer,city_center
+Ainsworth,IA,US,41.2900,-91.5500,US Census Bureau Gazetteer,city_center
+Alta,IA,US,42.6700,-95.3000,US Census Bureau Gazetteer,city_center
+Ames,IA,US,42.0200,-93.6200,US Census Bureau Gazetteer,city_center
+Ankeny,IA,US,41.7200,-93.6000,US Census Bureau Gazetteer,city_center
+Badger,IA,US,42.6100,-94.1400,US Census Bureau Gazetteer,city_center
+Burlington,IA,US,40.8000,-91.1200,US Census Bureau Gazetteer,city_center
+Carlisle,IA,US,41.5100,-93.4800,US Census Bureau Gazetteer,city_center
+Cedar Rapids,IA,US,41.9700,-91.6600,US Census Bureau Gazetteer,city_center
+Davenport,IA,US,41.5500,-90.6000,US Census Bureau Gazetteer,city_center
+Denison,IA,US,42.0100,-95.3400,US Census Bureau Gazetteer,city_center
+Des Moines,IA,US,41.5700,-93.6100,US Census Bureau Gazetteer,city_center
+Fort Dodge,IA,US,42.5000,-94.1700,US Census Bureau Gazetteer,city_center
+Iowa City,IA,US,41.6500,-91.5300,US Census Bureau Gazetteer,city_center
+Le Mars,IA,US,42.7800,-96.1600,US Census Bureau Gazetteer,city_center
+Manly,IA,US,43.2800,-93.2000,US Census Bureau Gazetteer,city_center
+Marion,IA,US,42.0300,-91.5800,US Census Bureau Gazetteer,city_center
+Muscatine,IA,US,41.4247,-91.0432,US Census Bureau Gazetteer,city_center
+Northwood,IA,US,43.4400,-93.2100,US Census Bureau Gazetteer,city_center
+Postville,IA,US,43.0800,-91.5600,US Census Bureau Gazetteer,city_center
+Riverside,IA,US,41.4800,-91.5700,US Census Bureau Gazetteer,city_center
+Sergeant Bluff,IA,US,42.4000,-96.3500,US Census Bureau Gazetteer,city_center
+Sioux City,IA,US,42.5000,-96.3900,US Census Bureau Gazetteer,city_center
+Solon,IA,US,41.8000,-91.4900,US Census Bureau Gazetteer,city_center
+Urbandale,IA,US,41.6300,-93.7400,US Census Bureau Gazetteer,city_center
+Waterloo,IA,US,42.4900,-92.3500,US Census Bureau Gazetteer,city_center
+Burley,ID,US,42.3900,-113.7800,US Census Bureau Gazetteer,city_center
+Challis,ID,US,44.6500,-114.1500,US Census Bureau Gazetteer,city_center
+Fernwood,ID,US,47.0900,-116.4600,US Census Bureau Gazetteer,city_center
+Gooding,ID,US,43.0100,-114.7000,US Census Bureau Gazetteer,city_center
+Kuna,ID,US,43.4300,-116.3200,US Census Bureau Gazetteer,city_center
+Meridian,ID,US,43.6500,-116.4300,US Census Bureau Gazetteer,city_center
+Twin Falls,ID,US,42.4100,-114.5900,US Census Bureau Gazetteer,city_center
+Aurora,IL,US,41.7600,-88.2900,US Census Bureau Gazetteer,city_center
+Ava,IL,US,37.8800,-89.4900,US Census Bureau Gazetteer,city_center
+Batavia,IL,US,41.8500,-88.3000,US Census Bureau Gazetteer,city_center
+Belleville,IL,US,38.5300,-90.0000,US Census Bureau Gazetteer,city_center
+Berwyn,IL,US,41.8400,-87.7900,US Census Bureau Gazetteer,city_center
+Byron,IL,US,42.1200,-89.2500,US Census Bureau Gazetteer,city_center
+Chana,IL,US,41.9900,-89.2000,US Census Bureau Gazetteer,city_center
+Chicago,IL,US,41.8781,-87.6298,US Census Bureau Gazetteer,city_center
+Chicago Heights,IL,US,41.5000,-87.6300,US Census Bureau Gazetteer,city_center
+Cicero,IL,US,41.8400,-87.7500,US Census Bureau Gazetteer,city_center
+Cornell,IL,US,40.9900,-88.7200,US Census Bureau Gazetteer,city_center
+Danville,IL,US,40.1400,-87.6100,US Census Bureau Gazetteer,city_center
+De Land,IL,US,40.1200,-88.6400,US Census Bureau Gazetteer,city_center
+Decatur,IL,US,39.8500,-88.9300,US Census Bureau Gazetteer,city_center
+East Peoria,IL,US,40.6700,-89.5400,US Census Bureau Gazetteer,city_center
+Elmwood Park,IL,US,41.9200,-87.8100,US Census Bureau Gazetteer,city_center
+Glen Carbon,IL,US,38.7600,-89.9700,US Census Bureau Gazetteer,city_center
+Glen Ellyn,IL,US,41.8600,-88.0600,US Census Bureau Gazetteer,city_center
+Glenview,IL,US,42.0700,-87.8100,US Census Bureau Gazetteer,city_center
+Godfrey,IL,US,38.9600,-90.1800,US Census Bureau Gazetteer,city_center
+Granite City,IL,US,38.7100,-90.1200,US Census Bureau Gazetteer,city_center
+Hanover Park,IL,US,41.9700,-88.1400,US Census Bureau Gazetteer,city_center
+Herrin,IL,US,37.8000,-89.0300,US Census Bureau Gazetteer,city_center
+Hillsboro,IL,US,39.1600,-89.4800,US Census Bureau Gazetteer,city_center
+Hinsdale,IL,US,41.8000,-87.9200,US Census Bureau Gazetteer,city_center
+Homewood,IL,US,41.5500,-87.6600,US Census Bureau Gazetteer,city_center
+Hudson,IL,US,40.6000,-88.9800,US Census Bureau Gazetteer,city_center
+Iuka,IL,US,38.6100,-88.7800,US Census Bureau Gazetteer,city_center
+Joliet,IL,US,41.5200,-88.1200,US Census Bureau Gazetteer,city_center
+La Grange,IL,US,41.8000,-87.8700,US Census Bureau Gazetteer,city_center
+Lake Zurich,IL,US,42.1900,-88.0800,US Census Bureau Gazetteer,city_center
+Lincoln,IL,US,40.1500,-89.3600,US Census Bureau Gazetteer,city_center
+Lombard,IL,US,41.8700,-88.0100,US Census Bureau Gazetteer,city_center
+Mackinaw,IL,US,40.5300,-89.3500,US Census Bureau Gazetteer,city_center
+Maquon,IL,US,40.7900,-90.1600,US Census Bureau Gazetteer,city_center
+Maywood,IL,US,41.8800,-87.8400,US Census Bureau Gazetteer,city_center
+Midlothian,IL,US,41.6200,-87.7200,US Census Bureau Gazetteer,city_center
+Mokena,IL,US,41.5300,-87.8700,US Census Bureau Gazetteer,city_center
+Mundelein,IL,US,42.2600,-88.0000,US Census Bureau Gazetteer,city_center
+Naperville,IL,US,41.7600,-88.1500,US Census Bureau Gazetteer,city_center
+Pana,IL,US,39.3800,-89.0700,US Census Bureau Gazetteer,city_center
+Park Forest,IL,US,41.4800,-87.6800,US Census Bureau Gazetteer,city_center
+Rochelle,IL,US,41.9100,-89.0600,US Census Bureau Gazetteer,city_center
+Rockford,IL,US,42.2700,-89.0600,US Census Bureau Gazetteer,city_center
+Round Lake,IL,US,42.3400,-88.1100,US Census Bureau Gazetteer,city_center
+Saint Charles,IL,US,41.9200,-88.3000,US Census Bureau Gazetteer,city_center
+Schaumburg,IL,US,42.0300,-88.0800,US Census Bureau Gazetteer,city_center
+Shelbyville,IL,US,39.4000,-88.8000,US Census Bureau Gazetteer,city_center
+Skokie,IL,US,42.0300,-87.7300,US Census Bureau Gazetteer,city_center
+South Beloit,IL,US,42.4800,-89.0300,US Census Bureau Gazetteer,city_center
+Staunton,IL,US,39.0100,-89.7800,US Census Bureau Gazetteer,city_center
+Summit Argo,IL,US,41.7700,-87.8200,US Census Bureau Gazetteer,city_center
+Villa Park,IL,US,41.8800,-87.9700,US Census Bureau Gazetteer,city_center
+Washington,IL,US,40.6900,-89.4300,US Census Bureau Gazetteer,city_center
+Wauconda,IL,US,42.2600,-88.1300,US Census Bureau Gazetteer,city_center
+Waukegan,IL,US,42.3700,-87.8600,US Census Bureau Gazetteer,city_center
+Wheeling,IL,US,42.1300,-87.9200,US Census Bureau Gazetteer,city_center
+Willowbrook,IL,US,41.8000,-87.9200,US Census Bureau Gazetteer,city_center
+Yorkville,IL,US,41.6400,-88.4400,US Census Bureau Gazetteer,city_center
+Zion,IL,US,42.4500,-87.8400,US Census Bureau Gazetteer,city_center
+Avilla,IN,US,41.3600,-85.2300,US Census Bureau Gazetteer,city_center
+Bloomfield,IN,US,39.0200,-86.9300,US Census Bureau Gazetteer,city_center
+Bloomington,IN,US,39.1600,-86.5200,US Census Bureau Gazetteer,city_center
+Borden,IN,US,38.4600,-85.9500,US Census Bureau Gazetteer,city_center
+Chesterton,IN,US,41.6000,-87.0500,US Census Bureau Gazetteer,city_center
+Clarksville,IN,US,38.3100,-85.7600,US Census Bureau Gazetteer,city_center
+Claypool,IN,US,41.1200,-85.8700,US Census Bureau Gazetteer,city_center
+Columbia City,IN,US,41.1500,-85.4800,US Census Bureau Gazetteer,city_center
+Crown Point,IN,US,41.4200,-87.3500,US Census Bureau Gazetteer,city_center
+Dyer,IN,US,41.5000,-87.5000,US Census Bureau Gazetteer,city_center
+Eaton,IN,US,40.3400,-85.3500,US Census Bureau Gazetteer,city_center
+Edinburgh,IN,US,39.3500,-85.9600,US Census Bureau Gazetteer,city_center
+Ferdinand,IN,US,38.2200,-86.8600,US Census Bureau Gazetteer,city_center
+Fishers,IN,US,39.9500,-86.0200,US Census Bureau Gazetteer,city_center
+Fort Wayne,IN,US,41.0700,-85.1300,US Census Bureau Gazetteer,city_center
+Frankfort,IN,US,40.2800,-86.5100,US Census Bureau Gazetteer,city_center
+Geneva,IN,US,40.5900,-84.9500,US Census Bureau Gazetteer,city_center
+Greenwood,IN,US,39.6100,-86.1100,US Census Bureau Gazetteer,city_center
+Griffith,IN,US,41.5200,-87.4200,US Census Bureau Gazetteer,city_center
+Hobart,IN,US,41.5300,-87.2600,US Census Bureau Gazetteer,city_center
+Hope,IN,US,39.2900,-85.7600,US Census Bureau Gazetteer,city_center
+Indianapolis,IN,US,39.7700,-86.1400,US Census Bureau Gazetteer,city_center
+Jasper,IN,US,38.3900,-86.9300,US Census Bureau Gazetteer,city_center
+Kokomo,IN,US,40.4700,-86.1300,US Census Bureau Gazetteer,city_center
+Lagrange,IN,US,41.6400,-85.4100,US Census Bureau Gazetteer,city_center
+Lapel,IN,US,40.0600,-85.8400,US Census Bureau Gazetteer,city_center
+Michigan City,IN,US,41.7100,-86.8700,US Census Bureau Gazetteer,city_center
+Mitchell,IN,US,38.7300,-86.4700,US Census Bureau Gazetteer,city_center
+Muncie,IN,US,40.1900,-85.3900,US Census Bureau Gazetteer,city_center
+New Castle,IN,US,39.9200,-85.3600,US Census Bureau Gazetteer,city_center
+Newburgh,IN,US,37.9400,-87.4000,US Census Bureau Gazetteer,city_center
+Noblesville,IN,US,40.0500,-86.0300,US Census Bureau Gazetteer,city_center
+Pierceton,IN,US,41.1900,-85.7000,US Census Bureau Gazetteer,city_center
+Plainfield,IN,US,39.7000,-86.3800,US Census Bureau Gazetteer,city_center
+Shelbyville,IN,US,39.5200,-85.7700,US Census Bureau Gazetteer,city_center
+Switz City,IN,US,39.0300,-87.0500,US Census Bureau Gazetteer,city_center
+Terre Haute,IN,US,39.4700,-87.3800,US Census Bureau Gazetteer,city_center
+Valparaiso,IN,US,41.4700,-87.0500,US Census Bureau Gazetteer,city_center
+West Baden Springs,IN,US,38.5600,-86.6100,US Census Bureau Gazetteer,city_center
+West Lafayette,IN,US,40.4400,-86.9100,US Census Bureau Gazetteer,city_center
+Kingston,JAMAICA,JM,17.9712,-76.7928,GeoNames Open Data,city_center
+Andover,KS,US,37.6900,-97.1300,US Census Bureau Gazetteer,city_center
+De Soto,KS,US,38.9700,-94.9500,US Census Bureau Gazetteer,city_center
+Derby,KS,US,37.5400,-97.2500,US Census Bureau Gazetteer,city_center
+Kansas City,KS,US,39.1000,-94.6200,US Census Bureau Gazetteer,city_center
+Lawrence,KS,US,38.9600,-95.2500,US Census Bureau Gazetteer,city_center
+Manhattan,KS,US,39.1900,-96.5900,US Census Bureau Gazetteer,city_center
+Minneapolis,KS,US,39.1200,-97.7000,US Census Bureau Gazetteer,city_center
+Mulvane,KS,US,37.4800,-97.2400,US Census Bureau Gazetteer,city_center
+Newton,KS,US,38.0400,-97.3400,US Census Bureau Gazetteer,city_center
+Olathe,KS,US,38.8800,-94.8100,US Census Bureau Gazetteer,city_center
+Overland Park,KS,US,38.9000,-94.6800,US Census Bureau Gazetteer,city_center
+Prairie Village,KS,US,38.9000,-94.6800,US Census Bureau Gazetteer,city_center
+Wellsville,KS,US,38.7100,-95.0800,US Census Bureau Gazetteer,city_center
+Wichita,KS,US,37.6800,-97.3400,US Census Bureau Gazetteer,city_center
+Ashland,KY,US,38.4500,-82.6400,US Census Bureau Gazetteer,city_center
+Bowling Green,KY,US,36.9700,-86.4400,US Census Bureau Gazetteer,city_center
+Cave City,KY,US,37.1300,-85.9600,US Census Bureau Gazetteer,city_center
+Cynthiana,KY,US,38.3800,-84.2900,US Census Bureau Gazetteer,city_center
+Dayton,KY,US,39.1100,-84.4600,US Census Bureau Gazetteer,city_center
+Fort Knox,KY,US,37.8900,-85.9600,US Census Bureau Gazetteer,city_center
+Ft Mitchell,KY,US,39.0200,-84.5600,US Census Bureau Gazetteer,city_center
+Georgetown,KY,US,38.2000,-84.5500,US Census Bureau Gazetteer,city_center
+Greenville,KY,US,37.2000,-87.1700,US Census Bureau Gazetteer,city_center
+Independence,KY,US,38.9500,-84.5400,US Census Bureau Gazetteer,city_center
+Jeffersonville,KY,US,37.9600,-83.8200,US Census Bureau Gazetteer,city_center
+Leitchfield,KY,US,37.4800,-86.2900,US Census Bureau Gazetteer,city_center
+Lexington,KY,US,38.0400,-84.4500,US Census Bureau Gazetteer,city_center
+Louisville,KY,US,38.2200,-85.7400,US Census Bureau Gazetteer,city_center
+Marion,KY,US,37.3300,-88.0700,US Census Bureau Gazetteer,city_center
+Richmond,KY,US,37.7400,-84.2900,US Census Bureau Gazetteer,city_center
+Shelbyville,KY,US,38.2100,-85.2300,US Census Bureau Gazetteer,city_center
+Shepherdsville,KY,US,37.9800,-85.7100,US Census Bureau Gazetteer,city_center
+Springfield,KY,US,37.6800,-85.2200,US Census Bureau Gazetteer,city_center
+Stanford,KY,US,37.5300,-84.6600,US Census Bureau Gazetteer,city_center
+Stearns,KY,US,36.6900,-84.4700,US Census Bureau Gazetteer,city_center
+Taylorsville,KY,US,38.0300,-85.3400,US Census Bureau Gazetteer,city_center
+Vancleve,KY,US,37.6200,-83.4100,US Census Bureau Gazetteer,city_center
+Versailles,KY,US,38.0500,-84.7200,US Census Bureau Gazetteer,city_center
+Williamsburg,KY,US,36.7300,-84.1600,US Census Bureau Gazetteer,city_center
+Wilmore,KY,US,37.8600,-84.6500,US Census Bureau Gazetteer,city_center
+Abbeville,LA,US,29.9700,-92.1200,US Census Bureau Gazetteer,city_center
+Baker,LA,US,30.5800,-91.1500,US Census Bureau Gazetteer,city_center
+Baton Rouge,LA,US,30.4400,-91.1200,US Census Bureau Gazetteer,city_center
+Bienville,LA,US,32.3600,-92.9700,US Census Bureau Gazetteer,city_center
+Donaldsonville,LA,US,30.0900,-90.9900,US Census Bureau Gazetteer,city_center
+Duson,LA,US,30.2300,-92.1900,US Census Bureau Gazetteer,city_center
+Florien,LA,US,31.4400,-93.4500,US Census Bureau Gazetteer,city_center
+Fort Polk,LA,US,31.1300,-93.2700,US Census Bureau Gazetteer,city_center
+Galliano,LA,US,29.4300,-90.3000,US Census Bureau Gazetteer,city_center
+Gonzales,LA,US,30.2100,-90.9200,US Census Bureau Gazetteer,city_center
+Gretna,LA,US,29.9100,-90.0500,US Census Bureau Gazetteer,city_center
+Hammond,LA,US,30.5000,-90.4600,US Census Bureau Gazetteer,city_center
+Harvey,LA,US,29.8800,-90.0600,US Census Bureau Gazetteer,city_center
+Kenner,LA,US,29.9900,-90.2400,US Census Bureau Gazetteer,city_center
+Lafayette,LA,US,30.2100,-92.0200,US Census Bureau Gazetteer,city_center
+Lake Charles,LA,US,30.2100,-93.2000,US Census Bureau Gazetteer,city_center
+Minden,LA,US,32.6100,-93.2800,US Census Bureau Gazetteer,city_center
+New Orleans,LA,US,30.0600,-89.9300,US Census Bureau Gazetteer,city_center
+Oakdale,LA,US,30.8100,-92.6500,US Census Bureau Gazetteer,city_center
+Patterson,LA,US,29.6900,-91.3000,US Census Bureau Gazetteer,city_center
+Pierre Part,LA,US,29.9500,-91.2000,US Census Bureau Gazetteer,city_center
+Prairieville,LA,US,30.3000,-90.9700,US Census Bureau Gazetteer,city_center
+Raceland,LA,US,29.7100,-90.5900,US Census Bureau Gazetteer,city_center
+Saint Amant,LA,US,30.1900,-90.7800,US Census Bureau Gazetteer,city_center
+Thibodaux,LA,US,29.7900,-90.8200,US Census Bureau Gazetteer,city_center
+Welsh,LA,US,30.2300,-92.8100,US Census Bureau Gazetteer,city_center
+Arlington,MA,US,42.4100,-71.1600,US Census Bureau Gazetteer,city_center
+Attleboro,MA,US,41.9300,-71.2900,US Census Bureau Gazetteer,city_center
+Barnstable,MA,US,41.7000,-70.3000,US Census Bureau Gazetteer,city_center
+Boston,MA,US,42.3601,-71.0589,US Census Bureau Gazetteer,city_center
+Boxford,MA,US,42.6700,-70.9800,US Census Bureau Gazetteer,city_center
+Brewster,MA,US,41.7600,-70.0800,US Census Bureau Gazetteer,city_center
+Buzzards Bay,MA,US,41.7500,-70.6100,US Census Bureau Gazetteer,city_center
+Cambridge,MA,US,42.3700,-71.1100,US Census Bureau Gazetteer,city_center
+Canton,MA,US,42.1500,-71.1300,US Census Bureau Gazetteer,city_center
+Centerville,MA,US,41.6600,-70.3400,US Census Bureau Gazetteer,city_center
+Chestnut Hill,MA,US,42.3100,-71.1600,US Census Bureau Gazetteer,city_center
+Dorchester,MA,US,42.3500,-71.0600,US Census Bureau Gazetteer,city_center
+Dorchester Center,MA,US,42.3500,-71.0600,US Census Bureau Gazetteer,city_center
+East Falmouth,MA,US,41.5600,-70.5500,US Census Bureau Gazetteer,city_center
+Foxboro,MA,US,42.0600,-71.2400,US Census Bureau Gazetteer,city_center
+Great Barrington,MA,US,42.1900,-73.3500,US Census Bureau Gazetteer,city_center
+Holden,MA,US,42.3500,-71.8500,US Census Bureau Gazetteer,city_center
+Hyde Park,MA,US,42.2600,-71.1100,US Census Bureau Gazetteer,city_center
+Leicester,MA,US,42.2500,-71.9000,US Census Bureau Gazetteer,city_center
+Lowell,MA,US,42.6300,-71.3200,US Census Bureau Gazetteer,city_center
+Lynn,MA,US,42.4700,-70.9600,US Census Bureau Gazetteer,city_center
+Mansfield,MA,US,42.0200,-71.2100,US Census Bureau Gazetteer,city_center
+Marshfield,MA,US,42.0900,-70.7000,US Census Bureau Gazetteer,city_center
+North Andover,MA,US,42.7000,-71.1100,US Census Bureau Gazetteer,city_center
+North Dartmouth,MA,US,41.6400,-71.0000,US Census Bureau Gazetteer,city_center
+Northampton,MA,US,42.3200,-72.6700,US Census Bureau Gazetteer,city_center
+Northborough,MA,US,42.3100,-71.6400,US Census Bureau Gazetteer,city_center
+Revere,MA,US,42.4100,-70.9900,US Census Bureau Gazetteer,city_center
+Scituate,MA,US,42.1800,-70.7300,US Census Bureau Gazetteer,city_center
+Somerville,MA,US,42.3900,-71.1000,US Census Bureau Gazetteer,city_center
+South Hamilton,MA,US,42.6200,-70.8600,US Census Bureau Gazetteer,city_center
+Springfield,MA,US,42.1100,-72.5300,US Census Bureau Gazetteer,city_center
+Wayland,MA,US,42.3600,-71.3600,US Census Bureau Gazetteer,city_center
+West Newton,MA,US,42.3500,-71.2200,US Census Bureau Gazetteer,city_center
+West Roxbury,MA,US,42.2800,-71.1600,US Census Bureau Gazetteer,city_center
+Woburn,MA,US,42.4800,-71.1500,US Census Bureau Gazetteer,city_center
+Worcester,MA,US,42.2600,-71.8000,US Census Bureau Gazetteer,city_center
+Aberdeen,MD,US,39.5100,-76.1700,US Census Bureau Gazetteer,city_center
+Arnold,MD,US,39.0400,-76.4900,US Census Bureau Gazetteer,city_center
+Baltimore,MD,US,39.3000,-76.6100,US Census Bureau Gazetteer,city_center
+Barton,MD,US,39.5300,-79.0100,US Census Bureau Gazetteer,city_center
+Bethesda,MD,US,38.9800,-77.1200,US Census Bureau Gazetteer,city_center
+Cambridge,MD,US,38.5600,-76.0700,US Census Bureau Gazetteer,city_center
+College Park,MD,US,38.9900,-76.9300,US Census Bureau Gazetteer,city_center
+Columbia,MD,US,39.2000,-76.8500,US Census Bureau Gazetteer,city_center
+Easton,MD,US,38.7700,-76.0600,US Census Bureau Gazetteer,city_center
+Edgewood,MD,US,39.4200,-76.2900,US Census Bureau Gazetteer,city_center
+Ellicott City,MD,US,39.2700,-76.8300,US Census Bureau Gazetteer,city_center
+Essex,MD,US,39.3000,-76.4400,US Census Bureau Gazetteer,city_center
+Gaithersburg,MD,US,39.1400,-77.2100,US Census Bureau Gazetteer,city_center
+Germantown,MD,US,39.1700,-77.2600,US Census Bureau Gazetteer,city_center
+Greenbelt,MD,US,38.9900,-76.8800,US Census Bureau Gazetteer,city_center
+Gwynn Oak,MD,US,39.3200,-76.7200,US Census Bureau Gazetteer,city_center
+Halethorpe,MD,US,39.2100,-76.7200,US Census Bureau Gazetteer,city_center
+Hampstead,MD,US,39.6100,-76.8500,US Census Bureau Gazetteer,city_center
+Harwood,MD,US,38.8600,-76.6000,US Census Bureau Gazetteer,city_center
+Hyattsville,MD,US,38.9500,-76.9500,US Census Bureau Gazetteer,city_center
+Jessup,MD,US,39.1400,-76.7700,US Census Bureau Gazetteer,city_center
+Lanham,MD,US,38.9600,-76.8500,US Census Bureau Gazetteer,city_center
+Laurel,MD,US,39.0900,-76.8500,US Census Bureau Gazetteer,city_center
+Oxford,MD,US,38.6800,-76.1700,US Census Bureau Gazetteer,city_center
+Parkville,MD,US,39.3800,-76.5500,US Census Bureau Gazetteer,city_center
+Pasadena,MD,US,39.1100,-76.5500,US Census Bureau Gazetteer,city_center
+Reisterstown,MD,US,39.4500,-76.8100,US Census Bureau Gazetteer,city_center
+Rising Sun,MD,US,39.6900,-76.0600,US Census Bureau Gazetteer,city_center
+Severn,MD,US,39.1300,-76.6900,US Census Bureau Gazetteer,city_center
+Silver Spring,MD,US,39.0100,-77.0200,US Census Bureau Gazetteer,city_center
+Suitland,MD,US,38.8300,-76.9200,US Census Bureau Gazetteer,city_center
+Upper Marlboro,MD,US,38.8100,-76.7500,US Census Bureau Gazetteer,city_center
+Waldorf,MD,US,38.6400,-76.9000,US Census Bureau Gazetteer,city_center
+Auburn,ME,US,44.0800,-70.2400,US Census Bureau Gazetteer,city_center
+Belgrade,ME,US,44.4400,-69.8300,US Census Bureau Gazetteer,city_center
+Holden,ME,US,44.7500,-68.6700,US Census Bureau Gazetteer,city_center
+Poland,ME,US,44.0600,-70.3900,US Census Bureau Gazetteer,city_center
+Portland,ME,US,43.6600,-70.2500,US Census Bureau Gazetteer,city_center
+Scarborough,ME,US,43.5900,-70.3300,US Census Bureau Gazetteer,city_center
+Standish,ME,US,43.7300,-70.5500,US Census Bureau Gazetteer,city_center
+Cancun,MEXICO,MX,21.1619,-86.8515,GeoNames Open Data,city_center
+Adrian,MI,US,41.8900,-84.0400,US Census Bureau Gazetteer,city_center
+Allenton,MI,US,42.9200,-82.8800,US Census Bureau Gazetteer,city_center
+Ann Arbor,MI,US,42.2700,-83.7300,US Census Bureau Gazetteer,city_center
+Avoca,MI,US,43.0500,-82.6700,US Census Bureau Gazetteer,city_center
+Battle Creek,MI,US,42.2900,-85.2200,US Census Bureau Gazetteer,city_center
+Canton,MI,US,42.3000,-83.4800,US Census Bureau Gazetteer,city_center
+Carleton,MI,US,42.0500,-83.3800,US Census Bureau Gazetteer,city_center
+Cedarville,MI,US,45.9900,-84.3600,US Census Bureau Gazetteer,city_center
+Clinton,MI,US,42.0600,-83.9700,US Census Bureau Gazetteer,city_center
+Clinton Township,MI,US,42.5800,-82.9100,US Census Bureau Gazetteer,city_center
+Dearborn,MI,US,42.3100,-83.2100,US Census Bureau Gazetteer,city_center
+Detroit,MI,US,42.3800,-83.1000,US Census Bureau Gazetteer,city_center
+Eastpointe,MI,US,42.4600,-82.9400,US Census Bureau Gazetteer,city_center
+Farmington,MI,US,42.4600,-83.3700,US Census Bureau Gazetteer,city_center
+Fenton,MI,US,42.8000,-83.7100,US Census Bureau Gazetteer,city_center
+Fort Gratiot,MI,US,43.0700,-82.4900,US Census Bureau Gazetteer,city_center
+Fremont,MI,US,43.4600,-85.9500,US Census Bureau Gazetteer,city_center
+Grand Rapids,MI,US,42.9600,-85.6500,US Census Bureau Gazetteer,city_center
+Hamtramck,MI,US,42.3900,-83.0500,US Census Bureau Gazetteer,city_center
+Harrison,MI,US,44.0100,-84.8000,US Census Bureau Gazetteer,city_center
+Highland,MI,US,42.6300,-83.6100,US Census Bureau Gazetteer,city_center
+Holland,MI,US,42.7700,-86.1000,US Census Bureau Gazetteer,city_center
+Holly,MI,US,42.7900,-83.6200,US Census Bureau Gazetteer,city_center
+Idlewild,MI,US,43.8800,-85.8000,US Census Bureau Gazetteer,city_center
+Iron Mountain,MI,US,45.8200,-88.0600,US Census Bureau Gazetteer,city_center
+Jackson,MI,US,42.2400,-84.4000,US Census Bureau Gazetteer,city_center
+Jenison,MI,US,42.9000,-85.8200,US Census Bureau Gazetteer,city_center
+Kalamazoo,MI,US,42.2400,-85.4800,US Census Bureau Gazetteer,city_center
+Lansing,MI,US,42.7000,-84.5500,US Census Bureau Gazetteer,city_center
+Lincoln Park,MI,US,42.2400,-83.1800,US Census Bureau Gazetteer,city_center
+Ludington,MI,US,43.9500,-86.4400,US Census Bureau Gazetteer,city_center
+Monroe,MI,US,41.9100,-83.3800,US Census Bureau Gazetteer,city_center
+Muskegon,MI,US,43.2200,-86.2500,US Census Bureau Gazetteer,city_center
+New Baltimore,MI,US,42.6800,-82.7300,US Census Bureau Gazetteer,city_center
+Northville,MI,US,42.4000,-83.6000,US Census Bureau Gazetteer,city_center
+Novi,MI,US,42.4700,-83.4900,US Census Bureau Gazetteer,city_center
+Oxford,MI,US,42.8200,-83.2500,US Census Bureau Gazetteer,city_center
+Plymouth,MI,US,42.3700,-83.4600,US Census Bureau Gazetteer,city_center
+Romulus,MI,US,42.2200,-83.3600,US Census Bureau Gazetteer,city_center
+Rosebush,MI,US,43.6900,-84.7600,US Census Bureau Gazetteer,city_center
+Sterling Heights,MI,US,42.5800,-83.0300,US Census Bureau Gazetteer,city_center
+Traverse City,MI,US,44.7500,-85.6000,US Census Bureau Gazetteer,city_center
+Troy,MI,US,42.5800,-83.1400,US Census Bureau Gazetteer,city_center
+Waterford,MI,US,42.6600,-83.3800,US Census Bureau Gazetteer,city_center
+West Bloomfield,MI,US,42.5600,-83.3800,US Census Bureau Gazetteer,city_center
+Wyoming,MI,US,42.8900,-85.7200,US Census Bureau Gazetteer,city_center
+Ypsilanti,MI,US,42.2400,-83.6200,US Census Bureau Gazetteer,city_center
+Alexandria,MN,US,45.8700,-95.3700,US Census Bureau Gazetteer,city_center
+Andover,MN,US,45.2500,-93.3300,US Census Bureau Gazetteer,city_center
+Duluth,MN,US,46.7800,-92.1100,US Census Bureau Gazetteer,city_center
+Farmington,MN,US,44.6500,-93.1700,US Census Bureau Gazetteer,city_center
+Hopkins,MN,US,44.9200,-93.4000,US Census Bureau Gazetteer,city_center
+Hutchinson,MN,US,44.8800,-94.3700,US Census Bureau Gazetteer,city_center
+Lakeville,MN,US,44.6700,-93.2400,US Census Bureau Gazetteer,city_center
+Marshall,MN,US,44.4500,-95.7800,US Census Bureau Gazetteer,city_center
+Miltona,MN,US,46.0400,-95.2900,US Census Bureau Gazetteer,city_center
+Minneapolis,MN,US,44.9600,-93.2600,US Census Bureau Gazetteer,city_center
+Moorhead,MN,US,46.8600,-96.7500,US Census Bureau Gazetteer,city_center
+Morristown,MN,US,44.2200,-93.4400,US Census Bureau Gazetteer,city_center
+Osseo,MN,US,45.1100,-93.3900,US Census Bureau Gazetteer,city_center
+Rochester,MN,US,44.0100,-92.4700,US Census Bureau Gazetteer,city_center
+Saint Paul,MN,US,44.9400,-93.1000,US Census Bureau Gazetteer,city_center
+Arnold,MO,US,38.4200,-90.3600,US Census Bureau Gazetteer,city_center
+Barnhart,MO,US,38.3300,-90.4000,US Census Bureau Gazetteer,city_center
+Blue Springs,MO,US,39.0100,-94.2800,US Census Bureau Gazetteer,city_center
+Cassville,MO,US,36.6700,-93.8600,US Census Bureau Gazetteer,city_center
+Clever,MO,US,37.0200,-93.4700,US Census Bureau Gazetteer,city_center
+Columbia,MO,US,38.9500,-92.3200,US Census Bureau Gazetteer,city_center
+Farmington,MO,US,37.7800,-90.4200,US Census Bureau Gazetteer,city_center
+Foristell,MO,US,38.8100,-90.9600,US Census Bureau Gazetteer,city_center
+Independence,MO,US,39.0800,-94.3500,US Census Bureau Gazetteer,city_center
+Joplin,MO,US,37.0800,-94.5000,US Census Bureau Gazetteer,city_center
+Kansas City,MO,US,39.0900,-94.5800,US Census Bureau Gazetteer,city_center
+Kennett,MO,US,36.2400,-90.0400,US Census Bureau Gazetteer,city_center
+Lebanon,MO,US,37.6700,-92.6600,US Census Bureau Gazetteer,city_center
+Maryland Heights,MO,US,38.7200,-90.4700,US Census Bureau Gazetteer,city_center
+Maryville,MO,US,40.3400,-94.8700,US Census Bureau Gazetteer,city_center
+New Bloomfield,MO,US,38.7100,-92.0800,US Census Bureau Gazetteer,city_center
+Nixa,MO,US,37.0400,-93.2900,US Census Bureau Gazetteer,city_center
+O Fallon,MO,US,38.7800,-90.7000,US Census Bureau Gazetteer,city_center
+Pacific,MO,US,38.4700,-90.7500,US Census Bureau Gazetteer,city_center
+Parma,MO,US,36.6100,-89.8100,US Census Bureau Gazetteer,city_center
+Raymore,MO,US,38.8100,-94.4500,US Census Bureau Gazetteer,city_center
+Rolla,MO,US,37.9400,-91.7600,US Census Bureau Gazetteer,city_center
+Saint Louis,MO,US,38.6300,-90.2400,US Census Bureau Gazetteer,city_center
+Sullivan,MO,US,38.2100,-91.1600,US Census Bureau Gazetteer,city_center
+West Plains,MO,US,36.7400,-91.8600,US Census Bureau Gazetteer,city_center
+Ashland,MS,US,34.8300,-89.1700,US Census Bureau Gazetteer,city_center
+Batesville,MS,US,34.3100,-89.9300,US Census Bureau Gazetteer,city_center
+Belzoni,MS,US,33.1700,-90.4800,US Census Bureau Gazetteer,city_center
+Brandon,MS,US,32.2800,-90.0000,US Census Bureau Gazetteer,city_center
+Canton,MS,US,32.6100,-90.0300,US Census Bureau Gazetteer,city_center
+Como,MS,US,34.5100,-89.9400,US Census Bureau Gazetteer,city_center
+Grenada,MS,US,33.7700,-89.8100,US Census Bureau Gazetteer,city_center
+Gulfport,MS,US,30.3800,-89.0600,US Census Bureau Gazetteer,city_center
+Hattiesburg,MS,US,31.3100,-89.3000,US Census Bureau Gazetteer,city_center
+Hernando,MS,US,34.8200,-89.9800,US Census Bureau Gazetteer,city_center
+Holly Springs,MS,US,34.7700,-89.4400,US Census Bureau Gazetteer,city_center
+Jackson,MS,US,32.3200,-90.2000,US Census Bureau Gazetteer,city_center
+Leakesville,MS,US,31.1500,-88.5500,US Census Bureau Gazetteer,city_center
+Louisville,MS,US,33.1200,-89.0500,US Census Bureau Gazetteer,city_center
+Southaven,MS,US,34.9700,-89.9900,US Census Bureau Gazetteer,city_center
+Billings,MT,US,45.7600,-108.5700,US Census Bureau Gazetteer,city_center
+Great Falls,MT,US,47.6500,-111.3800,US Census Bureau Gazetteer,city_center
+Helena,MT,US,46.5100,-112.1200,US Census Bureau Gazetteer,city_center
+Kalispell,MT,US,48.1900,-114.3800,US Census Bureau Gazetteer,city_center
+Laurel,MT,US,45.6000,-108.6800,US Census Bureau Gazetteer,city_center
+Angier,NC,US,35.5100,-78.7300,US Census Bureau Gazetteer,city_center
+Apex,NC,US,35.7200,-78.8400,US Census Bureau Gazetteer,city_center
+Asheville,NC,US,35.5700,-82.5400,US Census Bureau Gazetteer,city_center
+Bailey,NC,US,35.7800,-78.1100,US Census Bureau Gazetteer,city_center
+Bakersville,NC,US,36.0100,-82.1500,US Census Bureau Gazetteer,city_center
+Bessemer City,NC,US,35.2800,-81.2800,US Census Bureau Gazetteer,city_center
+Boone,NC,US,36.2000,-81.6600,US Census Bureau Gazetteer,city_center
+Bullock,NC,US,36.5000,-78.5500,US Census Bureau Gazetteer,city_center
+Canton,NC,US,35.5400,-82.8400,US Census Bureau Gazetteer,city_center
+Charlotte,NC,US,35.1900,-80.8300,US Census Bureau Gazetteer,city_center
+Cherry Point,NC,US,34.9200,-76.8900,US Census Bureau Gazetteer,city_center
+Claremont,NC,US,35.7100,-81.1500,US Census Bureau Gazetteer,city_center
+Clayton,NC,US,35.6400,-78.4500,US Census Bureau Gazetteer,city_center
+Concord,NC,US,35.4000,-80.5900,US Census Bureau Gazetteer,city_center
+Conover,NC,US,35.7000,-81.2100,US Census Bureau Gazetteer,city_center
+Durham,NC,US,35.9800,-78.9100,US Census Bureau Gazetteer,city_center
+Fayetteville,NC,US,35.0500,-78.8700,US Census Bureau Gazetteer,city_center
+Fletcher,NC,US,35.4300,-82.5000,US Census Bureau Gazetteer,city_center
+Garner,NC,US,35.6900,-78.6200,US Census Bureau Gazetteer,city_center
+Gastonia,NC,US,35.2500,-81.1700,US Census Bureau Gazetteer,city_center
+Glade Valley,NC,US,36.4800,-81.0500,US Census Bureau Gazetteer,city_center
+Greensboro,NC,US,36.0700,-79.8200,US Census Bureau Gazetteer,city_center
+Greenville,NC,US,35.5900,-77.3700,US Census Bureau Gazetteer,city_center
+Hamptonville,NC,US,36.1100,-80.8100,US Census Bureau Gazetteer,city_center
+Hendersonville,NC,US,35.3200,-82.4600,US Census Bureau Gazetteer,city_center
+Hickory,NC,US,35.7300,-81.3200,US Census Bureau Gazetteer,city_center
+High Point,NC,US,35.9800,-79.9900,US Census Bureau Gazetteer,city_center
+Highlands,NC,US,35.0500,-83.1900,US Census Bureau Gazetteer,city_center
+Jefferson,NC,US,36.4200,-81.4600,US Census Bureau Gazetteer,city_center
+Kernersville,NC,US,36.1100,-80.0700,US Census Bureau Gazetteer,city_center
+Lansing,NC,US,36.4900,-81.5000,US Census Bureau Gazetteer,city_center
+Laurel Hill,NC,US,34.8000,-79.5400,US Census Bureau Gazetteer,city_center
+Lucama,NC,US,35.6400,-78.0000,US Census Bureau Gazetteer,city_center
+Matthews,NC,US,35.1200,-80.7100,US Census Bureau Gazetteer,city_center
+Monroe,NC,US,34.9800,-80.5400,US Census Bureau Gazetteer,city_center
+Morganton,NC,US,35.7400,-81.6900,US Census Bureau Gazetteer,city_center
+Morrisville,NC,US,35.8300,-78.8300,US Census Bureau Gazetteer,city_center
+Mount Airy,NC,US,36.5000,-80.6100,US Census Bureau Gazetteer,city_center
+Mount Holly,NC,US,35.3000,-81.0300,US Census Bureau Gazetteer,city_center
+Mount Pleasant,NC,US,35.4000,-80.4300,US Census Bureau Gazetteer,city_center
+New Bern,NC,US,35.1100,-77.0700,US Census Bureau Gazetteer,city_center
+Newland,NC,US,36.0800,-81.9200,US Census Bureau Gazetteer,city_center
+Parkton,NC,US,34.9000,-79.0100,US Census Bureau Gazetteer,city_center
+Pinehurst,NC,US,35.1800,-79.4600,US Census Bureau Gazetteer,city_center
+Raleigh,NC,US,35.8200,-78.6500,US Census Bureau Gazetteer,city_center
+Reidsville,NC,US,36.3400,-79.6700,US Census Bureau Gazetteer,city_center
+Richlands,NC,US,34.8900,-77.5400,US Census Bureau Gazetteer,city_center
+Rockingham,NC,US,34.9300,-79.7600,US Census Bureau Gazetteer,city_center
+Salisbury,NC,US,35.6600,-80.4800,US Census Bureau Gazetteer,city_center
+Sanford,NC,US,35.3600,-79.1300,US Census Bureau Gazetteer,city_center
+Southport,NC,US,33.9200,-78.0200,US Census Bureau Gazetteer,city_center
+Thomasville,NC,US,35.8800,-80.0700,US Census Bureau Gazetteer,city_center
+Trinity,NC,US,35.8800,-80.0100,US Census Bureau Gazetteer,city_center
+Vanceboro,NC,US,35.3000,-77.1500,US Census Bureau Gazetteer,city_center
+Washington,NC,US,35.5500,-77.0500,US Census Bureau Gazetteer,city_center
+Westfield,NC,US,36.4800,-80.6100,US Census Bureau Gazetteer,city_center
+Wilson,NC,US,35.7300,-77.9200,US Census Bureau Gazetteer,city_center
+Zebulon,NC,US,35.8200,-78.3100,US Census Bureau Gazetteer,city_center
+Bismarck,ND,US,46.8000,-100.7600,US Census Bureau Gazetteer,city_center
+Fargo,ND,US,46.8700,-96.8100,US Census Bureau Gazetteer,city_center
+Grand Forks,ND,US,47.9100,-97.0700,US Census Bureau Gazetteer,city_center
+Blair,NE,US,41.5400,-96.1300,US Census Bureau Gazetteer,city_center
+David City,NE,US,41.2500,-97.1200,US Census Bureau Gazetteer,city_center
+Fullerton,NE,US,41.3600,-97.9700,US Census Bureau Gazetteer,city_center
+Hickman,NE,US,40.6200,-96.6300,US Census Bureau Gazetteer,city_center
+Omaha,NE,US,41.2600,-96.0100,US Census Bureau Gazetteer,city_center
+Sterling,NE,US,40.4600,-96.3700,US Census Bureau Gazetteer,city_center
+York,NE,US,40.8700,-97.5900,US Census Bureau Gazetteer,city_center
+Alstead,NH,US,43.1500,-72.3600,US Census Bureau Gazetteer,city_center
+Bristol,NH,US,43.6000,-71.7400,US Census Bureau Gazetteer,city_center
+Danville,NH,US,42.9100,-71.1200,US Census Bureau Gazetteer,city_center
+Epping,NH,US,43.0300,-71.0700,US Census Bureau Gazetteer,city_center
+Franconia,NH,US,44.2200,-71.7400,US Census Bureau Gazetteer,city_center
+Hinsdale,NH,US,42.7800,-72.4800,US Census Bureau Gazetteer,city_center
+Manchester,NH,US,42.9900,-71.4500,US Census Bureau Gazetteer,city_center
+Merrimack,NH,US,42.8600,-71.4800,US Census Bureau Gazetteer,city_center
+Pittsfield,NH,US,43.3000,-71.3300,US Census Bureau Gazetteer,city_center
+Seabrook,NH,US,42.8900,-70.8700,US Census Bureau Gazetteer,city_center
+Strafford,NH,US,43.3200,-71.1800,US Census Bureau Gazetteer,city_center
+Weare,NH,US,43.1000,-71.7300,US Census Bureau Gazetteer,city_center
+Barnegat,NJ,US,39.7500,-74.2200,US Census Bureau Gazetteer,city_center
+Berkeley Heights,NJ,US,40.6700,-74.4200,US Census Bureau Gazetteer,city_center
+Butler,NJ,US,40.9900,-74.3400,US Census Bureau Gazetteer,city_center
+Cherry Hill,NJ,US,39.9000,-74.9900,US Census Bureau Gazetteer,city_center
+Clifton,NJ,US,40.8600,-74.1500,US Census Bureau Gazetteer,city_center
+Elizabeth,NJ,US,40.6600,-74.1900,US Census Bureau Gazetteer,city_center
+Elmer,NJ,US,39.5900,-75.1700,US Census Bureau Gazetteer,city_center
+Fairview,NJ,US,40.8100,-74.0000,US Census Bureau Gazetteer,city_center
+Florham Park,NJ,US,40.7700,-74.3900,US Census Bureau Gazetteer,city_center
+Jersey City,NJ,US,40.7100,-74.0600,US Census Bureau Gazetteer,city_center
+Lake Hopatcong,NJ,US,40.9600,-74.6100,US Census Bureau Gazetteer,city_center
+Lakewood,NJ,US,40.0900,-74.2100,US Census Bureau Gazetteer,city_center
+Lavallette,NJ,US,39.9600,-74.0600,US Census Bureau Gazetteer,city_center
+Little Silver,NJ,US,40.3300,-74.0300,US Census Bureau Gazetteer,city_center
+Manahawkin,NJ,US,39.6900,-74.2500,US Census Bureau Gazetteer,city_center
+Marlton,NJ,US,39.8912,-74.9218,US Census Bureau Gazetteer,city_center
+Mays Landing,NJ,US,39.4500,-74.7200,US Census Bureau Gazetteer,city_center
+Medford,NJ,US,39.8600,-74.8200,US Census Bureau Gazetteer,city_center
+Mendham,NJ,US,40.7600,-74.5900,US Census Bureau Gazetteer,city_center
+Monroe Township,NJ,US,40.3400,-74.4400,US Census Bureau Gazetteer,city_center
+Morristown,NJ,US,40.7900,-74.4700,US Census Bureau Gazetteer,city_center
+Newark,NJ,US,40.7200,-74.1700,US Census Bureau Gazetteer,city_center
+North Brunswick,NJ,US,40.4500,-74.4800,US Census Bureau Gazetteer,city_center
+Orange,NJ,US,40.7600,-74.2300,US Census Bureau Gazetteer,city_center
+Palisades Park,NJ,US,40.8400,-73.9900,US Census Bureau Gazetteer,city_center
+Parsippany,NJ,US,40.8500,-74.4000,US Census Bureau Gazetteer,city_center
+Pleasantville,NJ,US,39.3900,-74.5100,US Census Bureau Gazetteer,city_center
+Princeton,NJ,US,40.3500,-74.6500,US Census Bureau Gazetteer,city_center
+Ridgewood,NJ,US,40.9800,-74.1100,US Census Bureau Gazetteer,city_center
+Rutherford,NJ,US,40.8100,-74.1000,US Census Bureau Gazetteer,city_center
+Sewell,NJ,US,39.7500,-75.0900,US Census Bureau Gazetteer,city_center
+Short Hills,NJ,US,40.7400,-74.3300,US Census Bureau Gazetteer,city_center
+Somerset,NJ,US,40.4900,-74.4800,US Census Bureau Gazetteer,city_center
+Thorofare,NJ,US,39.8500,-75.1800,US Census Bureau Gazetteer,city_center
+Township Of Washington,NJ,US,40.9800,-74.0600,US Census Bureau Gazetteer,city_center
+Trenton,NJ,US,40.2200,-74.7600,US Census Bureau Gazetteer,city_center
+Union,NJ,US,40.6900,-74.2600,US Census Bureau Gazetteer,city_center
+Union City,NJ,US,40.7600,-74.0300,US Census Bureau Gazetteer,city_center
+Verona,NJ,US,40.8300,-74.2400,US Census Bureau Gazetteer,city_center
+Vincentown,NJ,US,39.8000,-74.6200,US Census Bureau Gazetteer,city_center
+Vineland,NJ,US,39.4600,-74.9900,US Census Bureau Gazetteer,city_center
+Wallington,NJ,US,40.8500,-74.1000,US Census Bureau Gazetteer,city_center
+Wayne,NJ,US,40.9400,-74.2400,US Census Bureau Gazetteer,city_center
+Wenonah,NJ,US,39.7900,-75.1400,US Census Bureau Gazetteer,city_center
+Westville,NJ,US,39.8687,-75.1324,US Census Bureau Gazetteer,city_center
+Whitehouse Station,NJ,US,40.6000,-74.7600,US Census Bureau Gazetteer,city_center
+Williamstown,NJ,US,39.6800,-74.9800,US Census Bureau Gazetteer,city_center
+Woodbine,NJ,US,39.2200,-74.8000,US Census Bureau Gazetteer,city_center
+Woodbridge,NJ,US,40.5500,-74.2800,US Census Bureau Gazetteer,city_center
+Alamogordo,NM,US,32.8800,-105.9500,US Census Bureau Gazetteer,city_center
+Albuquerque,NM,US,35.1100,-106.6200,US Census Bureau Gazetteer,city_center
+Bernalillo,NM,US,35.3100,-106.5500,US Census Bureau Gazetteer,city_center
+Las Cruces,NM,US,32.3300,-106.7500,US Census Bureau Gazetteer,city_center
+Lordsburg,NM,US,32.3400,-108.7000,US Census Bureau Gazetteer,city_center
+Mesilla Park,NM,US,32.2700,-106.6100,US Census Bureau Gazetteer,city_center
+Silver City,NM,US,32.7800,-108.2600,US Census Bureau Gazetteer,city_center
+Carson City,NV,US,39.1400,-119.7100,US Census Bureau Gazetteer,city_center
+Henderson,NV,US,36.0000,-114.9600,US Census Bureau Gazetteer,city_center
+Las Vegas,NV,US,36.1716,-115.1391,US Census Bureau Gazetteer,city_center
+Lovelock,NV,US,40.3200,-118.2000,US Census Bureau Gazetteer,city_center
+North Las Vegas,NV,US,36.2500,-115.0800,US Census Bureau Gazetteer,city_center
+Reno,NV,US,39.3800,-119.6700,US Census Bureau Gazetteer,city_center
+Albany,NY,US,42.6600,-73.7900,US Census Bureau Gazetteer,city_center
+Ardsley,NY,US,41.0100,-73.8400,US Census Bureau Gazetteer,city_center
+Brentwood,NY,US,40.7800,-73.2400,US Census Bureau Gazetteer,city_center
+Bronx,NY,US,40.8400,-73.8700,US Census Bureau Gazetteer,city_center
+Brooklyn,NY,US,40.6400,-73.9400,US Census Bureau Gazetteer,city_center
+Brooktondale,NY,US,42.3800,-76.3900,US Census Bureau Gazetteer,city_center
+Buffalo,NY,US,42.8800,-78.8500,US Census Bureau Gazetteer,city_center
+Cambria Heights,NY,US,40.6900,-73.7300,US Census Bureau Gazetteer,city_center
+Camillus,NY,US,43.0300,-76.3000,US Census Bureau Gazetteer,city_center
+Candor,NY,US,42.2300,-76.3400,US Census Bureau Gazetteer,city_center
+Carthage,NY,US,43.9800,-75.6000,US Census Bureau Gazetteer,city_center
+Clifton Springs,NY,US,42.9500,-77.1300,US Census Bureau Gazetteer,city_center
+Commack,NY,US,40.8400,-73.2800,US Census Bureau Gazetteer,city_center
+Copiague,NY,US,40.6700,-73.3900,US Census Bureau Gazetteer,city_center
+Corona,NY,US,40.7400,-73.8500,US Census Bureau Gazetteer,city_center
+Delmar,NY,US,42.6200,-73.8300,US Census Bureau Gazetteer,city_center
+Depew,NY,US,42.9100,-78.7000,US Census Bureau Gazetteer,city_center
+East Hampton,NY,US,40.9500,-72.1900,US Census Bureau Gazetteer,city_center
+East Northport,NY,US,40.8700,-73.3200,US Census Bureau Gazetteer,city_center
+Elma,NY,US,42.8300,-78.6300,US Census Bureau Gazetteer,city_center
+Fleischmanns,NY,US,42.1500,-74.5300,US Census Bureau Gazetteer,city_center
+Flushing,NY,US,40.7700,-73.8400,US Census Bureau Gazetteer,city_center
+Fort Plain,NY,US,42.9300,-74.6200,US Census Bureau Gazetteer,city_center
+Freeport,NY,US,40.6500,-73.5800,US Census Bureau Gazetteer,city_center
+Getzville,NY,US,43.0200,-78.7500,US Census Bureau Gazetteer,city_center
+Glen Cove,NY,US,40.8600,-73.6300,US Census Bureau Gazetteer,city_center
+Gloversville,NY,US,43.0500,-74.3400,US Census Bureau Gazetteer,city_center
+Hamburg,NY,US,42.7200,-78.8300,US Census Bureau Gazetteer,city_center
+Hannibal,NY,US,43.3100,-76.5700,US Census Bureau Gazetteer,city_center
+Hartsdale,NY,US,41.0200,-73.8000,US Census Bureau Gazetteer,city_center
+Hempstead,NY,US,40.7000,-73.6100,US Census Bureau Gazetteer,city_center
+Highland,NY,US,41.7100,-73.9600,US Census Bureau Gazetteer,city_center
+Honeoye Falls,NY,US,42.9500,-77.5900,US Census Bureau Gazetteer,city_center
+Hopewell Junction,NY,US,41.5800,-73.8000,US Census Bureau Gazetteer,city_center
+Howard Beach,NY,US,40.6600,-73.8400,US Census Bureau Gazetteer,city_center
+Huntington,NY,US,40.8700,-73.4000,US Census Bureau Gazetteer,city_center
+Huntington Station,NY,US,40.8400,-73.4000,US Census Bureau Gazetteer,city_center
+Irvington,NY,US,41.0300,-73.8600,US Census Bureau Gazetteer,city_center
+Jamaica,NY,US,40.6800,-73.7800,US Census Bureau Gazetteer,city_center
+Lake George,NY,US,43.4200,-73.7100,US Census Bureau Gazetteer,city_center
+Lake View,NY,US,42.7100,-78.9300,US Census Bureau Gazetteer,city_center
+Levittown,NY,US,40.7200,-73.5100,US Census Bureau Gazetteer,city_center
+Lindenhurst,NY,US,40.6800,-73.3700,US Census Bureau Gazetteer,city_center
+Little Neck,NY,US,40.7600,-73.7400,US Census Bureau Gazetteer,city_center
+Liverpool,NY,US,43.1000,-76.2100,US Census Bureau Gazetteer,city_center
+Mamaroneck,NY,US,40.9300,-73.7200,US Census Bureau Gazetteer,city_center
+Medford,NY,US,40.8200,-72.9800,US Census Bureau Gazetteer,city_center
+Memphis,NY,US,43.0800,-76.3700,US Census Bureau Gazetteer,city_center
+Middletown,NY,US,41.4400,-74.4200,US Census Bureau Gazetteer,city_center
+Mohegan Lake,NY,US,41.3100,-73.8400,US Census Bureau Gazetteer,city_center
+Monroe,NY,US,41.3200,-74.1800,US Census Bureau Gazetteer,city_center
+Mount Kisco,NY,US,41.2000,-73.7300,US Census Bureau Gazetteer,city_center
+Mount Vernon,NY,US,40.9100,-73.8200,US Census Bureau Gazetteer,city_center
+New York,NY,US,40.7128,-74.0060,US Census Bureau Gazetteer,city_center
+Newburgh,NY,US,41.5000,-74.0200,US Census Bureau Gazetteer,city_center
+North Chili,NY,US,43.1100,-77.8000,US Census Bureau Gazetteer,city_center
+Oakfield,NY,US,43.0600,-78.2700,US Census Bureau Gazetteer,city_center
+Oceanside,NY,US,40.6300,-73.6300,US Census Bureau Gazetteer,city_center
+Orchard Park,NY,US,42.7600,-78.7400,US Census Bureau Gazetteer,city_center
+Oriskany Falls,NY,US,42.9300,-75.4600,US Census Bureau Gazetteer,city_center
+Oswego,NY,US,43.4500,-76.5000,US Census Bureau Gazetteer,city_center
+Owego,NY,US,42.1000,-76.2600,US Census Bureau Gazetteer,city_center
+Ozone Park,NY,US,40.6900,-73.8500,US Census Bureau Gazetteer,city_center
+Pawling,NY,US,41.5600,-73.5900,US Census Bureau Gazetteer,city_center
+Plattsburgh,NY,US,44.6900,-73.4500,US Census Bureau Gazetteer,city_center
+Port Chester,NY,US,41.0000,-73.6600,US Census Bureau Gazetteer,city_center
+Poughkeepsie,NY,US,41.6900,-73.9200,US Census Bureau Gazetteer,city_center
+Queensbury,NY,US,43.3400,-73.6700,US Census Bureau Gazetteer,city_center
+Rego Park,NY,US,40.7200,-73.8600,US Census Bureau Gazetteer,city_center
+Ridgewood,NY,US,40.7000,-73.8900,US Census Bureau Gazetteer,city_center
+Rockville Centre,NY,US,40.6600,-73.6300,US Census Bureau Gazetteer,city_center
+Rocky Point,NY,US,40.9200,-72.9200,US Census Bureau Gazetteer,city_center
+Rome,NY,US,43.2100,-75.4700,US Census Bureau Gazetteer,city_center
+Rosedale,NY,US,40.6600,-73.7300,US Census Bureau Gazetteer,city_center
+Rush,NY,US,42.9800,-77.6700,US Census Bureau Gazetteer,city_center
+Saint Albans,NY,US,40.6900,-73.7500,US Census Bureau Gazetteer,city_center
+Schenectady,NY,US,42.8000,-73.9200,US Census Bureau Gazetteer,city_center
+Sodus,NY,US,43.2300,-77.0600,US Census Bureau Gazetteer,city_center
+Syracuse,NY,US,43.0400,-76.1400,US Census Bureau Gazetteer,city_center
+Tonawanda,NY,US,43.0000,-78.8700,US Census Bureau Gazetteer,city_center
+Utica,NY,US,43.1000,-75.2300,US Census Bureau Gazetteer,city_center
+Valley Stream,NY,US,40.6600,-73.7000,US Census Bureau Gazetteer,city_center
+Waterford,NY,US,42.7900,-73.6700,US Census Bureau Gazetteer,city_center
+Watertown,NY,US,43.9700,-75.9100,US Census Bureau Gazetteer,city_center
+Waterville,NY,US,42.9300,-75.3800,US Census Bureau Gazetteer,city_center
+West Harrison,NY,US,41.0500,-73.7400,US Census Bureau Gazetteer,city_center
+Williston Park,NY,US,40.7500,-73.6400,US Census Bureau Gazetteer,city_center
+Willsboro,NY,US,44.3700,-73.4000,US Census Bureau Gazetteer,city_center
+Woodmere,NY,US,40.6300,-73.7200,US Census Bureau Gazetteer,city_center
+Yonkers,NY,US,40.9400,-73.8600,US Census Bureau Gazetteer,city_center
+Amanda,OH,US,39.6500,-82.7400,US Census Bureau Gazetteer,city_center
+Amherst,OH,US,41.4000,-82.2300,US Census Bureau Gazetteer,city_center
+Barberton,OH,US,41.0100,-81.6000,US Census Bureau Gazetteer,city_center
+Bellbrook,OH,US,39.6400,-84.0800,US Census Bureau Gazetteer,city_center
+Brunswick,OH,US,41.2400,-81.8200,US Census Bureau Gazetteer,city_center
+Butler,OH,US,40.5800,-82.4200,US Census Bureau Gazetteer,city_center
+Caldwell,OH,US,39.7400,-81.5100,US Census Bureau Gazetteer,city_center
+Caledonia,OH,US,40.6300,-82.9600,US Census Bureau Gazetteer,city_center
+Canal Fulton,OH,US,40.8900,-81.5800,US Census Bureau Gazetteer,city_center
+Celina,OH,US,40.5500,-84.5700,US Census Bureau Gazetteer,city_center
+Chardon,OH,US,41.5700,-81.2000,US Census Bureau Gazetteer,city_center
+Cincinnati,OH,US,39.0900,-84.5100,US Census Bureau Gazetteer,city_center
+Circleville,OH,US,39.6000,-82.9300,US Census Bureau Gazetteer,city_center
+Cleveland,OH,US,41.4700,-81.6700,US Census Bureau Gazetteer,city_center
+Columbus,OH,US,39.9800,-82.9800,US Census Bureau Gazetteer,city_center
+Coshocton,OH,US,40.2600,-81.8400,US Census Bureau Gazetteer,city_center
+Dayton,OH,US,39.7700,-84.1900,US Census Bureau Gazetteer,city_center
+Defiance,OH,US,41.2800,-84.3600,US Census Bureau Gazetteer,city_center
+Delphos,OH,US,40.8400,-84.3300,US Census Bureau Gazetteer,city_center
+Dover,OH,US,40.5200,-81.4700,US Census Bureau Gazetteer,city_center
+Dublin,OH,US,40.1100,-83.1300,US Census Bureau Gazetteer,city_center
+Eastlake,OH,US,41.6500,-81.4300,US Census Bureau Gazetteer,city_center
+Elyria,OH,US,41.3700,-82.1000,US Census Bureau Gazetteer,city_center
+Fairfield,OH,US,39.3300,-84.5400,US Census Bureau Gazetteer,city_center
+Greenville,OH,US,40.1000,-84.6200,US Census Bureau Gazetteer,city_center
+Grover Hill,OH,US,41.0100,-84.4700,US Census Bureau Gazetteer,city_center
+Hamilton,OH,US,39.3900,-84.5600,US Census Bureau Gazetteer,city_center
+Hubbard,OH,US,41.1600,-80.5600,US Census Bureau Gazetteer,city_center
+Hudson,OH,US,41.2400,-81.4500,US Census Bureau Gazetteer,city_center
+Independence,OH,US,41.3800,-81.6400,US Census Bureau Gazetteer,city_center
+Johnstown,OH,US,40.1500,-82.6800,US Census Bureau Gazetteer,city_center
+Kent,OH,US,41.1400,-81.3600,US Census Bureau Gazetteer,city_center
+Lancaster,OH,US,39.7200,-82.5900,US Census Bureau Gazetteer,city_center
+Lorain,OH,US,41.4400,-82.1800,US Census Bureau Gazetteer,city_center
+Louisville,OH,US,40.8300,-81.2600,US Census Bureau Gazetteer,city_center
+Lucasville,OH,US,38.8700,-82.9900,US Census Bureau Gazetteer,city_center
+Marysville,OH,US,40.2300,-83.3700,US Census Bureau Gazetteer,city_center
+Massillon,OH,US,40.7800,-81.5200,US Census Bureau Gazetteer,city_center
+Mentor,OH,US,41.6900,-81.3300,US Census Bureau Gazetteer,city_center
+Middletown,OH,US,39.5000,-84.3700,US Census Bureau Gazetteer,city_center
+Millersburg,OH,US,40.5500,-81.9100,US Census Bureau Gazetteer,city_center
+Mount Vernon,OH,US,40.3900,-82.4700,US Census Bureau Gazetteer,city_center
+Napoleon,OH,US,41.3900,-84.1200,US Census Bureau Gazetteer,city_center
+Nashport,OH,US,40.0400,-82.1200,US Census Bureau Gazetteer,city_center
+New Bremen,OH,US,40.4300,-84.3800,US Census Bureau Gazetteer,city_center
+New Marshfield,OH,US,39.3300,-82.2300,US Census Bureau Gazetteer,city_center
+North Lawrence,OH,US,40.8400,-81.6300,US Census Bureau Gazetteer,city_center
+Ottawa,OH,US,41.0200,-84.0400,US Census Bureau Gazetteer,city_center
+Powell,OH,US,40.1600,-83.0600,US Census Bureau Gazetteer,city_center
+Ravenna,OH,US,41.1500,-81.2400,US Census Bureau Gazetteer,city_center
+Reedsville,OH,US,39.1400,-81.7800,US Census Bureau Gazetteer,city_center
+Republic,OH,US,41.1200,-83.0100,US Census Bureau Gazetteer,city_center
+Rocky River,OH,US,41.4700,-81.8500,US Census Bureau Gazetteer,city_center
+Saint Clairsville,OH,US,40.0700,-80.8900,US Census Bureau Gazetteer,city_center
+Springfield,OH,US,39.9200,-83.7900,US Census Bureau Gazetteer,city_center
+Strongsville,OH,US,41.3100,-81.8500,US Census Bureau Gazetteer,city_center
+Toledo,OH,US,41.6600,-83.5800,US Census Bureau Gazetteer,city_center
+Uhrichsville,OH,US,40.4000,-81.3500,US Census Bureau Gazetteer,city_center
+Vermilion,OH,US,41.4100,-82.3100,US Census Bureau Gazetteer,city_center
+Warren,OH,US,41.2300,-80.8100,US Census Bureau Gazetteer,city_center
+Washington Court House,OH,US,39.5300,-83.4300,US Census Bureau Gazetteer,city_center
+Waynesville,OH,US,39.5300,-84.0800,US Census Bureau Gazetteer,city_center
+Wellington,OH,US,41.1600,-82.2200,US Census Bureau Gazetteer,city_center
+Wellsville,OH,US,40.6000,-80.6500,US Census Bureau Gazetteer,city_center
+West Chester,OH,US,39.3300,-84.4000,US Census Bureau Gazetteer,city_center
+Westlake,OH,US,41.4500,-81.9200,US Census Bureau Gazetteer,city_center
+Wooster,OH,US,40.8100,-81.9300,US Census Bureau Gazetteer,city_center
+Bartlesville,OK,US,36.7300,-95.9400,US Census Bureau Gazetteer,city_center
+Blackwell,OK,US,36.8000,-97.2900,US Census Bureau Gazetteer,city_center
+Boise City,OK,US,36.7300,-102.5100,US Census Bureau Gazetteer,city_center
+Broken Bow,OK,US,34.0200,-94.7300,US Census Bureau Gazetteer,city_center
+Choctaw,OK,US,35.4800,-97.2600,US Census Bureau Gazetteer,city_center
+Colcord,OK,US,36.2600,-94.6900,US Census Bureau Gazetteer,city_center
+Cushing,OK,US,35.9700,-96.7600,US Census Bureau Gazetteer,city_center
+Edmond,OK,US,35.6700,-97.4100,US Census Bureau Gazetteer,city_center
+Fort Gibson,OK,US,35.7800,-95.2400,US Census Bureau Gazetteer,city_center
+Konawa,OK,US,34.9500,-96.7500,US Census Bureau Gazetteer,city_center
+Lawton,OK,US,34.6000,-98.4200,US Census Bureau Gazetteer,city_center
+Lexington,OK,US,35.0100,-97.3300,US Census Bureau Gazetteer,city_center
+Meeker,OK,US,35.4800,-96.8900,US Census Bureau Gazetteer,city_center
+Miami,OK,US,36.8800,-94.8700,US Census Bureau Gazetteer,city_center
+Mounds,OK,US,35.8700,-96.0500,US Census Bureau Gazetteer,city_center
+Norman,OK,US,35.2200,-97.3400,US Census Bureau Gazetteer,city_center
+Oklahoma City,OK,US,35.4600,-97.5100,US Census Bureau Gazetteer,city_center
+Okmulgee,OK,US,35.6300,-95.9500,US Census Bureau Gazetteer,city_center
+Perkins,OK,US,35.9700,-97.0200,US Census Bureau Gazetteer,city_center
+Purcell,OK,US,35.0100,-97.3700,US Census Bureau Gazetteer,city_center
+Skiatook,OK,US,36.3600,-96.0300,US Census Bureau Gazetteer,city_center
+Tulsa,OK,US,36.1200,-95.9100,US Census Bureau Gazetteer,city_center
+Wagoner,OK,US,35.9500,-95.3800,US Census Bureau Gazetteer,city_center
+Wewoka,OK,US,35.1400,-96.4900,US Census Bureau Gazetteer,city_center
+Albany,OR,US,44.6300,-123.0000,US Census Bureau Gazetteer,city_center
+Astoria,OR,US,46.1200,-123.6700,US Census Bureau Gazetteer,city_center
+Beaverton,OR,US,45.4500,-122.7900,US Census Bureau Gazetteer,city_center
+Central Point,OR,US,42.3900,-122.9300,US Census Bureau Gazetteer,city_center
+Coos Bay,OR,US,43.3700,-124.1400,US Census Bureau Gazetteer,city_center
+Creswell,OR,US,43.9000,-123.0200,US Census Bureau Gazetteer,city_center
+Estacada,OR,US,45.2000,-122.0600,US Census Bureau Gazetteer,city_center
+Gresham,OR,US,45.4700,-122.3700,US Census Bureau Gazetteer,city_center
+Lebanon,OR,US,44.5200,-122.8100,US Census Bureau Gazetteer,city_center
+Mcminnville,OR,US,45.1900,-123.2400,US Census Bureau Gazetteer,city_center
+Medford,OR,US,42.3300,-122.7900,US Census Bureau Gazetteer,city_center
+North Bend,OR,US,43.4800,-124.1600,US Census Bureau Gazetteer,city_center
+Portland,OR,US,45.5100,-122.6400,US Census Bureau Gazetteer,city_center
+Springfield,OR,US,44.1000,-122.8000,US Census Bureau Gazetteer,city_center
+West Linn,OR,US,45.3400,-122.6600,US Census Bureau Gazetteer,city_center
+Allentown,PA,US,40.5900,-75.4700,US Census Bureau Gazetteer,city_center
+Ambler,PA,US,40.1500,-75.2200,US Census Bureau Gazetteer,city_center
+Avis,PA,US,41.1800,-77.3100,US Census Bureau Gazetteer,city_center
+Bensalem,PA,US,40.1000,-74.9300,US Census Bureau Gazetteer,city_center
+Bethlehem,PA,US,40.6200,-75.3600,US Census Bureau Gazetteer,city_center
+Cambridge Springs,PA,US,41.8000,-80.0600,US Census Bureau Gazetteer,city_center
+Camp Hill,PA,US,40.2400,-76.9200,US Census Bureau Gazetteer,city_center
+Canonsburg,PA,US,40.2600,-80.1800,US Census Bureau Gazetteer,city_center
+Chambersburg,PA,US,39.9200,-77.7100,US Census Bureau Gazetteer,city_center
+Cochranville,PA,US,39.8700,-75.9200,US Census Bureau Gazetteer,city_center
+Colmar,PA,US,40.2700,-75.2600,US Census Bureau Gazetteer,city_center
+Columbia,PA,US,40.0300,-76.4900,US Census Bureau Gazetteer,city_center
+Cowansville,PA,US,40.9300,-79.5900,US Census Bureau Gazetteer,city_center
+Cranberry Twp,PA,US,40.7100,-80.1000,US Census Bureau Gazetteer,city_center
+Devon,PA,US,40.0400,-75.4200,US Census Bureau Gazetteer,city_center
+Douglassville,PA,US,40.2600,-75.7400,US Census Bureau Gazetteer,city_center
+Dover,PA,US,40.0000,-76.8400,US Census Bureau Gazetteer,city_center
+Doylestown,PA,US,40.3600,-75.0900,US Census Bureau Gazetteer,city_center
+Drums,PA,US,41.0100,-75.9900,US Census Bureau Gazetteer,city_center
+Easton,PA,US,40.6800,-75.2200,US Census Bureau Gazetteer,city_center
+Erie,PA,US,42.1200,-80.0800,US Census Bureau Gazetteer,city_center
+Everett,PA,US,40.0100,-78.3600,US Census Bureau Gazetteer,city_center
+Freeland,PA,US,41.0100,-75.8900,US Census Bureau Gazetteer,city_center
+Grantham,PA,US,40.2300,-77.0200,US Census Bureau Gazetteer,city_center
+Greensburg,PA,US,40.3100,-79.5400,US Census Bureau Gazetteer,city_center
+Harrisburg,PA,US,40.2700,-76.8800,US Census Bureau Gazetteer,city_center
+Honesdale,PA,US,41.5700,-75.2500,US Census Bureau Gazetteer,city_center
+Hummelstown,PA,US,40.2600,-76.7100,US Census Bureau Gazetteer,city_center
+Huntingdon Valley,PA,US,40.1300,-75.0600,US Census Bureau Gazetteer,city_center
+Jackson Center,PA,US,41.2700,-80.1300,US Census Bureau Gazetteer,city_center
+Kennett Square,PA,US,39.8400,-75.7100,US Census Bureau Gazetteer,city_center
+Lancaster,PA,US,40.0400,-76.3000,US Census Bureau Gazetteer,city_center
+Langhorne,PA,US,40.1700,-74.9100,US Census Bureau Gazetteer,city_center
+Lansdale,PA,US,40.2400,-75.2800,US Census Bureau Gazetteer,city_center
+Latrobe,PA,US,40.3100,-79.3800,US Census Bureau Gazetteer,city_center
+Lebanon,PA,US,40.3400,-76.4200,US Census Bureau Gazetteer,city_center
+Levittown,PA,US,40.1500,-74.8500,US Census Bureau Gazetteer,city_center
+Lewistown,PA,US,40.5900,-77.5700,US Census Bureau Gazetteer,city_center
+Lucinda,PA,US,41.3100,-79.3800,US Census Bureau Gazetteer,city_center
+Marion Center,PA,US,40.7700,-79.0400,US Census Bureau Gazetteer,city_center
+Mars,PA,US,40.6900,-80.0100,US Census Bureau Gazetteer,city_center
+Mckeesport,PA,US,40.3300,-79.8300,US Census Bureau Gazetteer,city_center
+Milton,PA,US,41.0000,-76.8500,US Census Bureau Gazetteer,city_center
+Monaca,PA,US,40.6800,-80.2700,US Census Bureau Gazetteer,city_center
+Morrisville,PA,US,40.2000,-74.7800,US Census Bureau Gazetteer,city_center
+Mount Union,PA,US,40.3800,-77.8800,US Census Bureau Gazetteer,city_center
+Muse,PA,US,40.3200,-80.2100,US Census Bureau Gazetteer,city_center
+Narberth,PA,US,40.0000,-75.2600,US Census Bureau Gazetteer,city_center
+New Kensington,PA,US,40.5600,-79.7500,US Census Bureau Gazetteer,city_center
+Newtown,PA,US,40.2200,-74.9300,US Census Bureau Gazetteer,city_center
+North Wales,PA,US,40.2100,-75.2700,US Census Bureau Gazetteer,city_center
+Peckville,PA,US,41.4700,-75.5700,US Census Bureau Gazetteer,city_center
+Philadelphia,PA,US,39.9526,-75.1652,US Census Bureau Gazetteer,city_center
+Pittsburgh,PA,US,40.4300,-79.9700,US Census Bureau Gazetteer,city_center
+Quakertown,PA,US,40.4300,-75.3400,US Census Bureau Gazetteer,city_center
+Reading,PA,US,40.3300,-75.9200,US Census Bureau Gazetteer,city_center
+Russellton,PA,US,40.6100,-79.8300,US Census Bureau Gazetteer,city_center
+Saint Marys,PA,US,41.4200,-78.5500,US Census Bureau Gazetteer,city_center
+Saint Thomas,PA,US,39.9200,-77.8000,US Census Bureau Gazetteer,city_center
+Seneca,PA,US,41.3700,-79.7000,US Census Bureau Gazetteer,city_center
+South Park,PA,US,40.2900,-79.9900,US Census Bureau Gazetteer,city_center
+State College,PA,US,40.7900,-77.8500,US Census Bureau Gazetteer,city_center
+Sunbury,PA,US,40.8600,-76.7800,US Census Bureau Gazetteer,city_center
+Telford,PA,US,40.3200,-75.3200,US Census Bureau Gazetteer,city_center
+Wynnewood,PA,US,39.9900,-75.2700,US Census Bureau Gazetteer,city_center
+York,PA,US,39.9600,-76.7300,US Census Bureau Gazetteer,city_center
+Zion Grove,PA,US,40.9300,-76.2500,US Census Bureau Gazetteer,city_center
+Manila,PHILIPPINES,PH,14.5995,120.9842,GeoNames Open Data,city_center
+Coventry,RI,US,41.6800,-71.6600,US Census Bureau Gazetteer,city_center
+Cranston,RI,US,41.7600,-71.4800,US Census Bureau Gazetteer,city_center
+Newport,RI,US,41.4700,-71.3000,US Census Bureau Gazetteer,city_center
+Pascoag,RI,US,41.9500,-71.7000,US Census Bureau Gazetteer,city_center
+Providence,RI,US,41.8200,-71.4100,US Census Bureau Gazetteer,city_center
+Warwick,RI,US,41.7000,-71.4200,US Census Bureau Gazetteer,city_center
+West Warwick,RI,US,41.6900,-71.5100,US Census Bureau Gazetteer,city_center
+Woonsocket,RI,US,41.9900,-71.5000,US Census Bureau Gazetteer,city_center
+Abbeville,SC,US,34.1700,-82.3700,US Census Bureau Gazetteer,city_center
+Allendale,SC,US,33.0000,-81.3000,US Census Bureau Gazetteer,city_center
+Andrews,SC,US,33.4400,-79.5600,US Census Bureau Gazetteer,city_center
+Blacksburg,SC,US,35.1200,-81.5100,US Census Bureau Gazetteer,city_center
+Blackville,SC,US,33.3600,-81.2800,US Census Bureau Gazetteer,city_center
+Bluffton,SC,US,32.2300,-80.8600,US Census Bureau Gazetteer,city_center
+Central,SC,US,34.7200,-82.7800,US Census Bureau Gazetteer,city_center
+Charleston,SC,US,32.7800,-79.9900,US Census Bureau Gazetteer,city_center
+Columbia,SC,US,34.0000,-81.0300,US Census Bureau Gazetteer,city_center
+Denmark,SC,US,33.3100,-81.1300,US Census Bureau Gazetteer,city_center
+Effingham,SC,US,34.0500,-79.7500,US Census Bureau Gazetteer,city_center
+Fort Mill,SC,US,35.0000,-80.9400,US Census Bureau Gazetteer,city_center
+Greenville,SC,US,34.8300,-82.3700,US Census Bureau Gazetteer,city_center
+Inman,SC,US,35.0500,-82.0900,US Census Bureau Gazetteer,city_center
+Islandton,SC,US,32.9000,-80.9300,US Census Bureau Gazetteer,city_center
+Little River,SC,US,33.8700,-78.6300,US Census Bureau Gazetteer,city_center
+Lugoff,SC,US,34.2200,-80.6800,US Census Bureau Gazetteer,city_center
+Lyman,SC,US,34.9500,-82.1200,US Census Bureau Gazetteer,city_center
+Myrtle Beach,SC,US,33.6900,-78.8900,US Census Bureau Gazetteer,city_center
+Ninety Six,SC,US,34.1700,-82.0200,US Census Bureau Gazetteer,city_center
+North Myrtle Beach,SC,US,33.8200,-78.6700,US Census Bureau Gazetteer,city_center
+Okatie,SC,US,32.3000,-80.9200,US Census Bureau Gazetteer,city_center
+Simpsonville,SC,US,34.7300,-82.2500,US Census Bureau Gazetteer,city_center
+Summerville,SC,US,33.0000,-80.1700,US Census Bureau Gazetteer,city_center
+Sumter,SC,US,33.9400,-80.3900,US Census Bureau Gazetteer,city_center
+West Columbia,SC,US,33.9900,-81.0800,US Census Bureau Gazetteer,city_center
+Westminster,SC,US,34.6600,-83.0900,US Census Bureau Gazetteer,city_center
+Belle Fourche,SD,US,44.6600,-103.8500,US Census Bureau Gazetteer,city_center
+Rapid City,SD,US,44.0700,-103.2300,US Census Bureau Gazetteer,city_center
+Sioux Falls,SD,US,43.5400,-96.7300,US Census Bureau Gazetteer,city_center
+Spearfish,SD,US,44.4800,-103.8400,US Census Bureau Gazetteer,city_center
+Alcoa,TN,US,35.7900,-83.9700,US Census Bureau Gazetteer,city_center
+Antioch,TN,US,36.0400,-86.6400,US Census Bureau Gazetteer,city_center
+Bean Station,TN,US,36.3400,-83.2800,US Census Bureau Gazetteer,city_center
+Bristol,TN,US,36.5600,-82.1900,US Census Bureau Gazetteer,city_center
+Charlotte,TN,US,36.1800,-87.3400,US Census Bureau Gazetteer,city_center
+Chattanooga,TN,US,35.0600,-85.2500,US Census Bureau Gazetteer,city_center
+Clinton,TN,US,36.0900,-84.1300,US Census Bureau Gazetteer,city_center
+Cookeville,TN,US,36.1500,-85.5000,US Census Bureau Gazetteer,city_center
+Cordova,TN,US,35.1500,-89.7500,US Census Bureau Gazetteer,city_center
+Cosby,TN,US,35.8100,-83.2500,US Census Bureau Gazetteer,city_center
+Crossville,TN,US,35.9500,-85.0300,US Census Bureau Gazetteer,city_center
+Dunlap,TN,US,35.3700,-85.3800,US Census Bureau Gazetteer,city_center
+Franklin,TN,US,35.9200,-86.8400,US Census Bureau Gazetteer,city_center
+Hendersonville,TN,US,36.2900,-86.6000,US Census Bureau Gazetteer,city_center
+Huron,TN,US,35.5800,-88.5000,US Census Bureau Gazetteer,city_center
+Johnson City,TN,US,36.3300,-82.3600,US Census Bureau Gazetteer,city_center
+Knoxville,TN,US,35.9700,-83.9400,US Census Bureau Gazetteer,city_center
+La Follette,TN,US,36.3700,-84.1200,US Census Bureau Gazetteer,city_center
+Lobelville,TN,US,35.7500,-87.7900,US Census Bureau Gazetteer,city_center
+Manchester,TN,US,35.4600,-86.0800,US Census Bureau Gazetteer,city_center
+Memphis,TN,US,35.1000,-90.0000,US Census Bureau Gazetteer,city_center
+Millington,TN,US,35.3300,-89.8800,US Census Bureau Gazetteer,city_center
+Morristown,TN,US,36.2100,-83.2900,US Census Bureau Gazetteer,city_center
+Mosheim,TN,US,36.1900,-82.9500,US Census Bureau Gazetteer,city_center
+Murfreesboro,TN,US,35.8500,-86.3900,US Census Bureau Gazetteer,city_center
+Nashville,TN,US,36.1700,-86.7800,US Census Bureau Gazetteer,city_center
+Ooltewah,TN,US,35.0600,-85.0900,US Census Bureau Gazetteer,city_center
+Piney Flats,TN,US,36.4400,-82.3400,US Census Bureau Gazetteer,city_center
+Roan Mountain,TN,US,36.1800,-82.0700,US Census Bureau Gazetteer,city_center
+Thompsons Station,TN,US,35.8200,-87.0100,US Census Bureau Gazetteer,city_center
+Whites Creek,TN,US,36.2800,-86.8300,US Census Bureau Gazetteer,city_center
+Wildersville,TN,US,35.7800,-88.3600,US Census Bureau Gazetteer,city_center
+Abilene,TX,US,32.4500,-99.7300,US Census Bureau Gazetteer,city_center
+Alamo,TX,US,26.1800,-98.1100,US Census Bureau Gazetteer,city_center
+Allen,TX,US,33.1000,-96.6600,US Census Bureau Gazetteer,city_center
+Alvin,TX,US,29.4300,-95.2400,US Census Bureau Gazetteer,city_center
+Amarillo,TX,US,35.2000,-101.8100,US Census Bureau Gazetteer,city_center
+Arlington,TX,US,32.6900,-97.1200,US Census Bureau Gazetteer,city_center
+Atlanta,TX,US,33.1100,-94.1600,US Census Bureau Gazetteer,city_center
+Austin,TX,US,30.2672,-97.7431,US Census Bureau Gazetteer,city_center
+Balch Springs,TX,US,32.7600,-96.5900,US Census Bureau Gazetteer,city_center
+Bastrop,TX,US,30.1100,-97.3000,US Census Bureau Gazetteer,city_center
+Bellaire,TX,US,29.7000,-95.4600,US Census Bureau Gazetteer,city_center
+Boerne,TX,US,29.8000,-98.7300,US Census Bureau Gazetteer,city_center
+Bridgeport,TX,US,33.2000,-97.7500,US Census Bureau Gazetteer,city_center
+Brownsville,TX,US,25.9200,-97.4800,US Census Bureau Gazetteer,city_center
+Buchanan Dam,TX,US,30.7900,-98.4300,US Census Bureau Gazetteer,city_center
+Campbell,TX,US,33.1400,-95.9500,US Census Bureau Gazetteer,city_center
+Carrollton,TX,US,32.9800,-96.8900,US Census Bureau Gazetteer,city_center
+Cedar Park,TX,US,30.5100,-97.8300,US Census Bureau Gazetteer,city_center
+Chandler,TX,US,32.3000,-95.4700,US Census Bureau Gazetteer,city_center
+Corpus Christi,TX,US,27.8000,-97.3900,US Census Bureau Gazetteer,city_center
+Dallas,TX,US,32.7767,-96.7970,US Census Bureau Gazetteer,city_center
+Dickinson,TX,US,29.4500,-95.0600,US Census Bureau Gazetteer,city_center
+Edinburg,TX,US,26.3500,-98.1100,US Census Bureau Gazetteer,city_center
+El Paso,TX,US,31.8400,-106.4300,US Census Bureau Gazetteer,city_center
+Ennis,TX,US,32.3300,-96.6200,US Census Bureau Gazetteer,city_center
+Fort Worth,TX,US,32.7500,-97.3300,US Census Bureau Gazetteer,city_center
+Franklin,TX,US,31.0200,-96.4800,US Census Bureau Gazetteer,city_center
+Garland,TX,US,32.9100,-96.6200,US Census Bureau Gazetteer,city_center
+Georgetown,TX,US,30.6400,-97.6800,US Census Bureau Gazetteer,city_center
+Gonzales,TX,US,29.5000,-97.4400,US Census Bureau Gazetteer,city_center
+Gorman,TX,US,32.2100,-98.6700,US Census Bureau Gazetteer,city_center
+Grand Prairie,TX,US,32.6900,-97.0100,US Census Bureau Gazetteer,city_center
+Gregory,TX,US,27.9200,-97.2900,US Census Bureau Gazetteer,city_center
+Gunter,TX,US,33.4500,-96.7400,US Census Bureau Gazetteer,city_center
+Henderson,TX,US,32.1500,-94.7900,US Census Bureau Gazetteer,city_center
+Hitchcock,TX,US,29.3100,-95.0100,US Census Bureau Gazetteer,city_center
+Houston,TX,US,29.7604,-95.3698,US Census Bureau Gazetteer,city_center
+Humble,TX,US,29.9900,-95.2600,US Census Bureau Gazetteer,city_center
+Hurst,TX,US,32.8300,-97.1700,US Census Bureau Gazetteer,city_center
+Irving,TX,US,32.8500,-96.9600,US Census Bureau Gazetteer,city_center
+Jefferson,TX,US,32.7600,-94.3400,US Census Bureau Gazetteer,city_center
+Joaquin,TX,US,31.9600,-94.0500,US Census Bureau Gazetteer,city_center
+Katy,TX,US,29.7900,-95.8200,US Census Bureau Gazetteer,city_center
+Keller,TX,US,32.9300,-97.2200,US Census Bureau Gazetteer,city_center
+Killeen,TX,US,31.0900,-97.7100,US Census Bureau Gazetteer,city_center
+Kirbyville,TX,US,30.6500,-93.8900,US Census Bureau Gazetteer,city_center
+La Porte,TX,US,29.6600,-95.0400,US Census Bureau Gazetteer,city_center
+Lamesa,TX,US,32.7300,-101.9500,US Census Bureau Gazetteer,city_center
+Lampasas,TX,US,31.0600,-98.1800,US Census Bureau Gazetteer,city_center
+Laneville,TX,US,31.9400,-94.8500,US Census Bureau Gazetteer,city_center
+Laredo,TX,US,27.5300,-99.4800,US Census Bureau Gazetteer,city_center
+League City,TX,US,29.4800,-95.1000,US Census Bureau Gazetteer,city_center
+Leander,TX,US,30.5600,-97.8600,US Census Bureau Gazetteer,city_center
+Lone Star,TX,US,32.9300,-94.7000,US Census Bureau Gazetteer,city_center
+Longview,TX,US,32.5100,-94.7600,US Census Bureau Gazetteer,city_center
+Lubbock,TX,US,33.5700,-101.8700,US Census Bureau Gazetteer,city_center
+Mckinney,TX,US,33.2000,-96.6500,US Census Bureau Gazetteer,city_center
+Mesquite,TX,US,32.7600,-96.5900,US Census Bureau Gazetteer,city_center
+Midland,TX,US,32.0200,-102.1000,US Census Bureau Gazetteer,city_center
+Mission,TX,US,26.2100,-98.3100,US Census Bureau Gazetteer,city_center
+New Braunfels,TX,US,29.7000,-98.1100,US Census Bureau Gazetteer,city_center
+Nolanville,TX,US,31.0700,-97.6100,US Census Bureau Gazetteer,city_center
+North Richland Hills,TX,US,32.8600,-97.2100,US Census Bureau Gazetteer,city_center
+Odessa,TX,US,31.8500,-102.3600,US Census Bureau Gazetteer,city_center
+Palmer,TX,US,32.4200,-96.6700,US Census Bureau Gazetteer,city_center
+Pearland,TX,US,29.5500,-95.2700,US Census Bureau Gazetteer,city_center
+Pflugerville,TX,US,30.4400,-97.6200,US Census Bureau Gazetteer,city_center
+Plano,TX,US,33.0400,-96.7400,US Census Bureau Gazetteer,city_center
+Pottsboro,TX,US,33.7700,-96.6700,US Census Bureau Gazetteer,city_center
+Roanoke,TX,US,33.0000,-97.2300,US Census Bureau Gazetteer,city_center
+Rockwall,TX,US,32.9200,-96.4500,US Census Bureau Gazetteer,city_center
+Rosharon,TX,US,29.3700,-95.4500,US Census Bureau Gazetteer,city_center
+Round Rock,TX,US,30.5400,-97.6400,US Census Bureau Gazetteer,city_center
+San Antonio,TX,US,29.4241,-98.4936,US Census Bureau Gazetteer,city_center
+San Benito,TX,US,26.1300,-97.6300,US Census Bureau Gazetteer,city_center
+Seabrook,TX,US,29.5600,-95.0200,US Census Bureau Gazetteer,city_center
+Seguin,TX,US,29.5700,-97.9600,US Census Bureau Gazetteer,city_center
+Seminole,TX,US,32.7100,-102.6500,US Census Bureau Gazetteer,city_center
+Sherman,TX,US,33.6100,-96.6000,US Census Bureau Gazetteer,city_center
+Spring,TX,US,30.0600,-95.3800,US Census Bureau Gazetteer,city_center
+Sugar Land,TX,US,29.6100,-95.6100,US Census Bureau Gazetteer,city_center
+Texarkana,TX,US,33.4400,-94.0700,US Census Bureau Gazetteer,city_center
+The Colony,TX,US,33.0900,-96.8800,US Census Bureau Gazetteer,city_center
+Tyler,TX,US,32.3200,-95.3000,US Census Bureau Gazetteer,city_center
+Van Alstyne,TX,US,33.4100,-96.5700,US Census Bureau Gazetteer,city_center
+Venus,TX,US,32.4200,-97.1000,US Census Bureau Gazetteer,city_center
+Victoria,TX,US,28.8200,-96.9800,US Census Bureau Gazetteer,city_center
+Waco,TX,US,31.5600,-97.1800,US Census Bureau Gazetteer,city_center
+Weatherford,TX,US,32.7500,-97.7700,US Census Bureau Gazetteer,city_center
+Wichita Falls,TX,US,33.8900,-98.5100,US Census Bureau Gazetteer,city_center
+Wilmer,TX,US,32.5900,-96.6800,US Census Bureau Gazetteer,city_center
+Woodway,TX,US,31.4900,-97.2300,US Census Bureau Gazetteer,city_center
+Alpine,UT,US,40.5000,-111.7000,US Census Bureau Gazetteer,city_center
+Logan,UT,US,41.7000,-111.8700,US Census Bureau Gazetteer,city_center
+Ogden,UT,US,41.3100,-111.9600,US Census Bureau Gazetteer,city_center
+Pleasant Grove,UT,US,40.4600,-111.6300,US Census Bureau Gazetteer,city_center
+Saint George,UT,US,37.1800,-113.6000,US Census Bureau Gazetteer,city_center
+Salt Lake City,UT,US,40.7600,-111.8400,US Census Bureau Gazetteer,city_center
+Santaquin,UT,US,39.9900,-111.8100,US Census Bureau Gazetteer,city_center
+Stockton,UT,US,40.3000,-112.3000,US Census Bureau Gazetteer,city_center
+Tooele,UT,US,40.5700,-112.3300,US Census Bureau Gazetteer,city_center
+Annandale,VA,US,38.8300,-77.2100,US Census Bureau Gazetteer,city_center
+Arlington,VA,US,38.8700,-77.1000,US Census Bureau Gazetteer,city_center
+Beaverdam,VA,US,37.9400,-77.6500,US Census Bureau Gazetteer,city_center
+Blacksburg,VA,US,37.2300,-80.4200,US Census Bureau Gazetteer,city_center
+Broad Run,VA,US,38.8100,-77.7200,US Census Bureau Gazetteer,city_center
+Burke,VA,US,38.7800,-77.2700,US Census Bureau Gazetteer,city_center
+Chantilly,VA,US,38.8700,-77.4000,US Census Bureau Gazetteer,city_center
+Charlottesville,VA,US,38.0300,-78.4800,US Census Bureau Gazetteer,city_center
+Chesapeake,VA,US,36.6700,-76.3000,US Census Bureau Gazetteer,city_center
+Chesterfield,VA,US,37.3700,-77.5000,US Census Bureau Gazetteer,city_center
+Covington,VA,US,37.7700,-79.9900,US Census Bureau Gazetteer,city_center
+Danville,VA,US,36.5800,-79.4000,US Census Bureau Gazetteer,city_center
+Elkton,VA,US,38.4100,-78.6100,US Census Bureau Gazetteer,city_center
+Fairfax,VA,US,38.8500,-77.2900,US Census Bureau Gazetteer,city_center
+Fredericksburg,VA,US,38.2900,-77.4800,US Census Bureau Gazetteer,city_center
+Gloucester,VA,US,37.4300,-76.5400,US Census Bureau Gazetteer,city_center
+Heathsville,VA,US,37.9100,-76.4700,US Census Bureau Gazetteer,city_center
+Henrico,VA,US,37.5500,-77.4600,US Census Bureau Gazetteer,city_center
+Leesburg,VA,US,39.1000,-77.5500,US Census Bureau Gazetteer,city_center
+Lorton,VA,US,38.7000,-77.2400,US Census Bureau Gazetteer,city_center
+Lottsburg,VA,US,37.9600,-76.5100,US Census Bureau Gazetteer,city_center
+Manassas,VA,US,38.7400,-77.4800,US Census Bureau Gazetteer,city_center
+Mc Lean,VA,US,38.9400,-77.1900,US Census Bureau Gazetteer,city_center
+Newport News,VA,US,37.0700,-76.5100,US Census Bureau Gazetteer,city_center
+North Tazewell,VA,US,37.1600,-81.5000,US Census Bureau Gazetteer,city_center
+Prince George,VA,US,37.2200,-77.2800,US Census Bureau Gazetteer,city_center
+Richmond,VA,US,37.5500,-77.4600,US Census Bureau Gazetteer,city_center
+Roanoke,VA,US,37.2700,-79.9500,US Census Bureau Gazetteer,city_center
+Sterling,VA,US,39.0000,-77.4000,US Census Bureau Gazetteer,city_center
+Suffolk,VA,US,36.7000,-76.6300,US Census Bureau Gazetteer,city_center
+Vienna,VA,US,38.9000,-77.2600,US Census Bureau Gazetteer,city_center
+Vinton,VA,US,37.2700,-79.8800,US Census Bureau Gazetteer,city_center
+Virginia Beach,VA,US,36.7300,-76.0400,US Census Bureau Gazetteer,city_center
+Waynesboro,VA,US,38.0600,-78.9000,US Census Bureau Gazetteer,city_center
+Woodbridge,VA,US,38.6300,-77.2600,US Census Bureau Gazetteer,city_center
+Colchester,VT,US,44.5300,-73.1500,US Census Bureau Gazetteer,city_center
+Corinth,VT,US,44.0200,-72.2300,US Census Bureau Gazetteer,city_center
+Lyndonville,VT,US,44.5300,-72.0000,US Census Bureau Gazetteer,city_center
+Richmond,VT,US,44.4000,-73.0000,US Census Bureau Gazetteer,city_center
+Saint Johnsbury,VT,US,44.4100,-71.9700,US Census Bureau Gazetteer,city_center
+Springfield,VT,US,43.2800,-72.4700,US Census Bureau Gazetteer,city_center
+Belfair,WA,US,47.4300,-122.9200,US Census Bureau Gazetteer,city_center
+Bellevue,WA,US,47.6200,-122.1600,US Census Bureau Gazetteer,city_center
+Black Diamond,WA,US,47.3200,-121.9900,US Census Bureau Gazetteer,city_center
+Bothell,WA,US,47.7900,-122.2000,US Census Bureau Gazetteer,city_center
+Burlington,WA,US,48.5300,-122.3100,US Census Bureau Gazetteer,city_center
+Camas,WA,US,45.6400,-122.3700,US Census Bureau Gazetteer,city_center
+Edmonds,WA,US,47.8300,-122.3200,US Census Bureau Gazetteer,city_center
+Federal Way,WA,US,47.3000,-122.3700,US Census Bureau Gazetteer,city_center
+Kennewick,WA,US,46.2100,-119.1600,US Census Bureau Gazetteer,city_center
+Kent,WA,US,47.3600,-122.1000,US Census Bureau Gazetteer,city_center
+Kirkland,WA,US,47.6700,-122.1800,US Census Bureau Gazetteer,city_center
+Lynden,WA,US,48.9500,-122.4300,US Census Bureau Gazetteer,city_center
+Lynnwood,WA,US,47.8500,-122.2800,US Census Bureau Gazetteer,city_center
+Mountlake Terrace,WA,US,47.7900,-122.3000,US Census Bureau Gazetteer,city_center
+Oak Harbor,WA,US,48.2800,-122.6200,US Census Bureau Gazetteer,city_center
+Olympia,WA,US,47.1100,-122.7600,US Census Bureau Gazetteer,city_center
+Port Orchard,WA,US,47.5400,-122.5800,US Census Bureau Gazetteer,city_center
+Puyallup,WA,US,47.1400,-122.3200,US Census Bureau Gazetteer,city_center
+Renton,WA,US,47.4900,-122.1000,US Census Bureau Gazetteer,city_center
+Ridgefield,WA,US,45.7900,-122.6900,US Census Bureau Gazetteer,city_center
+Sammamish,WA,US,47.5800,-122.0300,US Census Bureau Gazetteer,city_center
+Seattle,WA,US,47.6062,-122.3321,US Census Bureau Gazetteer,city_center
+Snohomish,WA,US,47.9400,-122.0000,US Census Bureau Gazetteer,city_center
+Spokane,WA,US,47.7800,-117.4500,US Census Bureau Gazetteer,city_center
+Tacoma,WA,US,47.2200,-122.5400,US Census Bureau Gazetteer,city_center
+Vancouver,WA,US,45.6300,-122.5200,US Census Bureau Gazetteer,city_center
+Walla Walla,WA,US,46.1100,-118.3000,US Census Bureau Gazetteer,city_center
+Woodinville,WA,US,47.7500,-122.0400,US Census Bureau Gazetteer,city_center
+Woodland,WA,US,45.9400,-122.6700,US Census Bureau Gazetteer,city_center
+Appleton,WI,US,44.2600,-88.3900,US Census Bureau Gazetteer,city_center
+Barron,WI,US,45.4000,-91.8400,US Census Bureau Gazetteer,city_center
+Berlin,WI,US,43.9700,-88.9500,US Census Bureau Gazetteer,city_center
+Campbellsport,WI,US,43.5900,-88.2800,US Census Bureau Gazetteer,city_center
+Chilton,WI,US,44.0200,-88.1600,US Census Bureau Gazetteer,city_center
+Colfax,WI,US,44.9900,-91.7200,US Census Bureau Gazetteer,city_center
+Delavan,WI,US,42.6200,-88.6300,US Census Bureau Gazetteer,city_center
+Edgerton,WI,US,42.8300,-89.0700,US Census Bureau Gazetteer,city_center
+Florence,WI,US,45.9300,-88.2500,US Census Bureau Gazetteer,city_center
+Fort Atkinson,WI,US,42.9200,-88.8400,US Census Bureau Gazetteer,city_center
+Franklin,WI,US,42.8800,-88.0000,US Census Bureau Gazetteer,city_center
+Green Bay,WI,US,44.5200,-87.9800,US Census Bureau Gazetteer,city_center
+Hancock,WI,US,44.1300,-89.5200,US Census Bureau Gazetteer,city_center
+Janesville,WI,US,42.6800,-89.0100,US Census Bureau Gazetteer,city_center
+Kenosha,WI,US,42.5800,-87.8500,US Census Bureau Gazetteer,city_center
+Kimberly,WI,US,44.2700,-88.3400,US Census Bureau Gazetteer,city_center
+Madison,WI,US,43.0700,-89.3800,US Census Bureau Gazetteer,city_center
+Menasha,WI,US,44.2100,-88.4300,US Census Bureau Gazetteer,city_center
+Merrill,WI,US,45.1800,-89.7000,US Census Bureau Gazetteer,city_center
+Middleton,WI,US,43.1000,-89.5000,US Census Bureau Gazetteer,city_center
+Milwaukee,WI,US,43.0600,-87.9600,US Census Bureau Gazetteer,city_center
+Mosinee,WI,US,44.7800,-89.6800,US Census Bureau Gazetteer,city_center
+Mukwonago,WI,US,42.8600,-88.3300,US Census Bureau Gazetteer,city_center
+Oshkosh,WI,US,44.0100,-88.5500,US Census Bureau Gazetteer,city_center
+Pleasant Prairie,WI,US,42.5200,-87.8800,US Census Bureau Gazetteer,city_center
+Portage,WI,US,43.5400,-89.4600,US Census Bureau Gazetteer,city_center
+Waukesha,WI,US,43.0100,-88.2300,US Census Bureau Gazetteer,city_center
+Waupaca,WI,US,44.3500,-89.0700,US Census Bureau Gazetteer,city_center
+Charleston,WV,US,38.3500,-81.6300,US Census Bureau Gazetteer,city_center
+Huntington,WV,US,38.4100,-82.4300,US Census Bureau Gazetteer,city_center
+Lost Creek,WV,US,39.1500,-80.3500,US Census Bureau Gazetteer,city_center
+Martinsburg,WV,US,39.4600,-77.9600,US Census Bureau Gazetteer,city_center
+Poca,WV,US,38.4700,-81.8100,US Census Bureau Gazetteer,city_center
+Prichard,WV,US,38.2100,-82.5600,US Census Bureau Gazetteer,city_center
+Saint Albans,WV,US,38.3700,-81.8100,US Census Bureau Gazetteer,city_center
+Wellsburg,WV,US,40.2800,-80.6000,US Census Bureau Gazetteer,city_center
+Casper,WY,US,42.8300,-106.3200,US Census Bureau Gazetteer,city_center
+Cheyenne,WY,US,41.1400,-104.7900,US Census Bureau Gazetteer,city_center
