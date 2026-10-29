@@ -13,7 +13,7 @@ import logging
 import os
 from pathlib import Path
 import sys
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 import boto3
 import pyarrow as pa

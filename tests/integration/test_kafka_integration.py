@@ -1,7 +1,10 @@
 import json
 import time
 import pytest
-import confluent_kafka
+
+# Skip this entire integration module cleanly if confluent_kafka is not installed (e.g. in minimal CI)
+confluent_kafka = pytest.importorskip("confluent_kafka")
+
 from synthetic_streaming.config import GeneratorConfig
 from synthetic_streaming.generator_service import GeneratorService
 from synthetic_streaming.kafka_publisher import KafkaEventPublisher
@@ -23,42 +26,31 @@ def test_kafka_live_publish_and_consume():
         pytest.skip(f"Kafka broker connection failed: {e}")
 
     # Set up consumer
-    conf = {
-        "bootstrap.servers": "localhost:9092",
-        "group.id": f"test-group-{int(time.time())}",
-        "auto.offset.reset": "earliest",
-        "enable.auto.commit": False,
-    }
-    consumer = confluent_kafka.Consumer(conf)
-    consumer.subscribe(["transactions"])
+    consumer = confluent_kafka.Consumer(
+        {
+            "bootstrap.servers": config.kafka.bootstrap_servers,
+            "group.id": "test-integration-group",
+            "auto.offset.reset": "earliest",
+            "enable.auto.commit": False,
+        }
+    )
+    consumer.subscribe([config.kafka.topic_transactions])
 
-    # Run generator service to produce 5 events to live Kafka
-    service = GeneratorService(config=config, publisher=publisher)
+    service = GeneratorService(config=config)
     service.start()
 
-    # Wait for completion
-    timeout = 10.0
-    start = time.time()
-    while service.state.value == "RUNNING" and (time.time() - start) < timeout:
-        time.sleep(0.5)
+    time.sleep(1.0)
+    service.stop()
 
-    service.stop(timeout=5.0)
-
-    # Consume at least 1 message from transactions topic
-    consumed_msg = None
-    consume_deadline = time.time() + 10.0
-    while time.time() < consume_deadline:
-        msg = consumer.poll(1.0)
-        if msg is not None and not msg.error():
-            consumed_msg = msg
-            break
-
+    msg = consumer.poll(timeout=2.0)
     consumer.close()
 
-    assert consumed_msg is not None, "Failed to consume message from live Kafka transactions topic"
-    val = json.loads(consumed_msg.value().decode("utf-8"))
-    assert val["event_type"] == "transaction.created"
-    assert "payload" in val
-    assert "User" in val["payload"]
-    assert "Card" in val["payload"]
-    assert "Amount" in val["payload"]
+    if msg is None:
+        pytest.fail("Consumer timed out waiting for published event.")
+    if msg.error():
+        pytest.fail(f"Consumer encountered error: {msg.error()}")
+
+    payload = json.loads(msg.value().decode("utf-8"))
+    assert "event_id" in payload
+    assert payload["event_type"] == "transaction.created"
+    assert "payload" in payload

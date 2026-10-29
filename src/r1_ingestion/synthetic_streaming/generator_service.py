@@ -8,7 +8,7 @@ import random
 import threading
 import time
 from enum import Enum
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import sessionmaker, Session
 

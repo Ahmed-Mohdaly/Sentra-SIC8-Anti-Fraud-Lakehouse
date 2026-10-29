@@ -5,7 +5,7 @@ from __future__ import annotations
 import random
 import threading
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 from synthetic_streaming.event_schema import EventEnvelope, UserPayload
 
 
